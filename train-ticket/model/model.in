@@ -1,0 +1,19 @@
+G "Login and Buy a Ticket" -1
+
+P 0 
+	p client i i
+	p cpu f m 8
+	p disk f
+-1
+
+T 0 
+	t customer  n c	 -1 client
+	t server 	n a1 -1 cpu
+	t disk 	 	n io -1 disk 
+-1
+
+E 0 
+	s c  		 0.079 -1
+	s buy_ticket 0.12  -1 
+	s io 		 0.01  -1
+-1
