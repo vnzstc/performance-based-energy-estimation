@@ -9,29 +9,36 @@
 #	exit
 #}
 
+if [[ $* == *--help* ]]
+then
+	echo "./gen_workload #iterations idle_time_between_iterations jmx_file_path"
+	exit
+fi
+
 WATTSUP="$HOME/wattsuppro_logger/WattsupPro.py"
-TESTDIR="$HOME/tmp/test"
+TESTDIR="$HOME/results/"
 TIMEFORMAT='%3R,%3U,%3S'
 
-mkdir -p $TESTDIR
+#mkdir -p $TESTDIR $TESTDIR/jtl
 
 clist=(38 50)
 
 for i in $(seq "$1")
 do 
-	cust="idle"
+	customers="idle"
 	echo "### $i"
-	for cust in ${clist[@]}
+	for customers in ${clist[@]}
 	do
-		#echo "#$cust"
+		CURRENTDIR=$TESTDIR/$i-$customers
+		mkdir -p $CURRENTDIR 
 
-		python3 get_stats.py -p unlimitedPower -d 1 -f $TESTDIR/$i-$cust-perf.json & PERF=$!
-		python3 get_stats.py -p unlimitedPower -c containers.csv -f $TESTDIR/$i-$cust-cperf.json & CONT=$! 
-		sudo python3 -u $WATTSUP -p /dev/ttyUSB0 -s 1 -o $TESTDIR/$i-$cust-energy.csv & ENERGY=$! 
+		python3 get_stats.py -p unlimitedPower -d 1 -f $CURRENTDIR/perf.json & PERF=$!
+		python3 get_stats.py -p unlimitedPower -c containers.csv -f $CURRENTDIR/containers.json & CONT=$! 
+		sudo python3 -u $WATTSUP -p /dev/ttyUSB0 -s 1 -o $CURRENTDIR/energy.csv & ENERGY=$! 
 
-		jmeter -Jthreads="$cust" -n -t $3 
+		jmeter -Jthreads="$customers" -t $3 -n -l $CURRENTDIR/requests.jtl
 
-		#sleep 12 
+		sleep 3 
 
 		sudo kill -2 $PERF $ENERGY $CONT
 		sshpass -p "unlimitedPower" ssh vincenzo@145.108.225.7 "docker exec -d cf6f2f17dc30 mongo --eval 'db.orders.remove()' ts"
