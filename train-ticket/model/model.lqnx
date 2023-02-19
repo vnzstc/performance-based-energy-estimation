@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- $Id$ -->
+<!-- lqn2xml -->
+<lqn-model name="model" description="lqn2xml 5.25 solution for model from: model.in." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/usr/local/share/lqns/lqn.xsd">
+   <solver-params comment="Login and Buy a Ticket" conv_val="1e-05" it_limit="50" underrelax_coeff="0.9" print_int="10"/>
+   <processor name="cpu" scheduling="fcfs" multiplicity="8">
+      <task name="Server" scheduling="fcfs">
+         <entry name="s1" type="NONE" open-arrival-rate="1"/>
+         <task-activities>
+            <activity name="ui" bound-to-entry="s1" host-demand-mean="0.821"/>
+         </task-activities>
+      </task>
+   </processor>
+</lqn-model>
