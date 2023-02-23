@@ -1,0 +1,12 @@
+G "TTBS" -1
+
+P 0 
+	p cpu f m 8
+	p disk f
+-1
+
+
+T 0
+	t ui n u1 -1 cpu 
+
+-1

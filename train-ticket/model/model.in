@@ -1,21 +1,29 @@
-G "Login and Buy a Ticket" -1
+G "Train Ticket Booking System" -1
 
 P 0 
-#	p client i i
-	p cpu f m 8
-#	p disk f
+	# p Client i i
+	p CPU 	 f m 8
 -1
 
 T 0 
-	t Server 	n s1  -1 cpu
-#	t disk 	 	n io  -1 disk 
+	# t Customer  r ClientEntry	-1 Client 
+	t UI		n ui			-1 CPU 
+	t Auth		n auth			-1 CPU 
+	t T2		n t2			-1 CPU
 -1
 
 E 0 
-	a s1 			1.0
-	A s1 ui	
--1
+	# Customers - Closed Network
+	# s ClientEntry 		0.1 -1
+	# y ClientEntry TTBS  1 	-1
 
-A Server 
-	s ui 0.5
+	# Customers - Open Network
+	a ui 0.2
+
+	s ui 	0.5 -1
+	s auth 	0.5 -1
+	s t2	0.3 -1
+
+	y ui auth 1 -1
+	y ui t2   1 -1
 -1
