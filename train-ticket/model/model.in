@@ -7,23 +7,37 @@ P 0
 
 T 0 
 	# t Customer  r ClientEntry	-1 Client 
-	t UI		n ui			-1 CPU 
-	t Auth		n auth			-1 CPU 
-	t T2		n t2			-1 CPU
+
+	t UI		n ui	-1 CPU 
+	t Assurance n a1	-1 CPU
+	t Food		n f1	-1 CPU
+	t Travel	n t1	-1 CPU
+	t Residual  r r1	-1 CPU 
+
 -1
 
 E 0 
 	# Customers - Closed Network
 	# s ClientEntry 		0.1 -1
-	# y ClientEntry TTBS  1 	-1
+	# y ClientEntry TTBS  	1 	-1
 
 	# Customers - Open Network
-	a ui 0.2
+
+	a ui 	0.2
 
 	s ui 	0.5 -1
-	s auth 	0.5 -1
-	s t2	0.3 -1
+	s a1	0.5 -1
+	s f1 	0.5 -1
+	s t1 	0.5 -1
+	s r1    0.2 -1
+	
+	y ui a1 1 -1
+	y ui f1 1 -1
+	y ui t1 1 -1
 
-	y ui auth 1 -1
-	y ui t2   1 -1
+	# To Residual
+
+	y a1 r1 1 -1
+	y f1 r1 1 -1
+	y t1 r1 1 -1
 -1

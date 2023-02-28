@@ -5,13 +5,13 @@ class Commands:
         'disk': """awk '/sda / { print $13,$4+$8 }' /proc/diskstats""",
         'docker': """
             CPUPATH=/sys/fs/cgroup/cpuacct/docker/{element}*/cpuacct.usage
-            DISKPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_service_time 
+            DISKPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_service_time
             IOPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_serviced
 
             cat $CPUPATH; awk -e '/^Total/ {{print $2}}' $DISKPATH $IOPATH """
     }
 
-class SystemStat(Commands):
+class ResourceProfiler(Commands):
     def __init__(self, password):
         self.c =  Connection('145.108.225.7', 'vincenzo', connect_kwargs={'password': password})
 

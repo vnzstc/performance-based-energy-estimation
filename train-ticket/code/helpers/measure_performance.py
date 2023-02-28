@@ -2,7 +2,7 @@ import sys, signal
 import argparse
 import time
 import csv, json
-from system_stat import SystemStat
+from resource_profiler import ResourceProfiler
 
 def get_data(systat):
     if args.containers:
@@ -17,7 +17,7 @@ def get_data(systat):
 
 def get_stats():
     outfile = open(args.file, 'w', encoding="utf-8")
-    systat  = SystemStat(args.password)
+    systat  = ResourceProfiler(args.password)
     data = []
 
     def signal_handler(*args):

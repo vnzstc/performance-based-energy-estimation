@@ -5,7 +5,7 @@ Carleton University, Ottawa, Ontario, Canada. K1S 5B6
 
 Invoked as: lqns model.in
 Input:  model.in
-Wed Feb 22 16:56:08 2023
+Fri Feb 24 16:18:30 2023
 
 Comment: Train Ticket Booking System
 
@@ -17,12 +17,12 @@ Solver: lqns 5.25
     System:      0:00:00.000
     Elapsed:     0:00:00.000
 
-    MaxRSS:     12204
+    MaxRSS:     11916
 
     Submodels:  3
     MVA Core():            4
-    MVA Step():           37
-    MVA Wait():         4239
+    MVA Step():           49
+    MVA Wait():        21904
 
 Processor identifiers and scheduling algorithms:
 
@@ -34,23 +34,28 @@ Task information:
 
 Task Name       Type    Copies  Processor Name  Pri Entry List
 UI              Uni       1     CPU             0   ui
-Auth            Uni       1     CPU             0   auth
-T2              Uni       1     CPU             0   t2
+Assurance       Uni       1     CPU             0   a1
+Food            Uni       1     CPU             0   f1
+Travel          Uni       1     CPU             0   t1
+Residual        Ref(1)    1     CPU             0   r1
 
 
 Entry execution demands:
 
 Task Name       Entry Name      Phase 1     
 UI              ui              0.5         
-Auth            auth            0.5         
-T2              t2              0.3         
+Assurance       a1              0.5         
+Food            f1              0.5         
+Travel          t1              0.5         
+Residual        r1              0.2         
 
 
 Mean number of rendezvous from entry to entry:
 
 Task Name       Source Entry    Target Entry    Phase 1     
-UI              ui              auth            1           
-                ui              t2              1           
+UI              ui              a1              1           
+                ui              f1              1           
+                ui              t1              1           
 
 
 Phase type flags:
@@ -70,53 +75,64 @@ UI              ui              0.2
 Type 1 throughput bounds: 
 
 Task Name       Entry Name      Throughput  
-UI              ui              0.769231    
-Auth            auth            2           
-T2              t2              3.33333     
+UI              ui              0.5         
+Assurance       a1              2           
+Food            f1              2           
+Travel          t1              2           
+Residual        r1              5           
 
 
 Mean delay for a rendezvous:
 
 Task Name       Source Entry    Target Entry    Phase 1     
-UI              ui              auth            0            
-                ui              t2              0            
+UI              ui              a1              0            
+                ui              f1              0            
+                ui              t1              0            
 
 
 Service times:
 
 Task Name       Entry Name      Phase 1     
-UI              ui              1.3         
-Auth            auth            0.5         
-T2              t2              0.3         
+UI              ui              2           
+Assurance       a1              0.5         
+Food            f1              0.5         
+Travel          t1              0.5         
+Residual        r1              0.2         
 
 
 Service time variance (per phase)
 and squared coefficient of variation (over all phases):
 
 Task Name       Entry Name      Phase 1     coeff of var **2
-UI              ui              1.74778     1.03419     
-Auth            auth            0.25        1           
-T2              t2              0.09        1           
+UI              ui              3.15625     0.789062    
+Assurance       a1              0.25        1           
+Food            f1              0.25        1           
+Travel          t1              0.25        1           
+Residual        r1              0.04        1           
 
 
 Throughputs and utilizations per phase:
 
 Task Name       Entry Name      Throughput  Phase 1     Total       
-UI              ui              0.2         0.26        0.26
-Auth            auth            0.2         0.1         0.1
-T2              t2              0.2         0.06        0.06
+UI              ui              0.2         0.4         0.4
+Assurance       a1              0.2         0.1         0.1
+Food            f1              0.2         0.1         0.1
+Travel          t1              0.2         0.1         0.1
+Residual        r1              5           1           1
 
 
 Waiting time at tasks with open arrivals:
 
 Task Name       Entry Name      Lambda      Waiting time
-UI              ui              0.2         1.76456    
+UI              ui              0.2         3.19271    
 
 
 Utilization and waiting per phase for processor:  CPU
 
 Task Name       Pri n   Entry Name      Utilization Phase 1     
 UI              0   1   ui              0.1         0           
-Auth            0   1   auth            0.1         0           
-T2              0   1   t2              0.06        0           
-Processor Total:                        0.26
+Assurance       0   1   a1              0.1         0           
+Food            0   1   f1              0.1         0           
+Travel          0   1   t1              0.1         0           
+Residual        0   1   r1              1           0           
+Processor Total:                        1.4
