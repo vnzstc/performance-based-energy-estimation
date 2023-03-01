@@ -17,12 +17,13 @@ fi
 
 WATTSUP="$HOME/wattsuppro_logger/WattsupPro.py"
 TESTDIR="$HOME/results/"
-PROFILER="helpers/resource_profiler.py"
+PROFILER="helpers/measure_performance.py"
+CONTAINERS="experiment_configuration_data/containers.csv"
 TIMEFORMAT='%3R,%3U,%3S'
 
 #mkdir -p $TESTDIR $TESTDIR/jtl
 
-clist=(38 50)
+clist=(75)
 
 for i in $(seq "$1")
 do 
@@ -33,8 +34,8 @@ do
 		CURRENTDIR=$TESTDIR/$i-$customers
 		mkdir -p $CURRENTDIR 
 
-		python3 ./$PROFILER -p unlimitedPower -d 1 -f $CURRENTDIR/perf.json & PERF=$!
-		python3 ./$PROFILER -p unlimitedPower -c containers.csv -f $CURRENTDIR/containers.json & CONT=$! 
+		python3 $PROFILER -p unlimitedPower -d 1 -f $CURRENTDIR/perf.json & PERF=$!
+		python3 $PROFILER -p unlimitedPower -c $CONTAINERS -f $CURRENTDIR/containers.json & CONT=$! 
 		sudo python3 -u $WATTSUP -p /dev/ttyUSB0 -s 1 -o $CURRENTDIR/energy.csv & ENERGY=$! 
 
 		jmeter -Jthreads="$customers" -t $3 -n -l $CURRENTDIR/requests.jtl
