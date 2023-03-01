@@ -13,6 +13,12 @@ class Stats:
     def raw_data_to_list():
         pass
 
+    def ms_to_seconds(self, x):
+        return x * 10**-3
+
+    def ns_to_seconds(self, x):
+        return x * 10**-9
+
     def difference(self, x, y):
         if isinstance(x, int) and isinstance(y, int):
             return y - x
@@ -30,10 +36,14 @@ class Stats:
     def calculate_utilization(self):
         pass
 
-    def get_stats(self):
+    def __generate_stats(self):
         pass
 
 class ContainerStats(Stats):
+    def __init__(self, file):
+        Stats.__init__(self, file)
+        self.data = self.__generate_stats()
+
     def measure_to_list(self, measure):
         return {
             k : list(chain(*self.split_by_newline(v))) for k, v in measure.items()
@@ -42,11 +52,19 @@ class ContainerStats(Stats):
     def raw_data_to_list(self):
         return [self.measure_to_list(measure) for measure in self.data]
 
-    def get_stats(self):
+    def __generate_stats(self):
         self.data = self.raw_data_to_list()
         delta = self.get_difference_among_measurements()
 
+        # print(list(map(self.ns_to_seconds, delta[0].values())))
+        for k, v in delta[0].items():
+            print(k, self.ns_to_seconds(v[0]))
+
 class SystemStats(Stats):
+    def __init__(self, file):
+        Stats.__init__(self, file)
+        self.data = self.__generate_stats()
+
     def measure_to_list(self, measure):
         return {
             'timestamp': measure['timestamp'],
@@ -57,15 +75,12 @@ class SystemStats(Stats):
     def raw_data_to_list(self):
         return [self.measure_to_list(measure) for measure in self.data]
 
-    def ns_to_seconds(self, x):
-        return x * 10**-3
-
     def calculate_cpu_utilization(self, busy, idle):
         usage = (busy - idle)/busy
         return round(usage * 100, 3)
 
     def calculate_disk_utilization(self, busy, period):
-        usage = self.ns_to_seconds(busy)/period
+        usage = self.ms_to_seconds(busy)/period
         return round(usage * 100, 3)
 
     def calculate_utilization(self, row):
@@ -80,7 +95,7 @@ class SystemStats(Stats):
             "io": row["disk"][1]
         }
 
-    def get_stats(self):
+    def __generate_stats(self):
         self.data = self.raw_data_to_list()
         delta = self.get_difference_among_measurements()
 
