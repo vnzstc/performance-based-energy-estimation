@@ -5,19 +5,24 @@ import csv, json
 from resource_profiler import ResourceProfiler
 
 def get_data(systat):
-    timestamp = { 'timestamp' : int(time.time()) }
+    t0 = int(time.time())
 
     if args.containers:
-        return {
+        data = {
             args.containers[c] : systat.get_docker(c) for c in args.containers
-        } | timestamp
+        } 
+
+        t1 = int(time.time())
+
+        return data | { 'timestamp' : t1 - t0 }
 
     cpu, disk = systat.get_sys()
+    t1 = int(time.time())
 
     return {
         'cpu'      : cpu,
         'disk'     : disk
-    } | timestamp
+    } | {'timestamp' : t1 - t0}
 
 def get_stats():
     outfile = open(args.file, 'w', encoding="utf-8")

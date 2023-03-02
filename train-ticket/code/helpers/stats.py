@@ -46,7 +46,9 @@ class ContainerStats(Stats):
 
     def measure_to_list(self, measure):
         return {
-            k : list(chain(*self.split_by_newline(v))) for k, v in measure.items()
+            k : list(
+                    chain(*self.split_by_newline(v))
+                ) if k != 'timestamp' else v for k, v in measure.items()
         }
 
     def raw_data_to_list(self):
@@ -54,11 +56,10 @@ class ContainerStats(Stats):
 
     def __generate_stats(self):
         self.data = self.raw_data_to_list()
-        delta = self.get_difference_among_measurements()
+        print(self.data)
 
-        # print(list(map(self.ns_to_seconds, delta[0].values())))
-        for k, v in delta[0].items():
-            print(k, self.ns_to_seconds(v[0]))
+        #delta = self.get_difference_among_measurements()
+        #print(delta)
 
 class SystemStats(Stats):
     def __init__(self, file):
