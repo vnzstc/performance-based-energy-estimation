@@ -5,44 +5,43 @@ import csv, json
 from resource_profiler import ResourceProfiler
 
 def get_data(systat):
-    t0 = int(time.time())
-
     if args.containers:
         data = {
             args.containers[c] : systat.get_docker(c) for c in args.containers
         } 
 
-        t1 = int(time.time())
-
-        return data | { 'timestamp' : t1 - t0 }
+        return data | {'timestamp' : time.time()}
 
     cpu, disk = systat.get_sys()
-    t1 = int(time.time())
 
     return {
         'cpu'      : cpu,
         'disk'     : disk
-    } | {'timestamp' : t1 - t0}
+    } | {'timestamp' : time.time()}
 
-def get_stats():
-    outfile = open(args.file, 'w', encoding="utf-8")
-    systat  = ResourceProfiler(args.password)
+def get_stats(profiler):
+    output_file = open(args.file, 'w', encoding="utf-8")
     data = []
 
-    def signal_handler(*args):
-        json.dump(data, outfile) # writes retrieved data
-        outfile.close()
-        systat.close()
-        print(f"Performance Profiled: {len(data)}")
+    def stop_profiling(*args):
+        json.dump(data, output_file) # writes retrieved data
+
+        output_file.close()
+        profiler.close()
+
+        print(f"Profiler_Stopped: {profiler.resource}")
         sys.exit()
 
-    signal.signal(signal.SIGINT, signal_handler)
 
-    while True:
-        data.append(get_data(systat))
+    if args.delay:
+        signal.signal(signal.SIGINT, stop_profiling)
 
-        if args.delay:
+        while True:
+            data.append(get_data(profiler))
             time.sleep(float(args.delay))
+    else:
+        data.append(get_data(profiler))
+        stop_profiling()
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -50,14 +49,17 @@ def parse_args():
     parser.add_argument("-c", "--containers", dest="containers")
     parser.add_argument("-f", "--file", dest="file", required=True)
     parser.add_argument("-d", "--delay", dest="delay")
+
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = parse_args()
+    profiler = ResourceProfiler("system", args.password)
 
     if args.containers:
         with open(args.containers, mode='r') as i:
             reader = csv.reader(i)
             args.containers = {rows[0]:rows[1] for rows in reader}
+            profiler.resource = "containers"
 
-    get_stats()
+    get_stats(profiler)

@@ -34,15 +34,20 @@ do
 		CURRENTDIR=$TESTDIR/$i-$customers
 		mkdir -p $CURRENTDIR 
 
-		python3 $PROFILER -p unlimitedPower -d 1 -f $CURRENTDIR/perf.json & PERF=$!
-		python3 $PROFILER -p unlimitedPower -c $CONTAINERS -f $CURRENTDIR/containers.json & CONT=$! 
+		python3 $PROFILER -p unlimitedPower -f $CURRENTDIR/system_pre.json
+		python3 $PROFILER -p unlimitedPower -c $CONTAINERS -f $CURRENTDIR/containers_pre.json
 		sudo python3 -u $WATTSUP -p /dev/ttyUSB0 -s 1 -o $CURRENTDIR/energy.csv & ENERGY=$! 
 
 		jmeter -Jthreads="$customers" -t $3 -n -l $CURRENTDIR/requests.jtl
 
 		sleep 3 
 
-		sudo kill -2 $PERF $ENERGY $CONT
+		python3 $PROFILER -p unlimitedPower -f $CURRENTDIR/system_post.json
+		python3 $PROFILER -p unlimitedPower -c $CONTAINERS -f $CURRENTDIR/containers_post.json
+
+		sudo kill -2 $ENERGY #$CONT $PERF
+
+
 		sshpass -p "unlimitedPower" ssh vincenzo@145.108.225.7 "docker exec -d cf6f2f17dc30 mongo --eval 'db.orders.remove()' ts"
 		sshpass -p "unlimitedPower" ssh vincenzo@145.108.225.7 "docker exec -d 030d9e0dd407 mongo --eval 'db.contacts.remove()' ts"
 		

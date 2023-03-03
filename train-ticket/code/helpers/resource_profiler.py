@@ -12,8 +12,9 @@ class Commands:
     }
 
 class ResourceProfiler(Commands):
-    def __init__(self, password):
+    def __init__(self, resource, password):
         self.c =  Connection('145.108.225.7', 'vincenzo', connect_kwargs={'password': password})
+        self.resource = resource
 
     def get_sys(self):
         cpu = self.get_data(self.CMDS.get('cpu')).stdout

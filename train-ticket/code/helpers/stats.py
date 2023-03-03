@@ -1,11 +1,23 @@
-import json
+import json, numbers, pprint
 from itertools import pairwise
 from itertools import chain
 
 class Stats:
+
+    def __init__(self, pre, post):
+        with open(pre) as f1, open(post) as f2:
+            self.pre = json.load(f1)
+            self.post = json.load(f2)
+
+            self.pre.extend(self.post)
+
+            self.data = self.pre
+
+    """
     def __init__(self, file):
         with open(file) as f:
             self.data = json.load(f)
+    """
 
     def split_by_newline(self, row):
         return [[int(y) for y in x.split()] for x in row.splitlines()]
@@ -20,7 +32,7 @@ class Stats:
         return x * 10**-9
 
     def difference(self, x, y):
-        if isinstance(x, int) and isinstance(y, int):
+        if isinstance(x, numbers.Number) and isinstance(y, numbers.Number):
             return y - x
 
         return [self.difference(k, v) for k, v in zip(x, y)]
@@ -40,8 +52,8 @@ class Stats:
         pass
 
 class ContainerStats(Stats):
-    def __init__(self, file):
-        Stats.__init__(self, file)
+    def __init__(self, pre, post):
+        Stats.__init__(self, pre, post)
         self.data = self.__generate_stats()
 
     def measure_to_list(self, measure):
@@ -56,14 +68,20 @@ class ContainerStats(Stats):
 
     def __generate_stats(self):
         self.data = self.raw_data_to_list()
-        print(self.data)
+        delta = self.get_difference_among_measurements()
 
-        #delta = self.get_difference_among_measurements()
-        #print(delta)
+        output = [] 
+        for r in delta:
+            row = {k : [round(self.ns_to_seconds(busy), 3) / r['timestamp'] * 100 for busy in v] if k != 'timestamp' else v for k, v in r.items()}
+            output.append(row)
+
+        pprint.pprint(output) 
+
+        return output
 
 class SystemStats(Stats):
-    def __init__(self, file):
-        Stats.__init__(self, file)
+    def __init__(self, pre, post):
+        Stats.__init__(self, pre, post)
         self.data = self.__generate_stats()
 
     def measure_to_list(self, measure):
