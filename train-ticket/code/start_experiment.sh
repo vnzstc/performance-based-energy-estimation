@@ -23,7 +23,7 @@ TIMEFORMAT='%3R,%3U,%3S'
 
 #mkdir -p $TESTDIR $TESTDIR/jtl
 
-clist=(75)
+clist=(50 75 150)
 
 for i in $(seq "$1")
 do 
@@ -46,7 +46,6 @@ do
 		python3 $PROFILER -p unlimitedPower -c $CONTAINERS -f $CURRENTDIR/containers_post.json
 
 		sudo kill -2 $ENERGY #$CONT $PERF
-
 
 		sshpass -p "unlimitedPower" ssh vincenzo@145.108.225.7 "docker exec -d cf6f2f17dc30 mongo --eval 'db.orders.remove()' ts"
 		sshpass -p "unlimitedPower" ssh vincenzo@145.108.225.7 "docker exec -d 030d9e0dd407 mongo --eval 'db.contacts.remove()' ts"
