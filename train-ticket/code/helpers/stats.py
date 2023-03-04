@@ -18,8 +18,8 @@ class Stats:
     def raw_data_to_list():
         pass
 
-    def ms_to_seconds(self, x):
-        return x * 10**-3
+    def jiffies_to_seconds(self, x):
+        return x * 10**-2
 
     def ns_to_seconds(self, x):
         return x * 10**-9
@@ -63,13 +63,11 @@ class ContainerStats(Stats):
         self.data = self.raw_data_to_list()
         delta = self.get_difference_among_measurements()
 
-        print(delta)
-
         output = {}
         for r in delta:
             for k, v in r.items():
                 if k != 'timestamp':
-                    output[k] = {'cpu' : v[0]/100 / r['timestamp'] * 100}
+                    output[k] = {'cpu' : (self.jiffies_to_seconds(v[0]) / r['timestamp']) / 8 * 100}
 
         return output
 
@@ -93,7 +91,7 @@ class SystemStats(Stats):
         return round(usage * 100, 3)
 
     def calculate_disk_utilization(self, busy, period):
-        usage = self.ms_to_seconds(busy)/period
+        usage = self.jiffies_to_seconds(busy)/period
         return round(usage * 100, 3)
 
     def calculate_utilization(self, row):

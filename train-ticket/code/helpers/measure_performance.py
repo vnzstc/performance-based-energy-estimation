@@ -7,10 +7,10 @@ from resource_profiler import ResourceProfiler
 def get_data(systat):
     if args.containers:
         data = {
-            args.containers[c] : systat.get_docker(c) for c in args.containers
+            args.containers[c] : systat.get_containers(c) for c in args.containers
         } 
 
-        return data | {'timestamp' : time.time()}
+        return data | {"docker": systat.get_docker() } | {'timestamp' : time.time()}
 
     cpu, disk = systat.get_sys()
 
