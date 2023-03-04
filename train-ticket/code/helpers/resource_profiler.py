@@ -1,14 +1,16 @@
 from fabric import Connection
+#awk -F' ' '/user/ {print $2}' $CPUPATH;
+#cat $CPUPATH; awk -e '/^Total/ {{print $2}}' $DISKPATH $IOPATH """
 class Commands:
     CMDS = {
         'cpu': """awk -e '/cpu[0-9]? / {print $2+$3+$4+$5+$6+$7+$8+$9+$10,$5}' /proc/stat""",
         'disk': """awk '/sda / { print $13,$4+$8 }' /proc/diskstats""",
         'docker': """
-            CPUPATH=/sys/fs/cgroup/cpuacct/docker/{element}*/cpuacct.usage
+            CPUPATH=/sys/fs/cgroup/cpuacct/docker/{element}*/cpuacct.stat
             DISKPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_service_time
             IOPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_serviced
 
-            cat $CPUPATH; awk -e '/^Total/ {{print $2}}' $DISKPATH $IOPATH """
+            awk -F' ' '{sum+=$2}END{print sum}' cpuacct.stat; awk -e '/^Total/ {{print $2}}' $DISKPATH $IOPATH"""
     }
 
 class ResourceProfiler(Commands):

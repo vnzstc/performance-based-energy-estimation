@@ -10,14 +10,7 @@ class Stats:
             self.post = json.load(f2)
 
             self.pre.extend(self.post)
-
             self.data = self.pre
-
-    """
-    def __init__(self, file):
-        with open(file) as f:
-            self.data = json.load(f)
-    """
 
     def split_by_newline(self, row):
         return [[int(y) for y in x.split()] for x in row.splitlines()]
@@ -70,12 +63,11 @@ class ContainerStats(Stats):
         self.data = self.raw_data_to_list()
         delta = self.get_difference_among_measurements()
 
-        output = [] 
+        output = {}
         for r in delta:
-            row = {k : [round(self.ns_to_seconds(busy), 3) / r['timestamp'] * 100 for busy in v] if k != 'timestamp' else v for k, v in r.items()}
-            output.append(row)
-
-        pprint.pprint(output) 
+            for k, v in r.items():
+                if k != 'timestamp':
+                    output[k] = {'cpu' : round(self.ns_to_seconds(v[0]), 3) / r['timestamp'] * 100}
 
         return output
 

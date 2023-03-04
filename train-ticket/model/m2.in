@@ -1,0 +1,28 @@
+G "Train Ticket Booking System" -1
+
+P 0 
+	p CPU 	 f m 8
+-1
+
+T 0 
+	t UI		n ui	-1 CPU 
+	t Travel	n t1	-1 CPU
+	#t Residual  n r1	-1 CPU 
+-1
+
+E 0 
+	# Arrival Rate
+	a ui	7.89
+
+	# Entry Definition
+	s ui 	0.0018 -1
+	s t1 	0.0334 -1
+	#s r1 	0.4 -1
+
+	# Requests
+	y ui t1 1 -1
+
+	# Requests to Residual
+	#y ui r1 1 -1
+	#y t1 r1 1 -1	
+-1
