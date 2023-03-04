@@ -10,7 +10,7 @@ class Commands:
             DISKPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_service_time
             IOPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_serviced
 
-            awk -F' ' '{sum+=$2}END{print sum}' cpuacct.stat; awk -e '/^Total/ {{print $2}}' $DISKPATH $IOPATH"""
+            awk -F' ' '{{sum += $2}}END{{print sum}}' $CPUPATH; awk -e '/^Total/ {{print $2}}' $DISKPATH $IOPATH"""
     }
 
 class ResourceProfiler(Commands):

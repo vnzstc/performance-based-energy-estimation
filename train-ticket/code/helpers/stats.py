@@ -63,11 +63,13 @@ class ContainerStats(Stats):
         self.data = self.raw_data_to_list()
         delta = self.get_difference_among_measurements()
 
+        print(delta)
+
         output = {}
         for r in delta:
             for k, v in r.items():
                 if k != 'timestamp':
-                    output[k] = {'cpu' : round(self.ns_to_seconds(v[0]), 3) / r['timestamp'] * 100}
+                    output[k] = {'cpu' : v[0]/100 / r['timestamp'] * 100}
 
         return output
 
