@@ -67,8 +67,7 @@ class ContainerStats(Stats):
         for r in delta:
             for k, v in r.items():
                 if k != 'timestamp':
-                    output[k] = {'cpu' : (self.jiffies_to_seconds(v[0]) / r['timestamp']) / 8 * 100}
-
+                    output[k] = {'cpu' : self.jiffies_to_seconds(v[0]) / r['timestamp'] / 8 * 100}
         return output
 
 class SystemStats(Stats):
@@ -103,7 +102,8 @@ class SystemStats(Stats):
             "disk": self.calculate_disk_utilization(
                         row["disk"][0], row['timestamp']
                     ),
-            "io": row["disk"][1]
+            "io": row["disk"][1],
+            "duration": row['timestamp']
         }
 
     def __generate_stats(self):
