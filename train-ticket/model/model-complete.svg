@@ -3,251 +3,175 @@
 "http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
 <!-- Title: model-complete.in -->
 <!-- Creator: lqn2svg Version 5.25 -->
-<!-- Sat Mar  4 23:57:11 2023 -->
+<!-- Sun Mar  5 22:32:05 2023 -->
 <!-- For: xeder -->
 <!-- Invoked as: lqn2svg model-complete.in -->
-<svg xmlns="http://www.w3.org/2000/svg" width="10.5in" height="8in" viewBox="0 0 18900 14400">
-<desc>0x55640ad0fdf0</desc>
-<!-- ========== Open Arrival Source u1 ========== -->
-<circle cx="9450" cy="1013" r="125"  fill="#ffffff" stroke="black" stroke-width="25"/>
-<!-- Call u1 u1 -->
-<line x1="9451.47" y1="1137.49" x2="9472.5" y2="2925" stroke="black" stroke-width="25"/>
-<polygon fill="White" stroke="black" stroke-width="25" points="9472.5,2925 9520.73,2774.42 9471.03,2800.01 9420.74,2775.6 "/>
-<text x="9460" y="1981" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">&#0955;=0.875</text>
-<!-- Task uin  u1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="8662.5,2925 10350,2925 10237.5,4050 8550,4050 "/>
-<text x="9450" y="3919" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">ui</text>
-<!-- Entry u1 s [0.002] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="8977.5,2925 8910,3600 9967.5,3600 10035,2925 "/>
-<text x="9473" y="3450" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.002]</text>
-<text x="9473" y="3225" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">u1</text>
-<!-- Call u1 a1 y (1) -->
-<line x1="9070.71" y1="3600" x2="5422.5" y2="5400" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="5422.5,5400 5579.14,5378.47 5534.6,5344.69 5534.89,5288.79 "/>
-<text x="6335" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call u1 co1 y (1) -->
-<line x1="9231.43" y1="3600" x2="5235" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="5235,7875 5373.96,7799.57 5320.36,7783.69 5300.91,7731.28 "/>
-<text x="5656" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call u1 fo1 y (1) -->
-<line x1="9392.14" y1="3600" x2="7447.5" y2="5400" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="7447.5,5400 7591.55,5334.8 7539.23,5315.09 7523.62,5261.41 "/>
-<text x="7934" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call u1 p1 y (1) -->
-<line x1="9552.86" y1="3600" x2="9472.5" y2="5400" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="9472.5,5400 9529.14,5252.38 9478.07,5275.12 9429.24,5247.92 "/>
-<text x="9493" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call u1 t1 y (1) -->
-<line x1="9713.57" y1="3600" x2="11497.5" y2="5400" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="11497.5,5400 11427.4,5258.26 11409.5,5311.22 11356.4,5328.66 "/>
-<text x="11052" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call u1 v1 y (1) -->
-<line x1="9874.29" y1="3600" x2="13522.5" y2="5400" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="13522.5,5400 13410.1,5288.79 13410.4,5344.69 13365.9,5378.47 "/>
-<text x="12610" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call ui cpu -->
-<line x1="9000" y1="4050" x2="8483.45" y2="10351.9" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8483.45,10351.9 8545.54,10206.5 8493.66,10227.3 8445.87,10198.3 "/>
-<!-- Task assurancen  a1 -1 cpu -->
+<svg xmlns="http://www.w3.org/2000/svg" width="4.875in" height="8in" viewBox="0 0 8775 14400">
+<desc>0x5564bfb11be0</desc>
+<!-- ========== Open Arrival Source ui ========== -->
+<circle cx="4388" cy="1013" r="125"  fill="#ffffff" stroke="black" stroke-width="25"/>
+<!-- Call ui ui -->
+<line x1="4388.97" y1="1137.49" x2="4410" y2="2925" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="4410,2925 4458.23,2774.42 4408.53,2800.01 4358.24,2775.6 "/>
+<text x="4398" y="1981" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">&#0955;=0.07</text>
+<!-- Task UIn  ui -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="3600,2925 5287.5,2925 5175,4050 3487.5,4050 "/>
+<text x="4388" y="3919" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">UI</text>
+<!-- Entry ui s [0.0316] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="3915,2925 3847.5,3600 4905,3600 4972.5,2925 "/>
+<text x="4410" y="3450" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.0316]</text>
+<text x="4410" y="3225" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">ui</text>
+<!-- Call ui auth z (1) -->
+<line x1="4072.5" y1="3600" x2="1372.5" y2="5400" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="1372.5,5400 1525.04,5358.4 1476.51,5330.66 1469.57,5275.19 "/>
+<text x="2048" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call ui con z (1) -->
+<line x1="4297.5" y1="3600" x2="3397.5" y2="5400" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="3397.5,5400 3509.3,5288.2 3453.4,5288.2 3419.86,5243.48 "/>
+<text x="3623" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call ui food z (1) -->
+<line x1="4522.5" y1="3600" x2="5422.5" y2="5400" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="5422.5,5400 5400.14,5243.48 5366.6,5288.2 5310.7,5288.2 "/>
+<text x="5198" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call ui pres z (1) -->
+<line x1="4747.5" y1="3600" x2="7447.5" y2="5400" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="7447.5,5400 7350.43,5275.19 7343.49,5330.66 7294.96,5358.4 "/>
+<text x="6773" y="5044" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call UI cpu -->
+<line x1="4387.5" y1="4050" x2="4387.5" y2="12825" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4387.5,12825 4437.5,12675 4387.5,12700 4337.5,12675 "/>
+<!-- Task Authenticationn  auth -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="562.5,5400 2250,5400 2137.5,6525 450,6525 "/>
+<text x="1350" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Authentication</text>
+<!-- Entry auth s [0.92] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="877.5,5400 810,6075 1867.5,6075 1935,5400 "/>
+<text x="1373" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.92]</text>
+<text x="1373" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">auth</text>
+<!-- Call auth ver z (1) -->
+<line x1="1372.5" y1="6075" x2="6435" y2="7875" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="6435,7875 6310.42,7777.64 6317.22,7833.12 6276.92,7871.86 "/>
+<text x="5169" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call Authentication cpu -->
+<line x1="1800" y1="6525" x2="4189.05" y2="12861.2" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4189.05,12861.2 4182.91,12703.2 4144.95,12744.2 4089.34,12738.5 "/>
+<!-- Task Contactsn  con -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="2587.5,5400 4275,5400 4162.5,6525 2475,6525 "/>
+<text x="3375" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Contacts</text>
+<!-- Entry con s [0.095] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="2902.5,5400 2835,6075 3892.5,6075 3960,5400 "/>
+<text x="3398" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.095]</text>
+<text x="3398" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">con</text>
+<!-- Call con rcon z (1) -->
+<line x1="3397.5" y1="6075" x2="4410" y2="10350" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="4410,10350 4424.08,10192.5 4381.19,10228.4 4326.78,10215.6 "/>
+<text x="4303" y="9994" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call Contacts cpu -->
+<line x1="3825" y1="6525" x2="4341.55" y2="12826.9" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4341.55,12826.9 4379.13,12673.3 4331.34,12702.3 4279.46,12681.5 "/>
+<!-- Task Foodn  food -1 cpu -->
 <polygon  fill="#ffffff" stroke="black" stroke-width="25" points="4612.5,5400 6300,5400 6187.5,6525 4500,6525 "/>
-<text x="5400" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">assurance</text>
-<!-- Entry a1 s [0.005] -->
+<text x="5400" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Food</text>
+<!-- Entry food s [0.09] -->
 <polyline  stroke="black" stroke-width="25" fill="none" points="4927.5,5400 4860,6075 5917.5,6075 5985,5400 "/>
-<text x="5423" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.005]</text>
-<text x="5423" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">a1</text>
-<!-- Call a1 am1 y (1) -->
-<line x1="5422.5" y1="6075" x2="1372.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="1372.5,7875 1529.88,7859.77 1486.73,7824.23 1489.26,7768.39 "/>
-<text x="2385" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call assurance cpu -->
-<line x1="5850" y1="6525" x2="8151.76" y2="10428" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8151.76,10428 8118.63,10273.4 8088.26,10320.3 8032.49,10324.2 "/>
-<!-- Task foodn  fo1 -1 cpu -->
+<text x="5423" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.09]</text>
+<text x="5423" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">food</text>
+<!-- Call food trav z (1) -->
+<line x1="5235" y1="6075" x2="4410" y2="7875" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="4410,7875 4517.95,7759.47 4462.08,7761.37 4427.04,7717.81 "/>
+<text x="4616" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call food rfo z (1) -->
+<line x1="5610" y1="6075" x2="5467.5" y2="10350" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="5467.5,10350 5522.47,10201.7 5471.66,10225.1 5422.52,10198.4 "/>
+<text x="5483" y="9994" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call Food cpu -->
+<line x1="4950" y1="6525" x2="4433.45" y2="12826.9" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4433.45,12826.9 4495.54,12681.5 4443.66,12702.3 4395.87,12673.3 "/>
+<!-- Task Preserven  pres -1 cpu -->
 <polygon  fill="#ffffff" stroke="black" stroke-width="25" points="6637.5,5400 8325,5400 8212.5,6525 6525,6525 "/>
-<text x="7425" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">food</text>
-<!-- Entry fo1 s [0.013] -->
+<text x="7425" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Preserve</text>
+<!-- Entry pres s [0.17] -->
 <polyline  stroke="black" stroke-width="25" fill="none" points="6952.5,5400 6885,6075 7942.5,6075 8010,5400 "/>
-<text x="7447" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.013]</text>
-<text x="7447" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">fo1</text>
-<!-- Call fo1 fm1 y (1) -->
-<line x1="7447.5" y1="6075" x2="7447.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="7447.5,7875 7497.5,7725 7447.5,7750 7397.5,7725 "/>
-<text x="7448" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call food cpu -->
-<line x1="7875" y1="6525" x2="8365.97" y2="10354.6" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8365.97,10354.6 8396.49,10199.4 8350.07,10230.6 8297.3,10212.1 "/>
-<!-- Task preserven  p1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="8662.5,5400 10350,5400 10237.5,6525 8550,6525 "/>
-<text x="9450" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">preserve</text>
-<!-- Entry p1 s [0.036] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="8977.5,5400 8910,6075 9967.5,6075 10035,5400 "/>
-<text x="9473" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.036]</text>
-<text x="9473" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">p1</text>
-<!-- Call p1 co1 y (1) -->
-<line x1="9472.5" y1="6075" x2="5610" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="5610,7875 5767.08,7856.96 5723.3,7822.2 5724.84,7766.32 "/>
-<text x="7541" y="7069" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call preserve cpu -->
-<line x1="9000" y1="6525" x2="8509.03" y2="10354.6" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8509.03,10354.6 8577.7,10212.1 8524.93,10230.6 8478.51,10199.4 "/>
-<!-- Task traveln  t1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="10687.5,5400 12375,5400 12262.5,6525 10575,6525 "/>
-<text x="11475" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">travel</text>
-<!-- Entry t1 s [0.056] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="11002.5,5400 10935,6075 11992.5,6075 12060,5400 "/>
-<text x="11498" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.056]</text>
-<text x="11498" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">t1</text>
-<!-- Call t1 o1 y (1) -->
-<line x1="11122.5" y1="6075" x2="9472.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="9472.5,7875 9610.72,7798.21 9556.97,7782.86 9537,7730.64 "/>
-<text x="9885" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call t1 r1 y (1) -->
-<line x1="11310" y1="6075" x2="11497.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="11497.5,7875 11531.7,7720.63 11484.5,7750.67 11432.2,7730.99 "/>
-<text x="11451" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call t1 s1 y (1) -->
-<line x1="11497.5" y1="6075" x2="13522.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="13522.5,7875 13443.6,7737.97 13429.1,7791.95 13377.2,7812.72 "/>
-<text x="13016" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call t1 ti1 y (1) -->
-<line x1="11685" y1="6075" x2="15547.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="15547.5,7875 15432.7,7766.32 15434.2,7822.2 15390.4,7856.96 "/>
-<text x="14582" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call t1 tr1 y (1) -->
-<line x1="11872.5" y1="6075" x2="17572.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="17572.5,7875 17444.5,7782.15 17453.3,7837.36 17414.4,7877.51 "/>
-<text x="16148" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call travel cpu -->
-<line x1="11025" y1="6525" x2="8723.24" y2="10428" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8723.24,10428 8842.51,10324.2 8786.74,10320.3 8756.37,10273.4 "/>
-<!-- Task verificationn  v1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="12712.5,5400 14400,5400 14287.5,6525 12600,6525 "/>
-<text x="13500" y="6394" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">verification</text>
-<!-- Entry v1 s [0.003] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="13027.5,5400 12960,6075 14017.5,6075 14085,5400 "/>
-<text x="13523" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.003]</text>
-<text x="13523" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">v1</text>
-<!-- Call v1 au1 y (1) -->
-<line x1="13522.5" y1="6075" x2="3397.5" y2="7875" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="3397.5,7875 3553.94,7897.97 3520.57,7853.12 3536.43,7799.52 "/>
-<text x="5929" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
-<!-- Call verification cpu -->
-<line x1="13050" y1="6525" x2="8845.06" y2="10524.8" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8845.06,10524.8 8988.21,10457.7 8935.63,10438.7 8919.29,10385.2 "/>
-<!-- Task assurancemongon  am1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="562.5,7875 2250,7875 2137.5,9000 450,9000 "/>
-<text x="1350" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">assurancemongo</text>
-<!-- Entry am1 s [0.003] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="877.5,7875 810,8550 1867.5,8550 1935,7875 "/>
-<text x="1373" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.003]</text>
-<text x="1373" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">am1</text>
-<!-- Call am1 d1 y (7.14) -->
-<line x1="1372.5" y1="8550" x2="9960" y2="10350" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="9960,10350 9823.45,10270.3 9837.66,10324.4 9802.93,10368.2 "/>
-<text x="7813" y="9994" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(7.14)</text>
-<!-- Call assurancemongo cpu -->
-<line x1="1800" y1="9000" x2="7896.99" y2="10756.8" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="7896.99,10756.8 7766.7,10667.2 7776.88,10722.2 7739.01,10763.3 "/>
-<!-- Task authenticationn  au1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="2587.5,7875 4275,7875 4162.5,9000 2475,9000 "/>
-<text x="3375" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">authentication</text>
-<!-- Entry au1 s [0.078] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="2902.5,7875 2835,8550 3892.5,8550 3960,7875 "/>
-<text x="3398" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.078]</text>
-<text x="3398" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">au1</text>
-<!-- Call authentication cpu -->
-<line x1="3825" y1="9000" x2="7917.9" y2="10697.1" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="7917.9,10697.1 7798.48,10593.4 7802.43,10649.2 7760.18,10685.8 "/>
-<!-- Task contactsn  co1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="4612.5,7875 6300,7875 6187.5,9000 4500,9000 "/>
-<text x="5400" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">contacts</text>
-<!-- Entry co1 s [0.007] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="4927.5,7875 4860,8550 5917.5,8550 5985,7875 "/>
-<text x="5423" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.007]</text>
-<text x="5423" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">co1</text>
-<!-- Call contacts cpu -->
-<line x1="5850" y1="9000" x2="7985.15" y2="10578.2" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="7985.15,10578.2 7894.24,10448.8 7884.63,10503.9 7834.8,10529.2 "/>
-<!-- Task foodmongon  fm1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="6637.5,7875 8325,7875 8212.5,9000 6525,9000 "/>
-<text x="7425" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">foodmongo</text>
-<!-- Entry fm1 s [0.003] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="6952.5,7875 6885,8550 7942.5,8550 8010,7875 "/>
-<text x="7448" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.003]</text>
-<text x="7448" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">fm1</text>
-<!-- Call fm1 d1 y (7.42) -->
-<line x1="7447.5" y1="8550" x2="10335" y2="10350" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="10335,10350 10234.2,10228.2 10228.9,10283.9 10181.3,10313.1 "/>
-<text x="8891" y="9544" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(7.42)</text>
-<!-- Call foodmongo cpu -->
-<line x1="7875" y1="9000" x2="8278.78" y2="10372.9" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8278.78,10372.9 8284.42,10214.8 8243.51,10252.9 8188.49,10243.1 "/>
-<!-- Task ordern  o1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="8662.5,7875 10350,7875 10237.5,9000 8550,9000 "/>
-<text x="9450" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">order</text>
-<!-- Entry o1 s [0.062] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="8977.5,7875 8910,8550 9967.5,8550 10035,7875 "/>
-<text x="9473" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.062]</text>
-<text x="9473" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">o1</text>
-<!-- Call order cpu -->
-<line x1="9000" y1="9000" x2="8596.22" y2="10372.9" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8596.22,10372.9 8686.51,10243.1 8631.49,10252.9 8590.58,10214.8 "/>
-<!-- Task routen  r1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="10687.5,7875 12375,7875 12262.5,9000 10575,9000 "/>
-<text x="11475" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">route</text>
-<!-- Entry r1 s [0.021] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="11002.5,7875 10935,8550 11992.5,8550 12060,7875 "/>
-<text x="11498" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.021]</text>
-<text x="11498" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">r1</text>
-<!-- Call route cpu -->
-<line x1="11025" y1="9000" x2="8889.85" y2="10578.2" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8889.85,10578.2 9040.2,10529.2 8990.37,10503.9 8980.76,10448.8 "/>
-<!-- Task seatn  s1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="12712.5,7875 14400,7875 14287.5,9000 12600,9000 "/>
-<text x="13500" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">seat</text>
-<!-- Entry s1 s [0.02] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="13027.5,7875 12960,8550 14017.5,8550 14085,7875 "/>
-<text x="13523" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.02]</text>
-<text x="13523" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">s1</text>
-<!-- Call seat cpu -->
-<line x1="13050" y1="9000" x2="8957.1" y2="10697.1" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8957.1,10697.1 9114.82,10685.8 9072.57,10649.2 9076.52,10593.4 "/>
-<!-- Task ticketinfon  ti1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="14737.5,7875 16425,7875 16312.5,9000 14625,9000 "/>
-<text x="15525" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">ticketinfo</text>
-<!-- Entry ti1 s [0.027] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="15052.5,7875 14985,8550 16042.5,8550 16110,7875 "/>
-<text x="15548" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.027]</text>
-<text x="15548" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">ti1</text>
-<!-- Call ticketinfo cpu -->
-<line x1="15075" y1="9000" x2="8978.01" y2="10756.8" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8978.01,10756.8 9135.99,10763.3 9098.12,10722.2 9108.3,10667.2 "/>
-<!-- Task trainn  tr1 -1 cpu -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="16762.5,7875 18450,7875 18337.5,9000 16650,9000 "/>
-<text x="17550" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">train</text>
-<!-- Entry tr1 s [0.013] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="17077.5,7875 17010,8550 18067.5,8550 18135,7875 "/>
-<text x="17573" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.013]</text>
-<text x="17573" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">tr1</text>
-<!-- Call train cpu -->
-<line x1="17100" y1="9000" x2="8986.77" y2="10791.2" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="8986.77,10791.2 9144.02,10807.7 9108.83,10764.3 9122.47,10710.1 "/>
+<text x="7448" y="5925" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.17]</text>
+<text x="7448" y="5700" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">pres</text>
+<!-- Call pres ass z (1) -->
+<line x1="7260" y1="6075" x2="2385" y2="7875" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="2385,7875 2543.03,7869.95 2502.26,7831.7 2508.4,7776.14 "/>
+<text x="3604" y="7519" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call pres rpr z (1) -->
+<line x1="7635" y1="6075" x2="6525" y2="10350" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="6525,10350 6611.09,10217.4 6556.41,10229 6514.3,10192.2 "/>
+<text x="6642" y="9994" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call Preserve cpu -->
+<line x1="6975" y1="6525" x2="4585.95" y2="12861.2" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4585.95,12861.2 4685.66,12738.5 4630.05,12744.2 4592.09,12703.2 "/>
+<!-- Task Assurancen  ass -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="1575,7875 3262.5,7875 3150,9000 1462.5,9000 "/>
+<text x="2363" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Assurance</text>
+<!-- Entry ass s [0.05] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="1890,7875 1822.5,8550 2880,8550 2947.5,7875 "/>
+<text x="2385" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.05]</text>
+<text x="2385" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">ass</text>
+<!-- Call ass rass z (1) -->
+<line x1="2385" y1="8550" x2="2295" y2="10350" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="2295,10350 2352.43,10202.7 2301.24,10225.2 2252.55,10197.7 "/>
+<text x="2318" y="9994" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call Assurance cpu -->
+<line x1="2812.5" y1="9000" x2="4197.45" y2="12858.1" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4197.45,12858.1 4193.83,12700 4155.22,12740.4 4099.71,12733.8 "/>
+<!-- Task Traveln  trav -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="3600,7875 5287.5,7875 5175,9000 3487.5,9000 "/>
+<text x="4388" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Travel</text>
+<!-- Entry trav s [0.466] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="3915,7875 3847.5,8550 4905,8550 4972.5,7875 "/>
+<text x="4410" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.466]</text>
+<text x="4410" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">trav</text>
+<!-- Call trav rtr z (1) -->
+<line x1="4410" y1="8550" x2="3352.5" y2="10350" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="3352.5,10350 3471.59,10246 3415.82,10242.2 3385.37,10195.3 "/>
+<text x="3617" y="9994" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Call Travel cpu -->
+<line x1="4387.5" y1="9000" x2="4387.5" y2="12825" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4387.5,12825 4437.5,12675 4387.5,12700 4337.5,12675 "/>
+<!-- Task Verificationn  ver -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="5625,7875 7312.5,7875 7200,9000 5512.5,9000 "/>
+<text x="6413" y="8869" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Verification</text>
+<!-- Entry ver s [0.0336] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="5940,7875 5872.5,8550 6930,8550 6997.5,7875 "/>
+<text x="6435" y="8400" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.0336]</text>
+<text x="6435" y="8175" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">ver</text>
+<!-- Call Verification cpu -->
+<line x1="5962.5" y1="9000" x2="4577.55" y2="12858.1" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4577.55,12858.1 4675.29,12733.8 4619.78,12740.4 4581.17,12700 "/>
+<!-- Task Residualn  rpr rfo rcon rtr rass -1 cpu -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="1850,10400 7137.5,10400 7025,11525 1737.5,11525 "/>
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="1800,10350 7087.5,10350 6975,11475 1687.5,11475 "/>
+<text x="4388" y="11344" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Residual {&#8734;}</text>
+<!-- Entry rass s [0.62] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="1732.5,11025 2790,11025 2857.5,10350 "/>
+<text x="2295" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.62]</text>
+<text x="2295" y="10650" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">rass</text>
+<!-- Entry rtr s [1.75] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="2790,11025 3847.5,11025 3915,10350 "/>
+<text x="3353" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[1.75]</text>
+<text x="3353" y="10650" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">rtr</text>
+<!-- Entry rcon s [0.021] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="3847.5,11025 4905,11025 4972.5,10350 "/>
+<text x="4410" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.021]</text>
+<text x="4410" y="10650" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">rcon</text>
+<!-- Entry rfo s [0.07] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="4905,11025 5962.5,11025 6030,10350 "/>
+<text x="5468" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.07]</text>
+<text x="5468" y="10650" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">rfo</text>
+<!-- Entry rpr s [0.17] -->
+<line x1="5962.5" y1="11025" x2="7020" y2="11025" stroke="black" stroke-width="25"/>
+<text x="6525" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.17]</text>
+<text x="6525" y="10650" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">rpr</text>
+<!-- Call Residual cpu -->
+<line x1="4387.5" y1="11475" x2="4387.5" y2="12825" stroke="black" stroke-width="25"/>
+<polygon fill="black" stroke="black" stroke-width="25" points="4387.5,12825 4437.5,12675 4387.5,12700 4337.5,12675 "/>
 <!-- Processor cpu FCFS -->
-<circle cx="8488" cy="10963" r="563"  fill="#ffffff" stroke="black" stroke-width="25"/>
-<circle cx="8438" cy="10913" r="563"  fill="#ffffff" stroke="black" stroke-width="25"/>
-<text x="8438" y="11100" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">{8}</text>
-<text x="8438" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">cpu</text>
-<!-- Task diskn  d1 -1 disk -->
-<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="9337.5,10350 11025,10350 10912.5,11475 9225,11475 "/>
-<text x="10125" y="11344" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">disk</text>
-<!-- Entry d1 s [0.0042] -->
-<polyline  stroke="black" stroke-width="25" fill="none" points="9652.5,10350 9585,11025 10642.5,11025 10710,10350 "/>
-<text x="10148" y="10875" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.0042]</text>
-<text x="10148" y="10650" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">d1</text>
-<!-- Call disk disk -->
-<line x1="10125" y1="11475" x2="10125" y2="12825" stroke="black" stroke-width="25"/>
-<polygon fill="black" stroke="black" stroke-width="25" points="10125,12825 10175,12675 10125,12700 10075,12675 "/>
-<!-- Processor disk FCFS -->
-<circle cx="10125" cy="13388" r="563"  fill="#ffffff" stroke="black" stroke-width="25"/>
-<text x="10125" y="13481" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">disk</text>
+<circle cx="4438" cy="13438" r="563"  fill="#ffffff" stroke="black" stroke-width="25"/>
+<circle cx="4388" cy="13388" r="563"  fill="#ffffff" stroke="black" stroke-width="25"/>
+<text x="4388" y="13575" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">{8}</text>
+<text x="4388" y="13350" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">cpu</text>
 </svg>

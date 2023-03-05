@@ -1,104 +1,56 @@
 G "Buy Ticket" -1
 
 P 0 
-	p cpu f m 8
-	p disk f
+	p cpu f m 8 
+	#p disk f
 -1
 
 T 0 
-	t ui 				n u1		 -1 cpu
-	t verification    	n v1 		 -1 cpu 
-	t authentication 	n au1 		 -1 cpu 
-	t assurance 		n a1		 -1 cpu
-	t assurancemongo    n am1		 -1	cpu 
-	t food				n fo1		 -1 cpu 
-	t foodmongo		    n fm1		 -1 cpu 
-	t preserve	  		n p1	     -1 cpu
-	t contacts 			n co1  		 -1 cpu
-	t travel			n t1		 -1 cpu
-	t ticketinfo        n ti1		 -1 cpu 
-	t order 			n o1		 -1 cpu
-	t train 			n tr1		 -1 cpu
-	t seat				n s1		 -1 cpu 
-	t route				n r1		 -1 cpu 
-	t residual			i rs		 -1 cpu 
-	t disk				n d1 		 -1 disk 
+	t UI 				n ui					 -1 cpu
+	t Verification    	n ver					 -1 cpu 
+	t Authentication 	n auth					 -1 cpu 
+	t Travel			n trav					 -1 cpu
+	t Food				n food					 -1 cpu 
+	t Assurance 		n ass					 -1 cpu
+	t Preserve	  		n pres					 -1 cpu
+	t Contacts 			n con					 -1 cpu
+ 	t Residual			i rtr rass rcon rfo rpr	 -1 cpu
+	#t Disk				n di				     -1 disk 
 -1
 
 E 0 
+	a ui 	0.070 		# arrival rate
 
-# - arrival rate -
-	a u1 0.070
+	s ui 	0.0316 -1
+	s ver   0.0336 -1
+	s trav  0.466  -1
+	s auth  0.92   -1
+	s food  0.090  -1
+	s pres 	0.17   -1
+	s ass	0.05   -1
+	s con   0.095  -1
 
-# - ui - 
-	s u1 0.0156 -1
-	y u1 v1  1 -1
-	y u1 t1  1 -1
-	y u1 a1  1 -1
-	y u1 fo1 1 -1
-	y u1 co1 1 -1
-	y u1 p1  1 -1
+	s rtr	1.75    -1
+	s rass  0.62    -1
+	s rcon  0.021   -1
+	s rfo	0.07  	-1
+	s rpr	0.17  	-1
 
-#  Level 1
-## - verification -
-    s v1 0.0166 -1
-    y v1 au1 1 -1
+ 	#s di	0.0042 -1
 
-## - travel 
-	s t1 0.2312 -1
-	y t1 ti1 1  -1
-	y t1 r1  1  -1
-	y t1 o1  1  -1
-	y t1 s1  1  -1
-	y t1 tr1 1  -1
+	z ui 	auth 1 -1
+	z ui 	food 1 -1
+	z ui 	pres 1 -1
+	z ui	con  1 -1
 
-## - assurance - 
-	s a1 0.0242 -1
-	y a1 am1 1  -1
+	z food 	trav 1 -1
+	z auth  ver  1 -1
+	z pres  ass  1 -1 
 
-## - preserve - 
-	s p1 0.0844 -1
-	y p1 co1 1 -1
+	z trav	rtr  1 -1
+	z ass   rass 1 -1
+	z con   rcon 1 -1
+	z food	rfo  1 -1
+	z pres  rpr  1 -1
 
-## - food -  
-	s fo1 0.045 -1
-	y fo1 fm1 1 -1
-
-# Level 2
-## - assurancemongo -
-	s am1 0.309 -1
-	y am1 d1 7.14 -1
-
-## - contacts -
-	s co1 0.0472 -1
-
-## - auth -
-	s au1 0.456 -1
-
-## - foodmongo -
-	s fm1 0.009 -1
-	y fm1 d1 7.42 -1
-
-## - ticketinfo -
-	s ti1 0.131 -1
-
-## - route - 
-	s r1 0.104 -1
-
-## - seat -
-	s s1 0.1 -1
-
-## - train -
-	s tr1 0.074 -1
-
-## - order -
-	s o1 0.1 -1
-
-# Level 3
-
-## - disk -
-	s d1 0.0042 -1
-
-## - residual CPU - 
-	s rs 0.001 -1
 -1
