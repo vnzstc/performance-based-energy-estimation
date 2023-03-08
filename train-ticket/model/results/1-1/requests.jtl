@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1678010911502,123,-12,200,,ThreadGroup 1-1,text,true,,803,532,1,1,http://145.108.225.7:8080/api/v1/users/login,122,0,26
+1678010911659,5,-13,200,,ThreadGroup 1-1,,true,,1896,325,1,1,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1678010911667,110,-14,200,,ThreadGroup 1-1,text,true,,859,650,1,1,http://145.108.225.7:8080/api/v1/travelservice/trips/left,110,0,0
+1678010911778,3,-15,200,OK,ThreadGroup 1-1,text,true,,37710,592,1,1,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-03-20,2,0,0
+1678010911781,4,-16,200,,ThreadGroup 1-1,text,true,,532,865,1,1,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1678010911787,5,-18,200,,ThreadGroup 1-1,text,true,,461,899,1,1,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/4baa298f-aeec-41db-ab5f-2c1babebe651,5,0,0
+1678010911793,24,-17,200,,ThreadGroup 1-1,text,true,,19112,887,1,1,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-03-20/Shang%20Hai/Su%20Zhou/D1345,23,0,0
+1678010911818,11,-22,201,,ThreadGroup 1-1,text,true,,777,1045,1,1,http://145.108.225.7:8080/api/v1/contactservice/contacts,11,0,0
+1678010911832,6,-23,200,,ThreadGroup 1-1,text,true,,653,900,1,1,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/4baa298f-aeec-41db-ab5f-2c1babebe651,6,0,0
+1678010911840,253,-24,500,,ThreadGroup 1-1,text,false,,725,1339,1,1,http://145.108.225.7:8080/api/v1/preserveservice/preserve,253,0,0
+1678010911434,544,BuyTicket,,"Number of samples in transaction : 10, number of failing samples : 1",ThreadGroup 1-1,,false,,63528,8034,1,1,null,541,117,26

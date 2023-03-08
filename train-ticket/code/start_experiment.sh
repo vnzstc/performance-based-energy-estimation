@@ -23,7 +23,7 @@ TIMEFORMAT='%3R,%3U,%3S'
 
 #mkdir -p $TESTDIR $TESTDIR/jtl
 
-clist=(1)
+clist=(75 150 300)
 
 for i in $(seq "$1")
 do 
