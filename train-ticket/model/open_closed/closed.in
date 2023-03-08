@@ -1,0 +1,21 @@
+G "TTBS" -1
+
+P 0 
+	p Client f i i
+	p CPU 	 f m 8
+-1
+
+T 0 
+	t Customers r buyTicket -1 Client m 75
+	t Server	n server	-1 CPU
+	#t UI		n ui	 	-1 CPU 
+-1
+
+E 0
+	s buyTicket			14.20	-1
+	s server    		0.086	-1
+	#s ui				0.2		-1
+
+	z buyTicket server  1		-1 
+	#z server 	ui		1 		-1
+-1

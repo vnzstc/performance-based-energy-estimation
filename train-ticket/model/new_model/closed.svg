@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
+"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
+<!-- Title: closed.in -->
+<!-- Creator: lqn2svg Version 5.25 -->
+<!-- Wed Mar  8 16:07:45 2023 -->
+<!-- For: xeder -->
+<!-- Invoked as: lqn2svg closed.in -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1.5in" height="2.5in" viewBox="0 0 2700 4500">
+<desc>0x558d6692a900</desc>
+<!-- Task Customersr  buyTicket -1 Client -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="612.5,500 2300,500 2187.5,1625 500,1625 "/>
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="562.5,450 2250,450 2137.5,1575 450,1575 "/>
+<text x="1350" y="1444" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Customers {75}</text>
+<!-- Entry buyTicket s [14.2] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="877.5,450 810,1125 1867.5,1125 1935,450 "/>
+<text x="1373" y="975" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[14.2]</text>
+<text x="1373" y="750" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">buyTicket</text>
+<!-- Call buyTicket server z (1) -->
+<line x1="1372.5" y1="1125" x2="1372.5" y2="2925" stroke="black" stroke-width="25"/>
+<polygon fill="White" stroke="black" stroke-width="25" points="1372.5,2925 1422.5,2775 1372.5,2800 1322.5,2775 "/>
+<text x="1373" y="2569" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">(1)</text>
+<!-- Task Servern  server -1 CPU -->
+<polygon  fill="#ffffff" stroke="black" stroke-width="25" points="562.5,2925 2250,2925 2137.5,4050 450,4050 "/>
+<text x="1350" y="3919" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">Server</text>
+<!-- Entry server s [0.086] -->
+<polyline  stroke="black" stroke-width="25" fill="none" points="877.5,2925 810,3600 1867.5,3600 1935,2925 "/>
+<text x="1373" y="3450" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">[0.086]</text>
+<text x="1373" y="3225" font-family="Times" font-style="Roman" font-size="225" fill="black" text-anchor="middle">server</text>
+</svg>

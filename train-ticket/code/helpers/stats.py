@@ -21,6 +21,9 @@ class Stats:
     def jiffies_to_seconds(self, x):
         return x * 10**-2
 
+    def ms_to_seconds(self, x):
+        return x * 10**-3
+
     def ns_to_seconds(self, x):
         return x * 10**-9
 
@@ -59,6 +62,9 @@ class ContainerStats(Stats):
     def raw_data_to_list(self):
         return [self.measure_to_list(measure) for measure in self.data]
 
+    def calculate_utilization(self, busy, duration):
+        return busy / duration / 8 * 100
+
     def __generate_stats(self):
         self.data = self.raw_data_to_list()
         delta = self.get_difference_among_measurements()
@@ -66,8 +72,15 @@ class ContainerStats(Stats):
         output = {}
         for r in delta:
             for k, v in r.items():
-                if k != 'timestamp':
-                    output[k] = {'cpu' : self.jiffies_to_seconds(v[0]) / r['timestamp'] / 8 * 100}
+                if k != 'timestamp' and k != 'docker':
+                    output[k] = {
+                        'cpu': self.calculate_utilization(
+                            self.jiffies_to_seconds(v[0]), r['timestamp']
+                        ),
+                        'disk': self.ms_to_seconds(v[1]) / r['timestamp'],
+                        'io': v[2]
+                    }
+
         return output
 
 class SystemStats(Stats):
