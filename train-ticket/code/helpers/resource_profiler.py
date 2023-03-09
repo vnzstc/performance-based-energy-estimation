@@ -8,11 +8,11 @@ class Commands:
         'cpu': """awk -e '/cpu[0-9]? / {print $2+$3+$4+$5+$6+$7+$8+$9+$10,$5}' /proc/stat""",
         'disk': """awk '/sda / { print $13,$4+$8 }' /proc/diskstats""",
         'docker': """
-            CPUPATH=/sys/fs/cgroup/cpuacct/docker/cpuacct.usage_percpu
+            CPUPATH=/sys/fs/cgroup/cpuacct/docker/cpuacct.usage
             cat $CPUPATH
         """,
         'containers': """
-            CPUPATH=/sys/fs/cgroup/cpuacct/docker/{element}*/cpuacct.usage_percpu
+            CPUPATH=/sys/fs/cgroup/cpuacct/docker/{element}*/cpuacct.usage
             DISKPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_service_time
             IOPATH=/sys/fs/cgroup/blkio/docker/{element}*/blkio.io_serviced
 
