@@ -8,7 +8,7 @@ def get_data(systat):
     if args.containers:
         data = {
             args.containers[c] : systat.get_containers(c) for c in args.containers
-        } 
+        }
 
         return data | {"docker": systat.get_docker() } | {'timestamp' : time.time()}
 

@@ -75,9 +75,9 @@ class ContainerStats(Stats):
                 if k != 'timestamp' and k != 'docker':
                     output[k] = {
                         'cpu': self.calculate_utilization(
-                            self.jiffies_to_seconds(v[0]), r['timestamp']
+                            self.ns_to_seconds(v[0]), r['timestamp']
                         ),
-                        'disk': self.ms_to_seconds(v[1]) / r['timestamp'],
+                        'disk': round(self.ns_to_seconds(v[1]) / r['timestamp'] * 100, 3),
                         'io': v[2]
                     }
 
@@ -103,7 +103,7 @@ class SystemStats(Stats):
         return round(usage * 100, 3)
 
     def calculate_disk_utilization(self, busy, period):
-        usage = self.jiffies_to_seconds(busy)/period
+        usage = self.ms_to_seconds(busy)/period
         return round(usage * 100, 3)
 
     def calculate_utilization(self, row):

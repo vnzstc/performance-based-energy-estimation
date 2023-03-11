@@ -15,7 +15,7 @@ T 0
 	t Preserve	  		n pres					 -1 cpu
 	t Contacts 			n con					 -1 cpu
  	t Residual			i rtr rass rcon rfo rpr	 -1 cpu
-	#t Disk				n di				     -1 disk 
+	#t Disk				n di				     -1 disk
 -1
 
 E 0 

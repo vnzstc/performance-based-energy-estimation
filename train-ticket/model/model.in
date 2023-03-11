@@ -1,37 +1,16 @@
-G "Train Ticket Booking System" -1
+G "TTBS" -1
 
 P 0 
-	# p Client i i
 	p CPU 	 f m 8
 -1
 
 T 0 
-	# t Customer  r ClientEntry	-1 Client 
-
 	t UI			n ui	-1 CPU 
 	t Auth 			n auth  -1 CPU
 	t Verification	n verif -1 CPU
-
-	#t Assurance n a1	-1 CPU
-	#t Food		n f1	-1 CPU
-	t Travel	n t1	-1 CPU
-	#t Residual  r r1	-1 CPU 
-
 -1
 
 E 0 
-	# Customers - Closed Network
-	# s ClientEntry 		0.1 -1
-	# y ClientEntry TTBS  	1 	-1
-
-	# Customers - Open Network
-	a ui 	0.2
-
+	a ui 			
 	s ui 	0.5 -1
-	s t1 	0.5 -1
-
-	# To Residual
-	#y a1 r1 1 -1
-	#y f1 r1 1 -1
-	#y t1 r1 1 -1
 -1
