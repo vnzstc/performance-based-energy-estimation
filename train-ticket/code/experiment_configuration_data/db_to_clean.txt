@@ -1,0 +1,8 @@
+orders		cf6f2f17dc30	X	
+contacts	030d9e0dd407	X
+auth		63a6b698111f	X	ts-auth-mongo	3772	
+food		2ee44c741fef	X	to_clean		142558
+assurance	9c35ed4eb306	X
+consign		4da85799face	X	to_clean		142556
+travel		bbe480e2a7f7	X
+price		a055ed1e8576	X
