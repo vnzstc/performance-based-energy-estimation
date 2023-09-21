@@ -1,0 +1,74 @@
+G "Buy Ticket" -1
+
+P 0 
+	# p Client i i
+	p CPU 	 f m 8 
+	#p Disk f
+-1
+
+T 0 
+	#t Customers 		r client				 -1 Client
+	t UI 				n ui					 -1 CPU  
+	t Authentication 	n auth					 -1 CPU 
+	t Verification    	n ver					 -1 CPU 
+
+	t Travel			n trav					 -1 CPU 
+	t TicketInfo		n ts					 -1 CPU
+	t Basic				n basic					 -1 CPU
+
+	t Assurance 		n ass					 -1 CPU 
+	t Contacts			n con					 -1 CPU 
+
+	#t Contacts-Mongo	n conmon				 -1 Disk 
+
+	t Food				n food					 -1 CPU 
+	t Preserve	  		n pres					 -1 CPU 
+
+ 	t Residual			i r0 r1 r2				 -1 CPU 
+
+	#t Disk				n di				     -1 disk
+-1
+
+E 0 
+	a ui 21.07	
+	
+	#s client    18	 	 -1
+	#z client ui 500		 -1
+
+	s ui 		0.0004	 -1
+	s auth  	0.012    -1
+	s ver   	0.0006   -1
+	
+	y ui   auth 1	 	 -1
+	y auth ver  1		 -1
+
+	s trav		0.0033   -1
+	s ts	    0.0020   -1
+	s basic		0.0023	 -1
+
+	y ui trav	1		 -1
+	y trav ts 	1		 -1
+	y ts basic  1		 -1 
+
+	s ass		0.00025  -1
+	y ui ass	1		 -1
+
+	s con		0.0012	 -1
+	y ui con	1		 -1
+
+	s food		0.0006	 -1
+	y ui food	1		 -1
+	y food r2 	1		 -1
+
+	s pres		0.0006   -1
+	y ui pres	1		 -1
+
+	s r0 		0.007	 -1
+	s r1 		0.0007	 -1
+	s r2		0.00048	 -1 		
+
+	y basic r0 	1		 -1
+	y pres  r1  1	     -1
+
+ 	#s di		0.0042	-1
+-1

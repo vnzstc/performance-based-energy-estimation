@@ -1,0 +1,56 @@
+G "Buy Ticket" -1
+
+P 0 
+	p CPU f m 8 
+	# p Disk f
+-1
+
+T 0 
+	t UI 				n ui					 -1 CPU  
+
+	#t Verification    	n ver					 -1 CPU 
+	#t Authentication 	n auth					 -1 CPU 
+	#t Travel			n trav					 -1 CPU 
+	#t Food				n food					 -1 CPU 
+	#t Assurance 		n ass					 -1 CPU 
+	#t Preserve	  		n pres					 -1 CPU 
+	#t Contacts			n con					 -1 CPU 
+ 	#t Residual			i rtr rass rcon rfo rpr	 -1 CPU 
+	#t Disk				n di				     -1 disk
+-1
+
+E 0 
+	a ui 	0.070 		# arrival rate
+
+	s ui 	0.0316 -1
+	s ver   0.0336 -1
+	s trav  0.466  -1
+	s auth  0.92   -1
+	s food  0.090  -1
+	s pres 	0.17   -1
+	s ass	0.05   -1
+	s con   0.095  -1
+
+	s rtr	1.75    -1
+	s rass  0.62    -1
+	s rcon  0.021   -1
+	s rfo	0.07  	-1
+	s rpr	0.17  	-1
+
+ 	#s di	0.0042 -1
+
+	z ui 	auth 1 -1
+	z ui 	food 1 -1
+	z ui 	pres 1 -1
+	z ui	con  1 -1
+
+	z food 	trav 1 -1
+	z auth  ver  1 -1
+	z pres  ass  1 -1 
+
+	z trav	rtr  1 -1
+	z ass   rass 1 -1
+	z con   rcon 1 -1
+	z food	rfo  1 -1
+	z pres  rpr  1 -1
+-1

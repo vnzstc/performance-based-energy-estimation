@@ -1,0 +1,14 @@
+G "TTBS" -1
+
+P 0 
+	p CPU 	 f m 8
+-1
+
+T 0 
+	t Server	n server	-1 CPU
+-1
+
+E 0
+	a server			5.35	
+	s server    		0.086	-1
+-1

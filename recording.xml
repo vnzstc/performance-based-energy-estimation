@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="rr2---sn-cg07yn7e.googlevideo.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT rr2---sn-cg07yn7e.googlevideo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="rr6---sn-n4g-jqbed.googlevideo.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT rr6---sn-n4g-jqbed.googlevideo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="145" it="0" lt="145" ct="15" ts="1679584141099" s="true" lb="-61" rc="200" rm="" tn="" dt="text" de="UTF-8" by="854" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:09:49 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-travel-service:12346
+Access-Control-Allow-Origin: http://145.108.225.7:8080
+Vary: Origin
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://145.108.225.7:8080/
+Accept-Language: en-US,en;q=0.5
+Origin: http://145.108.225.7:8080
+Host: 145.108.225.7:8080
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Length: 79
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status&quot;:1,&quot;msg&quot;:&quot;Success&quot;,&quot;data&quot;:[{&quot;tripId&quot;:{&quot;type&quot;:&quot;D&quot;,&quot;number&quot;:&quot;1345&quot;},&quot;trainTypeId&quot;:&quot;DongCheOne&quot;,&quot;startingStation&quot;:&quot;Shang Hai&quot;,&quot;terminalStation&quot;:&quot;Su Zhou&quot;,&quot;startingTime&quot;:1367622000000,&quot;endTime&quot;:1367622960000,&quot;economyClass&quot;:1073741823,&quot;confortClass&quot;:1073741823,&quot;priceForEconomyClass&quot;:&quot;22.5&quot;,&quot;priceForConfortClass&quot;:&quot;50.0&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;startingPlace&quot;:&quot;Shang Hai&quot;,&quot;endPlace&quot;:&quot;Su Zhou&quot;,&quot;departureTime&quot;:&quot;2023-04-26&quot;}</queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/travelservice/trips/left</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="i.ytimg.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT i.ytimg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="rr2---sn-cg07yn7e.googlevideo.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT rr2---sn-cg07yn7e.googlevideo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="rr6---sn-n4g-jqbed.googlevideo.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT rr6---sn-n4g-jqbed.googlevideo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="115" it="0" lt="115" ct="15" ts="1679584165425" s="true" lb="-77" rc="200" rm="" tn="" dt="text" de="UTF-8" by="802" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:10:13 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-auth-service:12340
+Access-Control-Allow-Origin: *
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://145.108.225.7:8080/adminlogin.html
+Accept-Language: en-US,en;q=0.5
+Origin: http://145.108.225.7:8080
+Host: 145.108.225.7:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/plain, */*
+Content-Length: 40
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status&quot;:1,&quot;msg&quot;:&quot;login success&quot;,&quot;data&quot;:{&quot;userId&quot;:&quot;e6b90fbc-de6f-4e8e-9d83-bb8f18e2a380&quot;,&quot;username&quot;:&quot;admin&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiJlNmI5MGZiYy1kZTZmLTRlOGUtOWQ4My1iYjhmMThlMmEzODAiLCJpYXQiOjE2Nzk1ODQyMTMsImV4cCI6MTY3OTU4NzgxM30.IVVsZC25yz3vGJnxXxGHNCTZy5EqFCYo8ZcY9b1DId0&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;username&quot;:&quot;admin&quot;,&quot;password&quot;:&quot;222222&quot;}</queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/users/login</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="50" ct="16" ts="1679584165922" s="true" lb="-78" rc="200" rm="" tn="" dt="text" de="UTF-8" by="12311" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:10:14 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-admin-order-service:16112
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiJlNmI5MGZiYy1kZTZmLTRlOGUtOWQ4My1iYjhmMThlMmEzODAiLCJpYXQiOjE2Nzk1ODQyMTMsImV4cCI6MTY3OTU4NzgxM30.IVVsZC25yz3vGJnxXxGHNCTZy5EqFCYo8ZcY9b1DId0
+Referer: http://145.108.225.7:8080/admin.html
+Accept-Language: en-US,en;q=0.5
+Host: 145.108.225.7:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status&quot;:1,&quot;msg&quot;:&quot;Get the orders successfully!&quot;,&quot;data&quot;:[{&quot;id&quot;:&quot;03112806-bc54-4670-9420-445644cf8be9&quot;,&quot;boughtDate&quot;:1679582070605,&quot;travelDate&quot;:1681862400000,&quot;travelTime&quot;:1367622000000,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;&quot;,&quot;trainNumber&quot;:&quot;D1345&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;1730110346&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;suzhou&quot;,&quot;status&quot;:0,&quot;price&quot;:&quot;50.0&quot;},{&quot;id&quot;:&quot;9f59ab52-b10d-456a-8711-60dbe4fb4a6f&quot;,&quot;boughtDate&quot;:1679582233068,&quot;travelDate&quot;:1681862400000,&quot;travelTime&quot;:1367622000000,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;&quot;,&quot;trainNumber&quot;:&quot;D1345&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;486200794&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;suzhou&quot;,&quot;status&quot;:0,&quot;price&quot;:&quot;50.0&quot;},{&quot;id&quot;:&quot;93558705-9467-4ba6-a590-f4c0d84630e5&quot;,&quot;boughtDate&quot;:1674206025931,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;7beff697-b0f8-40d1-8a5d-30a53931d327&quot;,&quot;boughtDate&quot;:1674222969422,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;7e80c338-f341-456a-b433-ce966c6f87b9&quot;,&quot;boughtDate&quot;:1674806878498,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;7f3ec0a3-651c-4b4f-8425-85f6e48c6d2b&quot;,&quot;boughtDate&quot;:1674813091370,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;6fe42760-678f-4e56-914e-044c1c7eef1f&quot;,&quot;boughtDate&quot;:1674813692234,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;81fd10d2-86c5-46c8-8157-92c56df7318b&quot;,&quot;boughtDate&quot;:1674817280960,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;5984360c-a384-4a20-a86e-e97a0fe5dcde&quot;,&quot;boughtDate&quot;:1674817883857,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;9cd63a29-5673-4b16-8a95-720f0b74e43b&quot;,&quot;boughtDate&quot;:1674818515281,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;ee02ac66-e0af-47c6-a559-e3090e125534&quot;,&quot;boughtDate&quot;:1674821344693,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;5c213818-ceaf-43fd-80e9-b8f6eab26e1f&quot;,&quot;boughtDate&quot;:1674823345388,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;ef1058ad-95e7-4c90-993d-75581f631e63&quot;,&quot;boughtDate&quot;:1674827476117,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;f1c8cde8-62f0-472e-b366-90ebec66439f&quot;,&quot;boughtDate&quot;:1674828420229,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;40e119e5-5cf7-4b88-8f7c-a554aa23bc04&quot;,&quot;boughtDate&quot;:1674828853079,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;3a02b8e3-5197-4058-b6d4-726ffff66264&quot;,&quot;boughtDate&quot;:1675119814282,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;ff52208d-b460-4814-b1f1-ea388fc4eaab&quot;,&quot;boughtDate&quot;:1675122524983,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;69bb17e5-c86a-4190-a377-4f0dbfac8f34&quot;,&quot;boughtDate&quot;:1675470551632,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;f307be92-c814-495b-9465-c8d15e8db577&quot;,&quot;boughtDate&quot;:1675471479947,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;e333761e-46fb-4452-9790-bbad8e702566&quot;,&quot;boughtDate&quot;:1675531170525,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;b0ed7415-2dff-4153-b6aa-6d1b214509fa&quot;,&quot;boughtDate&quot;:1675610566871,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;868c7d08-7b22-4d23-b9de-a9372880f7cb&quot;,&quot;boughtDate&quot;:1678562173056,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;2baab429-35fe-4f2c-80a2-df0c6f18bf70&quot;,&quot;boughtDate&quot;:1678562505343,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;ee136eac-3990-4ef5-8e7b-5b0667995a04&quot;,&quot;boughtDate&quot;:1678563241071,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;df215b42-49d8-465f-ab77-2a1ac156582e&quot;,&quot;boughtDate&quot;:1678713630893,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;3a97575f-9108-4da5-aaa1-e33a829a4558&quot;,&quot;boughtDate&quot;:1678714239130,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;f440d2af-6bf8-41b4-87d7-fa043d02ddc1&quot;,&quot;boughtDate&quot;:1678715171351,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;75e3d9c3-dc0b-45b7-962a-972ec74a1658&quot;,&quot;boughtDate&quot;:1678718329293,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;8d2d63db-4f16-4fb3-ac56-75aa4a0e928c&quot;,&quot;boughtDate&quot;:1678804233217,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;7cbd5d7a-6472-4890-b0e8-d2cc728f02f7&quot;,&quot;boughtDate&quot;:1678807107262,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;c304b019-552a-4944-b533-0615c6b3feb9&quot;,&quot;boughtDate&quot;:1678807380105,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;},{&quot;id&quot;:&quot;83ea984e-432d-4056-912e-24a29ba382f1&quot;,&quot;boughtDate&quot;:1678808738229,&quot;travelDate&quot;:123456799,&quot;travelTime&quot;:123456799,&quot;accountId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;contactsName&quot;:&quot;Test&quot;,&quot;documentType&quot;:1,&quot;contactsDocumentNumber&quot;:&quot;Test&quot;,&quot;trainNumber&quot;:&quot;K1235&quot;,&quot;coachNumber&quot;:5,&quot;seatClass&quot;:2,&quot;seatNumber&quot;:&quot;6A&quot;,&quot;from&quot;:&quot;shanghai&quot;,&quot;to&quot;:&quot;taiyuan&quot;,&quot;status&quot;:1,&quot;price&quot;:&quot;100&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/adminorderservice/adminorder</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="42" ct="15" ts="1679584170605" s="true" lb="-79" rc="200" rm="" tn="" dt="text" de="UTF-8" by="654" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:10:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-admin-user-service:16115
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiJlNmI5MGZiYy1kZTZmLTRlOGUtOWQ4My1iYjhmMThlMmEzODAiLCJpYXQiOjE2Nzk1ODQyMTMsImV4cCI6MTY3OTU4NzgxM30.IVVsZC25yz3vGJnxXxGHNCTZy5EqFCYo8ZcY9b1DId0
+Referer: http://145.108.225.7:8080/admin_user.html
+Accept-Language: en-US,en;q=0.5
+Host: 145.108.225.7:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status&quot;:1,&quot;msg&quot;:&quot;Success&quot;,&quot;data&quot;:[{&quot;userId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;userName&quot;:&quot;fdse_microservice&quot;,&quot;password&quot;:&quot;111111&quot;,&quot;gender&quot;:1,&quot;documentType&quot;:1,&quot;documentNum&quot;:&quot;2135488099312X&quot;,&quot;email&quot;:&quot;trainticket_notify@163.com&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/adminuserservice/users</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="rr2---sn-cg07yn7e.googlevideo.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT rr2---sn-cg07yn7e.googlevideo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="62" it="0" lt="62" ct="15" ts="1679584181999" s="false" lb="-86" rc="400" rm="" tn="" dt="text" de="UTF-8" by="1065" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:10:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-admin-user-service:16115
+Access-Control-Allow-Origin: *
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiJlNmI5MGZiYy1kZTZmLTRlOGUtOWQ4My1iYjhmMThlMmEzODAiLCJpYXQiOjE2Nzk1ODQyMTMsImV4cCI6MTY3OTU4NzgxM30.IVVsZC25yz3vGJnxXxGHNCTZy5EqFCYo8ZcY9b1DId0
+Referer: http://145.108.225.7:8080/admin_user.html
+Accept-Language: en-US,en;q=0.5
+Origin: http://145.108.225.7:8080
+Host: 145.108.225.7:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/plain, */*
+Content-Length: 100
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1679584230405,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;exception&quot;:&quot;org.springframework.http.converter.HttpMessageNotReadableException&quot;,&quot;message&quot;:&quot;JSON parse error: Can not deserialize value of type int from String \&quot;p\&quot;: not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String \&quot;p\&quot;: not a valid Integer value\n at [Source: java.io.PushbackInputStream@bb273d0; line: 1, column: 76] (through reference chain: adminuser.dto.UserDto[\&quot;documentType\&quot;])&quot;,&quot;path&quot;:&quot;/api/v1/adminuserservice/users&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;userName&quot;:&quot;t&quot;,&quot;password&quot;:&quot;t&quot;,&quot;gender&quot;:&quot;0&quot;,&quot;email&quot;:&quot;enza2&quot;,&quot;documentType&quot;:&quot;p&quot;,&quot;documentNum&quot;:&quot;1201&quot;}</queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/adminuserservice/users</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="rr6---sn-n4g-jqbed.googlevideo.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT rr6---sn-n4g-jqbed.googlevideo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1203" sc="1" ec="1" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="850" it="0" lt="850" ct="17" ts="1679584210846" s="true" lb="-105" rc="200" rm="" tn="" dt="text" de="UTF-8" by="660" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:10:59 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-admin-user-service:16115
+Access-Control-Allow-Origin: *
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiJlNmI5MGZiYy1kZTZmLTRlOGUtOWQ4My1iYjhmMThlMmEzODAiLCJpYXQiOjE2Nzk1ODQyMTMsImV4cCI6MTY3OTU4NzgxM30.IVVsZC25yz3vGJnxXxGHNCTZy5EqFCYo8ZcY9b1DId0
+Referer: http://145.108.225.7:8080/admin_user.html
+Accept-Language: en-US,en;q=0.5
+Origin: http://145.108.225.7:8080
+Host: 145.108.225.7:8080
+Content-Type: application/json;charset=utf-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/plain, */*
+Content-Length: 100
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status&quot;:1,&quot;msg&quot;:&quot;REGISTER USER SUCCESS&quot;,&quot;data&quot;:{&quot;userId&quot;:&quot;19c30854-f028-4e4e-bf4a-401bfaac4be7&quot;,&quot;userName&quot;:&quot;t&quot;,&quot;password&quot;:&quot;t&quot;,&quot;gender&quot;:0,&quot;documentType&quot;:2,&quot;documentNum&quot;:&quot;1201&quot;,&quot;email&quot;:&quot;enza2&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;userName&quot;:&quot;t&quot;,&quot;password&quot;:&quot;t&quot;,&quot;gender&quot;:&quot;0&quot;,&quot;email&quot;:&quot;enza2&quot;,&quot;documentType&quot;:&quot;2&quot;,&quot;documentNum&quot;:&quot;1201&quot;}</queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/adminuserservice/users</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="0" ct="15" ts="1679584212831" s="true" lb="-106" rc="304" rm="Not Modified" tn="" dt="" de="" by="182" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:11:01 GMT
+Last-Modified: Tue, 22 Nov 2022 09:54:54 GMT
+Connection: close
+ETag: &quot;637c9c6e-6c10&quot;
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://145.108.225.7:8080/admin.html
+If-Modified-Since: Tue, 22 Nov 2022 09:54:54 GMT
+If-None-Match: &quot;637c9c6e-6c10&quot;
+Accept-Language: en-US,en;q=0.5
+Host: 145.108.225.7:8080
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://145.108.225.7:8080/admin_user.html</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="46" ct="15" ts="1679584213154" s="true" lb="-107" rc="200" rm="" tn="" dt="text" de="UTF-8" by="800" sc="1" ec="0" ng="0" na="0" hn="xeder-workstation">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Server: openresty/1.13.6.1
+Date: Thu, 23 Mar 2023 15:11:01 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+X-Application-Context: ts-admin-user-service:16115
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiJlNmI5MGZiYy1kZTZmLTRlOGUtOWQ4My1iYjhmMThlMmEzODAiLCJpYXQiOjE2Nzk1ODQyMTMsImV4cCI6MTY3OTU4NzgxM30.IVVsZC25yz3vGJnxXxGHNCTZy5EqFCYo8ZcY9b1DId0
+Referer: http://145.108.225.7:8080/admin_user.html
+Accept-Language: en-US,en;q=0.5
+Host: 145.108.225.7:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;status&quot;:1,&quot;msg&quot;:&quot;Success&quot;,&quot;data&quot;:[{&quot;userId&quot;:&quot;4d2a46c7-71cb-4cf1-b5bb-b68406d9da6f&quot;,&quot;userName&quot;:&quot;fdse_microservice&quot;,&quot;password&quot;:&quot;111111&quot;,&quot;gender&quot;:1,&quot;documentType&quot;:1,&quot;documentNum&quot;:&quot;2135488099312X&quot;,&quot;email&quot;:&quot;trainticket_notify@163.com&quot;},{&quot;userId&quot;:&quot;19c30854-f028-4e4e-bf4a-401bfaac4be7&quot;,&quot;userName&quot;:&quot;t&quot;,&quot;password&quot;:&quot;t&quot;,&quot;gender&quot;:0,&quot;documentType&quot;:2,&quot;documentNum&quot;:&quot;1201&quot;,&quot;email&quot;:&quot;enza2&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=8DA65EADFC577EEF8A0099C144DB6527; YsbCaptcha=E3B7CCAE63F34070A14068BE7E693E88</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://145.108.225.7:8080/api/v1/adminuserservice/users</java.net.URL>
+</httpSample>
+
+</testResults>

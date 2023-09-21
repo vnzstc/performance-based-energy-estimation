@@ -1,0 +1,49 @@
+G "TTBS" -1
+
+P 0 
+	p Client f i i
+	p CPU 	 f m 8
+-1
+
+T 0 
+	t Customers			r buyTicket -1 Client m 75
+	t OS 				n os		-1 CPU
+	t UI				n ui	 	-1 CPU 
+	t Verification    	n ver		-1 CPU 
+	t Authentication 	n auth		-1 CPU 
+	t Travel			n trav		-1 CPU 
+	t Assurance 		n ass		-1 CPU 
+	t Contacts 			n con		-1 CPU 
+	t Food				n food		-1 CPU 
+	t Preserve	  		n pres		-1 CPU 
+-1
+
+E 0
+	s buyTicket			14.20				-1
+	s os				0.0 	0.023		-1
+	s ui			 	0.00041				-1
+	s ver				0.00044				-1
+	s auth				0.012				-1
+	s trav				0.0062 	0.025		-1	
+	s ass               0.00065				-1	
+	s con			    0.0012				-1	
+	s food				0.0012  0.00071		-1	
+	s pres				0.0022  0.0016		-1
+
+	z buyTicket os		 1					-1
+	z os		ui		 1					-1
+
+	# login
+
+	z ui 		auth 	 1 			-1
+	z auth  	ver  	 1 			-1
+
+	# buy
+
+	z ui 		trav	 1			-1
+	z ui 		ass		 1			-1
+	z ui 		con 	 1			-1
+	z ui 		food	 1			-1
+	z ui		pres	 1			-1
+
+-1

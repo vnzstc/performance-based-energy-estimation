@@ -1,0 +1,24 @@
+.
+└── UI/
+    ├── Auth/
+    │   └── VerificationCode
+    ├── Travel/
+    │   └── TicketInfo/
+    │       └── Basic/
+    │           ├── Station
+    │           ├── Route
+    │           ├── Train
+    │           ├── Price
+    │           ├── Order
+    │           └── Seat/
+    │               └── Config
+    ├── Assurance
+    ├── Contacts
+    ├── Food/
+    │   └── Food-Map
+    └── Preserve/
+        ├── Security/
+        │   └── Order-Other
+        ├── Consign
+        ├── Consign-Price
+        └── User

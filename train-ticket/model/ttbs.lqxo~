@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<!-- $Id$ -->
+<!-- lqsim -->
+<lqn-model name="ttbs" description="lqsim 5.25 solution for model from: ttbs.lqnx." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/usr/local/share/lqns/lqn.xsd">
+   <solver-params comment="Buy Ticket" conv_val="1e-05" it_limit="50" underrelax_coeff="0.9" print_int="10">
+      <pragma param="seed-value" value="1681251404"/>
+      <result-general solver-info="5.25" valid="true" conv-val="0" iterations="1" platform-info="" user-cpu-time=" 0:00:11.383" system-cpu-time=" 0:00:00.000" elapsed-time=" 0:00:11.392" max-rss="13532"/>
+   </solver-params>
+   <processor name="CPU" scheduling="fcfs" multiplicity="8">
+      <result-processor utilization="0.662111"/>
+      <task name="UI" scheduling="fcfs">
+         <result-task throughput="21.0709" utilization="0.662111" phase1-utilization="0.662111" proc-utilization="0.00842644"/>
+         <entry name="ui" type="PH1PH2" open-arrival-rate="21.07">
+            <result-entry utilization="0.662111" throughput="21.0709" squared-coeff-variation="2.30246" proc-utilization="0.00842644" throughput-bound="31.8167" open-wait-time="0.133442"/>
+            <entry-phase-activities>
+               <activity name="ui_1" phase="1" host-demand-mean="0.0004">
+                  <result-activity proc-waiting="0" service-time="0.0314231" utilization="0.662111" service-time-variance="0.00227347"/>
+                  <synch-call dest="auth" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+                  <synch-call dest="trav" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+                  <synch-call dest="ass" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+                  <synch-call dest="con" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+                  <synch-call dest="food" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+                  <synch-call dest="pres" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Authentication" scheduling="fcfs">
+         <result-task throughput="21.0688" utilization="0.265632" phase1-utilization="0.265632" proc-utilization="0.252968"/>
+         <entry name="auth" type="PH1PH2">
+            <result-entry utilization="0.265632" throughput="21.0688" squared-coeff-variation="1.00052" proc-utilization="0.252968" throughput-bound="79.3651"/>
+            <entry-phase-activities>
+               <activity name="auth_1" phase="1" host-demand-mean="0.012">
+                  <result-activity proc-waiting="0" service-time="0.0126079" utilization="0.265632" service-time-variance="0.00015904"/>
+                  <synch-call dest="ver" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Verification" scheduling="fcfs">
+         <result-task throughput="21.0925" utilization="0.0126641" phase1-utilization="0.0126641" proc-utilization="0.0126641"/>
+         <entry name="ver" type="PH1PH2">
+            <result-entry utilization="0.0126641" throughput="21.0925" squared-coeff-variation="1.00017" proc-utilization="0.0126641" throughput-bound="1666.67"/>
+            <entry-phase-activities>
+               <activity name="ver_1" phase="1" host-demand-mean="0.0006">
+                  <result-activity proc-waiting="0" service-time="0.000600407" utilization="0.0126641" service-time-variance="3.60549e-07"/>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Travel" scheduling="fcfs">
+         <result-task throughput="21.0744" utilization="0.307327" phase1-utilization="0.307327" proc-utilization="0.0694879"/>
+         <entry name="trav" type="PH1PH2">
+            <result-entry utilization="0.307327" throughput="21.0744" squared-coeff-variation="3.49035" proc-utilization="0.0694879" throughput-bound="68.4932"/>
+            <entry-phase-activities>
+               <activity name="trav_1" phase="1" host-demand-mean="0.0033">
+                  <result-activity proc-waiting="0" service-time="0.014583" utilization="0.307327" service-time-variance="0.000742267"/>
+                  <synch-call dest="ts" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="TicketInfo" scheduling="fcfs">
+         <result-task throughput="21.0336" utilization="0.237839" phase1-utilization="0.237839" proc-utilization="0.0420631"/>
+         <entry name="ts" type="PH1PH2">
+            <result-entry utilization="0.237839" throughput="21.0336" squared-coeff-variation="3.12255" proc-utilization="0.0420631" throughput-bound="88.4956"/>
+            <entry-phase-activities>
+               <activity name="ts_1" phase="1" host-demand-mean="0.002">
+                  <result-activity proc-waiting="0" service-time="0.0113076" utilization="0.237839" service-time-variance="0.000399254"/>
+                  <synch-call dest="basic" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Basic" scheduling="fcfs">
+         <result-task throughput="21.0482" utilization="0.195776" phase1-utilization="0.195776" proc-utilization="0.0484428"/>
+         <entry name="basic" type="PH1PH2">
+            <result-entry utilization="0.195776" throughput="21.0482" squared-coeff-variation="2.13217" proc-utilization="0.0484428" throughput-bound="107.527"/>
+            <entry-phase-activities>
+               <activity name="basic_1" phase="1" host-demand-mean="0.0023">
+                  <result-activity proc-waiting="0" service-time="0.00930135" utilization="0.195776" service-time-variance="0.000184465"/>
+                  <synch-call dest="r0" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Assurance" scheduling="fcfs">
+         <result-task throughput="21.0575" utilization="0.00527114" phase1-utilization="0.00527114" proc-utilization="0.00527114"/>
+         <entry name="ass" type="PH1PH2">
+            <result-entry utilization="0.00527114" throughput="21.0575" squared-coeff-variation="0.997936" proc-utilization="0.00527114" throughput-bound="4000"/>
+            <entry-phase-activities>
+               <activity name="ass_1" phase="1" host-demand-mean="0.00025">
+                  <result-activity proc-waiting="0" service-time="0.000250322" utilization="0.00527114" service-time-variance="6.25315e-08"/>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Contacts" scheduling="fcfs">
+         <result-task throughput="21.074" utilization="0.0252609" phase1-utilization="0.0252609" proc-utilization="0.0252609"/>
+         <entry name="con" type="PH1PH2">
+            <result-entry utilization="0.0252609" throughput="21.074" squared-coeff-variation="1.00073" proc-utilization="0.0252609" throughput-bound="833.333"/>
+            <entry-phase-activities>
+               <activity name="con_1" phase="1" host-demand-mean="0.0012">
+                  <result-activity proc-waiting="0" service-time="0.00119867" utilization="0.0252609" service-time-variance="1.43787e-06"/>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Food" scheduling="fcfs">
+         <result-task throughput="21.0875" utilization="0.0227795" phase1-utilization="0.0227795" proc-utilization="0.012656"/>
+         <entry name="food" type="PH1PH2">
+            <result-entry utilization="0.0227795" throughput="21.0875" squared-coeff-variation="1.39682" proc-utilization="0.012656" throughput-bound="925.926"/>
+            <entry-phase-activities>
+               <activity name="food_1" phase="1" host-demand-mean="0.0006">
+                  <result-activity proc-waiting="0" service-time="0.00108024" utilization="0.0227795" service-time-variance="1.62997e-06"/>
+                  <synch-call dest="r2" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Preserve" scheduling="fcfs">
+         <result-task throughput="21.0723" utilization="0.0274136" phase1-utilization="0.0274136" proc-utilization="0.0126406"/>
+         <entry name="pres" type="PH1PH2">
+            <result-entry utilization="0.0274136" throughput="21.0723" squared-coeff-variation="1.57544" proc-utilization="0.0126406" throughput-bound="769.231"/>
+            <entry-phase-activities>
+               <activity name="pres_1" phase="1" host-demand-mean="0.0006">
+                  <result-activity proc-waiting="0" service-time="0.00130093" utilization="0.0274136" service-time-variance="2.66628e-06"/>
+                  <synch-call dest="r1" calls-mean="1">
+                     <result-call waiting="0" waiting-variance="0"/>
+                  </synch-call>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+      <task name="Residual" scheduling="inf">
+         <result-task throughput="63.2127" utilization="0.17223" phase1-utilization="0.17223" proc-utilization="0.17223"/>
+         <entry name="r0" type="PH1PH2">
+            <result-entry utilization="0.147333" throughput="21.0682" squared-coeff-variation="0.999676" proc-utilization="0.147333" throughput-bound="142.857"/>
+            <entry-phase-activities>
+               <activity name="r0_1" phase="1" host-demand-mean="0.007">
+                  <result-activity proc-waiting="0" service-time="0.00699316" utilization="0.147333" service-time-variance="4.88884e-05"/>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+         <entry name="r1" type="PH1PH2">
+            <result-entry utilization="0.014773" throughput="21.0614" squared-coeff-variation="1.00172" proc-utilization="0.014773" throughput-bound="1428.57"/>
+            <entry-phase-activities>
+               <activity name="r1_1" phase="1" host-demand-mean="0.0007">
+                  <result-activity proc-waiting="0" service-time="0.000701427" utilization="0.014773" service-time-variance="4.92845e-07"/>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+         <entry name="r2" type="PH1PH2">
+            <result-entry utilization="0.0101235" throughput="21.0831" squared-coeff-variation="0.999821" proc-utilization="0.0101235" throughput-bound="2083.33"/>
+            <entry-phase-activities>
+               <activity name="r2_1" phase="1" host-demand-mean="0.00048">
+                  <service-time-distribution number-bins="20" min="0" max="0.3">
+                     <histogram-bin begin="0" end="0.015" prob="1"/>
+                     <histogram-bin begin="0.015" end="0.03" prob="0"/>
+                     <histogram-bin begin="0.03" end="0.045" prob="0"/>
+                     <histogram-bin begin="0.045" end="0.06" prob="0"/>
+                     <histogram-bin begin="0.06" end="0.075" prob="0"/>
+                     <histogram-bin begin="0.075" end="0.09" prob="0"/>
+                     <histogram-bin begin="0.09" end="0.105" prob="0"/>
+                     <histogram-bin begin="0.105" end="0.12" prob="0"/>
+                     <histogram-bin begin="0.12" end="0.135" prob="0"/>
+                     <histogram-bin begin="0.135" end="0.15" prob="0"/>
+                     <histogram-bin begin="0.15" end="0.165" prob="0"/>
+                     <histogram-bin begin="0.165" end="0.18" prob="0"/>
+                     <histogram-bin begin="0.18" end="0.195" prob="0"/>
+                     <histogram-bin begin="0.195" end="0.21" prob="0"/>
+                     <histogram-bin begin="0.21" end="0.225" prob="0"/>
+                     <histogram-bin begin="0.225" end="0.24" prob="0"/>
+                     <histogram-bin begin="0.24" end="0.255" prob="0"/>
+                     <histogram-bin begin="0.255" end="0.27" prob="0"/>
+                     <histogram-bin begin="0.27" end="0.285" prob="0"/>
+                     <histogram-bin begin="0.285" end="0.3" prob="0"/>
+                  </service-time-distribution>
+                  <result-activity proc-waiting="0" service-time="0.000480173" utilization="0.0101235" service-time-variance="2.30525e-07"/>
+               </activity>
+            </entry-phase-activities>
+         </entry>
+      </task>
+   </processor>
+</lqn-model>

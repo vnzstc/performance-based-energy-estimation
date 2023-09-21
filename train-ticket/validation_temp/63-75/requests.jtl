@@ -1,0 +1,1051 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1682091158062,163,-7,200,OK,ThreadGroup 1-6,text,true,,12488,396,23,23,http://145.108.225.7:8080/client_login.html,131,0,38
+1682091158062,161,-7,200,OK,ThreadGroup 1-5,text,true,,12488,396,23,23,http://145.108.225.7:8080/client_login.html,127,0,38
+1682091158062,168,-7,200,OK,ThreadGroup 1-9,text,true,,12488,396,24,24,http://145.108.225.7:8080/client_login.html,133,0,38
+1682091158062,174,-7,200,OK,ThreadGroup 1-7,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,136,0,38
+1682091158090,148,-7,200,OK,ThreadGroup 1-12,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,107,0,10
+1682091158123,116,-7,200,OK,ThreadGroup 1-15,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,83,0,4
+1682091158062,177,-7,200,OK,ThreadGroup 1-2,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,138,0,38
+1682091158062,178,-7,200,OK,ThreadGroup 1-1,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,145,0,38
+1682091158067,173,-7,200,OK,ThreadGroup 1-10,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,135,0,33
+1682091158062,180,-7,200,OK,ThreadGroup 1-8,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,138,0,38
+1682091158113,129,-7,200,OK,ThreadGroup 1-14,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,94,0,3
+1682091158062,183,-7,200,OK,ThreadGroup 1-3,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,155,0,38
+1682091158062,184,-7,200,OK,ThreadGroup 1-4,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,145,0,38
+1682091158077,169,-7,200,OK,ThreadGroup 1-11,text,true,,12488,396,25,25,http://145.108.225.7:8080/client_login.html,135,0,23
+1682091158101,147,-7,200,OK,ThreadGroup 1-13,text,true,,12488,396,26,26,http://145.108.225.7:8080/client_login.html,108,0,3
+1682091158146,114,-7,200,OK,ThreadGroup 1-17,text,true,,12488,396,27,27,http://145.108.225.7:8080/client_login.html,88,0,4
+1682091158226,35,-9,200,,ThreadGroup 1-5,,true,,1847,332,27,27,http://145.108.225.7:8080/api/v1/verifycode/generate,31,0,0
+1682091158230,29,-9,200,,ThreadGroup 1-9,,true,,1916,332,27,27,http://145.108.225.7:8080/api/v1/verifycode/generate,27,0,0
+1682091158226,35,-9,200,,ThreadGroup 1-6,,true,,1856,332,27,27,http://145.108.225.7:8080/api/v1/verifycode/generate,32,0,0
+1682091158237,30,-9,200,,ThreadGroup 1-7,,true,,1937,332,27,27,http://145.108.225.7:8080/api/v1/verifycode/generate,29,0,0
+1682091158135,133,-7,200,OK,ThreadGroup 1-16,text,true,,12488,396,27,27,http://145.108.225.7:8080/client_login.html,104,0,3
+1682091158242,28,-9,200,,ThreadGroup 1-8,,true,,1862,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,26,0,0
+1682091158241,29,-9,200,,ThreadGroup 1-10,,true,,1821,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,28,0,0
+1682091158241,34,-9,200,,ThreadGroup 1-2,,true,,1797,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,31,0,0
+1682091158246,29,-9,200,,ThreadGroup 1-11,,true,,1865,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,28,0,0
+1682091158239,38,-9,200,,ThreadGroup 1-12,,true,,1801,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,36,0,0
+1682091158239,39,-9,200,,ThreadGroup 1-15,,true,,1871,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,36,0,0
+1682091158243,35,-9,200,,ThreadGroup 1-14,,true,,1819,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,34,0,0
+1682091158241,38,-9,200,,ThreadGroup 1-1,,true,,1831,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,35,0,0
+1682091158246,33,-9,200,,ThreadGroup 1-4,,true,,1735,332,28,28,http://145.108.225.7:8080/api/v1/verifycode/generate,29,0,0
+1682091158249,33,-9,200,,ThreadGroup 1-13,,true,,1772,332,29,29,http://145.108.225.7:8080/api/v1/verifycode/generate,31,0,0
+1682091158246,37,-9,200,,ThreadGroup 1-3,,true,,1773,332,29,29,http://145.108.225.7:8080/api/v1/verifycode/generate,34,0,0
+1682091158260,25,-9,200,,ThreadGroup 1-17,,true,,1947,332,29,29,http://145.108.225.7:8080/api/v1/verifycode/generate,24,0,0
+1682091158159,129,-7,200,OK,ThreadGroup 1-18,text,true,,12488,396,29,29,http://145.108.225.7:8080/client_login.html,101,0,4
+1682091158170,120,-7,200,OK,ThreadGroup 1-19,text,true,,12488,396,29,29,http://145.108.225.7:8080/client_login.html,91,0,4
+1682091158182,112,-7,200,OK,ThreadGroup 1-20,text,true,,12488,396,30,30,http://145.108.225.7:8080/client_login.html,91,0,5
+1682091158269,26,-9,200,,ThreadGroup 1-16,,true,,1927,332,30,30,http://145.108.225.7:8080/api/v1/verifycode/generate,25,0,0
+1682091158193,107,-7,200,OK,ThreadGroup 1-21,text,true,,12488,396,30,30,http://145.108.225.7:8080/client_login.html,93,0,5
+1682091158216,87,-7,200,OK,ThreadGroup 1-23,text,true,,12488,396,30,30,http://145.108.225.7:8080/client_login.html,72,0,3
+1682091158206,99,-7,200,OK,ThreadGroup 1-22,text,true,,12488,396,31,31,http://145.108.225.7:8080/client_login.html,85,0,3
+1682091158289,16,-9,200,,ThreadGroup 1-18,,true,,1811,332,31,31,http://145.108.225.7:8080/api/v1/verifycode/generate,16,0,0
+1682091158290,16,-9,200,,ThreadGroup 1-19,,true,,1793,332,31,31,http://145.108.225.7:8080/api/v1/verifycode/generate,16,0,0
+1682091158295,13,-9,200,,ThreadGroup 1-20,,true,,1776,332,31,31,http://145.108.225.7:8080/api/v1/verifycode/generate,13,0,0
+1682091158228,83,-7,200,OK,ThreadGroup 1-24,text,true,,12488,396,31,31,http://145.108.225.7:8080/client_login.html,70,0,4
+1682091158301,11,-9,200,,ThreadGroup 1-21,,true,,1757,332,31,31,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158303,9,-9,200,,ThreadGroup 1-23,,true,,1806,332,31,31,http://145.108.225.7:8080/api/v1/verifycode/generate,9,0,0
+1682091158237,77,-7,200,OK,ThreadGroup 1-25,text,true,,12488,396,31,31,http://145.108.225.7:8080/client_login.html,29,0,3
+1682091158306,10,-9,200,,ThreadGroup 1-22,,true,,1722,332,32,32,http://145.108.225.7:8080/api/v1/verifycode/generate,9,0,0
+1682091158260,56,-7,200,OK,ThreadGroup 1-27,text,true,,12488,396,32,32,http://145.108.225.7:8080/client_login.html,48,0,2
+1682091158248,73,-7,200,OK,ThreadGroup 1-26,text,true,,12488,396,32,32,http://145.108.225.7:8080/client_login.html,63,0,4
+1682091158311,10,-9,200,,ThreadGroup 1-24,,true,,1814,332,32,32,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091158314,9,-9,200,,ThreadGroup 1-25,,true,,1742,332,32,32,http://145.108.225.7:8080/api/v1/verifycode/generate,9,0,0
+1682091158281,45,-7,200,OK,ThreadGroup 1-29,text,true,,12488,396,32,32,http://145.108.225.7:8080/client_login.html,37,0,2
+1682091158317,9,-9,200,,ThreadGroup 1-27,,true,,1853,332,32,32,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091158270,57,-7,200,OK,ThreadGroup 1-28,text,true,,12488,396,32,32,http://145.108.225.7:8080/client_login.html,48,0,2
+1682091158294,35,-7,200,OK,ThreadGroup 1-30,text,true,,12488,396,33,33,http://145.108.225.7:8080/client_login.html,30,0,1
+1682091158322,7,-9,200,,ThreadGroup 1-26,,true,,1852,332,33,33,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091158305,26,-7,200,OK,ThreadGroup 1-31,text,true,,12488,396,33,33,http://145.108.225.7:8080/client_login.html,23,0,1
+1682091158327,5,-9,200,,ThreadGroup 1-28,,true,,1811,332,33,33,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158326,7,-9,200,,ThreadGroup 1-29,,true,,1808,332,33,33,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091158316,18,-7,200,OK,ThreadGroup 1-32,text,true,,12488,396,33,33,http://145.108.225.7:8080/client_login.html,16,0,1
+1682091158330,4,-9,200,,ThreadGroup 1-30,,true,,1782,332,33,33,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158332,4,-9,200,,ThreadGroup 1-31,,true,,1919,332,33,33,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158328,10,-7,200,OK,ThreadGroup 1-33,text,true,,12488,396,34,34,http://145.108.225.7:8080/client_login.html,8,0,1
+1682091158335,4,-9,200,,ThreadGroup 1-32,,true,,1876,332,34,34,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158339,8,-9,200,,ThreadGroup 1-33,,true,,1875,332,34,34,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091158339,21,-7,200,OK,ThreadGroup 1-34,text,true,,12488,396,35,35,http://145.108.225.7:8080/client_login.html,17,0,8
+1682091158352,9,-7,200,OK,ThreadGroup 1-35,text,true,,12488,396,35,35,http://145.108.225.7:8080/client_login.html,7,0,1
+1682091158361,5,-9,200,,ThreadGroup 1-35,,true,,1885,332,36,36,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158361,5,-9,200,,ThreadGroup 1-34,,true,,1800,332,36,36,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158363,8,-7,200,OK,ThreadGroup 1-36,text,true,,12488,396,36,36,http://145.108.225.7:8080/client_login.html,7,0,1
+1682091158372,3,-9,200,,ThreadGroup 1-36,,true,,1898,332,37,37,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158375,7,-7,200,OK,ThreadGroup 1-37,text,true,,12488,396,37,37,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158383,3,-9,200,,ThreadGroup 1-37,,true,,1801,332,38,38,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158387,4,-7,200,OK,ThreadGroup 1-38,text,true,,12488,396,38,38,http://145.108.225.7:8080/client_login.html,4,0,1
+1682091158392,3,-9,200,,ThreadGroup 1-38,,true,,1866,332,38,38,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158399,6,-7,200,OK,ThreadGroup 1-39,text,true,,12488,396,39,39,http://145.108.225.7:8080/client_login.html,5,0,2
+1682091158406,3,-9,200,,ThreadGroup 1-39,,true,,1860,332,39,39,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158412,8,-7,200,OK,ThreadGroup 1-40,text,true,,12488,396,40,40,http://145.108.225.7:8080/client_login.html,6,0,1
+1682091158421,5,-9,200,,ThreadGroup 1-40,,true,,1776,332,41,41,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158422,6,-7,200,OK,ThreadGroup 1-41,text,true,,12488,396,41,41,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158429,4,-9,200,,ThreadGroup 1-41,,true,,1847,332,42,42,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158433,5,-7,200,OK,ThreadGroup 1-42,text,true,,12488,396,42,42,http://145.108.225.7:8080/client_login.html,4,0,1
+1682091158439,3,-9,200,,ThreadGroup 1-42,,true,,1784,332,42,42,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158444,8,-7,200,OK,ThreadGroup 1-43,text,true,,12488,396,43,43,http://145.108.225.7:8080/client_login.html,6,0,1
+1682091158453,5,-9,200,,ThreadGroup 1-43,,true,,1890,332,44,44,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158456,8,-7,200,OK,ThreadGroup 1-44,text,true,,12488,396,44,44,http://145.108.225.7:8080/client_login.html,7,0,2
+1682091158465,4,-9,200,,ThreadGroup 1-44,,true,,1891,332,45,45,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158469,8,-7,200,OK,ThreadGroup 1-45,text,true,,12488,396,45,45,http://145.108.225.7:8080/client_login.html,6,0,1
+1682091158478,5,-9,200,,ThreadGroup 1-45,,true,,1876,332,46,46,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158482,5,-7,200,OK,ThreadGroup 1-46,text,true,,12488,396,46,46,http://145.108.225.7:8080/client_login.html,4,0,1
+1682091158488,3,-9,200,,ThreadGroup 1-46,,true,,1909,332,46,46,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158495,8,-7,200,OK,ThreadGroup 1-47,text,true,,12488,396,47,47,http://145.108.225.7:8080/client_login.html,3,0,1
+1682091158504,4,-9,200,,ThreadGroup 1-47,,true,,1853,332,48,48,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158507,6,-7,200,OK,ThreadGroup 1-48,text,true,,12488,396,48,48,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158514,4,-9,200,,ThreadGroup 1-48,,true,,1895,332,48,48,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158520,7,-7,200,OK,ThreadGroup 1-49,text,true,,12488,396,49,49,http://145.108.225.7:8080/client_login.html,6,0,1
+1682091158276,232,-13,200,,ThreadGroup 1-11,text,true,,803,630,48,48,http://145.108.225.7:8080/api/v1/users/login,232,0,0
+1682091158279,183,-13,200,,ThreadGroup 1-1,text,true,,803,630,44,44,http://145.108.225.7:8080/api/v1/users/login,182,0,0
+1682091158271,193,-13,200,,ThreadGroup 1-8,text,true,,803,630,44,44,http://145.108.225.7:8080/api/v1/users/login,193,0,0
+1682091158263,199,-13,200,,ThreadGroup 1-5,text,true,,803,630,44,44,http://145.108.225.7:8080/api/v1/users/login,198,0,0
+1682091158271,261,-13,200,,ThreadGroup 1-10,text,true,,803,630,50,50,http://145.108.225.7:8080/api/v1/users/login,261,0,0
+1682091158528,5,-9,200,,ThreadGroup 1-49,,true,,1797,332,50,50,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158279,286,-13,200,,ThreadGroup 1-15,text,true,,803,630,52,52,http://145.108.225.7:8080/api/v1/users/login,286,0,0
+1682091158533,40,-7,200,OK,ThreadGroup 1-50,text,true,,12488,396,53,53,http://145.108.225.7:8080/client_login.html,22,0,1
+1682091158286,295,-13,200,,ThreadGroup 1-17,text,true,,803,630,53,53,http://145.108.225.7:8080/api/v1/users/login,295,0,0
+1682091158532,52,-17,200,OK,ThreadGroup 1-1,text,true,,18375,504,54,54,http://145.108.225.7:8080/index.html,28,0,3
+1682091158574,13,-9,200,,ThreadGroup 1-50,,true,,1843,332,54,54,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158532,58,-17,200,OK,ThreadGroup 1-11,text,true,,18375,504,54,54,http://145.108.225.7:8080/index.html,22,0,0
+1682091158276,315,-13,200,,ThreadGroup 1-2,text,true,,803,630,54,54,http://145.108.225.7:8080/api/v1/users/login,314,0,0
+1682091158584,12,-18,200,,ThreadGroup 1-1,,true,,1741,423,54,54,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158547,53,-7,200,OK,ThreadGroup 1-51,text,true,,12488,396,55,55,http://145.108.225.7:8080/client_login.html,10,0,2
+1682091158280,320,-13,200,,ThreadGroup 1-4,text,true,,803,630,55,55,http://145.108.225.7:8080/api/v1/users/login,320,0,0
+1682091158590,13,-18,200,,ThreadGroup 1-11,,true,,1827,423,55,55,http://145.108.225.7:8080/api/v1/verifycode/generate,13,0,0
+1682091158534,72,-17,200,OK,ThreadGroup 1-10,text,true,,18375,504,55,55,http://145.108.225.7:8080/index.html,22,0,0
+1682091158532,75,-17,200,OK,ThreadGroup 1-5,text,true,,18375,504,55,55,http://145.108.225.7:8080/index.html,35,0,4
+1682091158309,297,-13,200,,ThreadGroup 1-20,text,true,,803,630,55,55,http://145.108.225.7:8080/api/v1/users/login,297,0,0
+1682091158532,79,-17,200,OK,ThreadGroup 1-8,text,true,,18375,504,56,56,http://145.108.225.7:8080/index.html,37,0,4
+1682091158601,12,-9,200,,ThreadGroup 1-51,,true,,1888,332,56,56,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158268,345,-13,200,,ThreadGroup 1-7,text,true,,803,630,56,56,http://145.108.225.7:8080/api/v1/users/login,345,0,0
+1682091158560,57,-7,200,OK,ThreadGroup 1-52,text,true,,12488,396,56,56,http://145.108.225.7:8080/client_login.html,41,0,2
+1682091158607,12,-18,200,,ThreadGroup 1-5,,true,,1650,423,56,56,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158607,13,-18,200,,ThreadGroup 1-10,,true,,1734,423,56,56,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158585,38,-7,200,OK,ThreadGroup 1-54,text,true,,12488,396,57,57,http://145.108.225.7:8080/client_login.html,29,0,1
+1682091158572,52,-7,200,OK,ThreadGroup 1-53,text,true,,12488,396,57,57,http://145.108.225.7:8080/client_login.html,38,0,1
+1682091158611,14,-18,200,,ThreadGroup 1-8,,true,,1852,423,57,57,http://145.108.225.7:8080/api/v1/verifycode/generate,14,0,0
+1682091158618,10,-9,200,,ThreadGroup 1-52,,true,,1906,332,57,57,http://145.108.225.7:8080/api/v1/verifycode/generate,9,0,0
+1682091158624,9,-9,200,,ThreadGroup 1-54,,true,,1871,332,57,57,http://145.108.225.7:8080/api/v1/verifycode/generate,9,0,0
+1682091158624,11,-9,200,,ThreadGroup 1-53,,true,,1870,332,57,57,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158567,69,-17,200,OK,ThreadGroup 1-15,text,true,,18375,504,57,57,http://145.108.225.7:8080/index.html,38,0,0
+1682091158598,42,-7,200,OK,ThreadGroup 1-55,text,true,,12488,396,58,58,http://145.108.225.7:8080/client_login.html,31,0,1
+1682091158637,10,-18,200,,ThreadGroup 1-15,,true,,1784,423,58,58,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091158279,368,-13,200,,ThreadGroup 1-14,text,true,,803,630,58,58,http://145.108.225.7:8080/api/v1/users/login,367,0,0
+1682091158583,68,-17,200,OK,ThreadGroup 1-17,text,true,,18375,504,59,59,http://145.108.225.7:8080/index.html,39,0,0
+1682091158640,11,-9,200,,ThreadGroup 1-55,,true,,1839,332,59,59,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158610,47,-7,200,OK,ThreadGroup 1-56,text,true,,12488,396,59,59,http://145.108.225.7:8080/client_login.html,32,0,1
+1682091158592,67,-17,200,OK,ThreadGroup 1-2,text,true,,18375,504,59,59,http://145.108.225.7:8080/index.html,36,0,0
+1682091158652,10,-18,200,,ThreadGroup 1-17,,true,,1773,423,60,60,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091158624,46,-7,200,OK,ThreadGroup 1-57,text,true,,12488,396,60,60,http://145.108.225.7:8080/client_login.html,32,0,1
+1682091158601,69,-17,200,OK,ThreadGroup 1-4,text,true,,18375,504,60,60,http://145.108.225.7:8080/index.html,36,0,0
+1682091158278,394,-13,200,,ThreadGroup 1-12,text,true,,803,630,60,60,http://145.108.225.7:8080/api/v1/users/login,394,0,0
+1682091158638,37,-7,200,OK,ThreadGroup 1-58,text,true,,12488,396,61,61,http://145.108.225.7:8080/client_login.html,25,0,1
+1682091158263,412,-13,200,,ThreadGroup 1-9,text,true,,803,630,61,61,http://145.108.225.7:8080/api/v1/users/login,411,0,0
+1682091158608,69,-17,200,OK,ThreadGroup 1-20,text,true,,18375,504,61,61,http://145.108.225.7:8080/index.html,33,0,0
+1682091158660,18,-18,200,,ThreadGroup 1-2,,true,,1733,423,61,61,http://145.108.225.7:8080/api/v1/verifycode/generate,18,0,0
+1682091158614,66,-17,200,OK,ThreadGroup 1-7,text,true,,18375,504,61,61,http://145.108.225.7:8080/index.html,28,0,0
+1682091158658,22,-9,200,,ThreadGroup 1-56,,true,,1830,332,61,61,http://145.108.225.7:8080/api/v1/verifycode/generate,21,0,0
+1682091158671,12,-9,200,,ThreadGroup 1-57,,true,,1800,332,61,61,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158671,12,-18,200,,ThreadGroup 1-4,,true,,1825,423,61,61,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158675,13,-9,200,,ThreadGroup 1-58,,true,,1784,332,61,61,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158677,14,-18,200,,ThreadGroup 1-20,,true,,1804,423,62,62,http://145.108.225.7:8080/api/v1/verifycode/generate,13,0,0
+1682091158307,385,-13,200,,ThreadGroup 1-19,text,true,,803,630,62,62,http://145.108.225.7:8080/api/v1/users/login,385,0,0
+1682091158680,13,-18,200,,ThreadGroup 1-7,,true,,1793,423,62,62,http://145.108.225.7:8080/api/v1/verifycode/generate,13,0,0
+1682091158650,58,-7,200,OK,ThreadGroup 1-59,text,true,,12488,396,63,63,http://145.108.225.7:8080/client_login.html,11,0,1
+1682091158663,46,-7,200,OK,ThreadGroup 1-60,text,true,,12488,396,63,63,http://145.108.225.7:8080/client_login.html,34,0,1
+1682091158336,379,-13,200,,ThreadGroup 1-31,text,true,,803,630,64,64,http://145.108.225.7:8080/api/v1/users/login,379,0,0
+1682091158709,12,-9,200,,ThreadGroup 1-60,,true,,1831,332,64,64,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158709,12,-9,200,,ThreadGroup 1-59,,true,,1835,332,64,64,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158322,401,-13,200,,ThreadGroup 1-24,text,true,,803,630,64,64,http://145.108.225.7:8080/api/v1/users/login,400,0,0
+1682091158648,77,-17,200,OK,ThreadGroup 1-14,text,true,,18375,504,64,64,http://145.108.225.7:8080/index.html,37,0,0
+1682091158676,54,-7,200,OK,ThreadGroup 1-61,text,true,,12488,396,65,65,http://145.108.225.7:8080/client_login.html,38,0,1
+1682091158701,29,-7,200,OK,ThreadGroup 1-63,text,true,,12488,396,65,65,http://145.108.225.7:8080/client_login.html,17,0,1
+1682091158725,11,-18,200,,ThreadGroup 1-14,,true,,1744,423,65,65,http://145.108.225.7:8080/api/v1/verifycode/generate,11,0,0
+1682091158674,65,-17,200,OK,ThreadGroup 1-12,text,true,,18375,504,65,65,http://145.108.225.7:8080/index.html,34,0,0
+1682091158731,11,-9,200,,ThreadGroup 1-63,,true,,1827,332,66,66,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091158730,12,-9,200,,ThreadGroup 1-61,,true,,1825,332,66,66,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091158690,53,-7,200,OK,ThreadGroup 1-62,text,true,,12488,396,66,66,http://145.108.225.7:8080/client_login.html,39,0,1
+1682091158333,412,-13,200,,ThreadGroup 1-28,text,true,,803,630,66,66,http://145.108.225.7:8080/api/v1/users/login,412,0,0
+1682091158283,464,-13,200,,ThreadGroup 1-13,text,true,,803,630,66,66,http://145.108.225.7:8080/api/v1/users/login,463,0,0
+1682091158676,72,-17,200,OK,ThreadGroup 1-9,text,true,,18375,504,66,66,http://145.108.225.7:8080/index.html,38,0,0
+1682091158740,10,-18,200,,ThreadGroup 1-12,,true,,1804,423,66,66,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091158263,489,-13,200,,ThreadGroup 1-6,text,true,,803,630,66,66,http://145.108.225.7:8080/api/v1/users/login,489,0,0
+1682091158743,10,-9,200,,ThreadGroup 1-62,,true,,1776,332,67,67,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091158693,71,-17,200,OK,ThreadGroup 1-19,text,true,,18375,504,67,67,http://145.108.225.7:8080/index.html,37,0,0
+1682091158715,51,-7,200,OK,ThreadGroup 1-64,text,true,,12488,396,68,68,http://145.108.225.7:8080/client_login.html,36,0,1
+1682091158748,18,-18,200,,ThreadGroup 1-9,,true,,1807,423,68,68,http://145.108.225.7:8080/api/v1/verifycode/generate,18,0,0
+1682091158728,41,-7,200,OK,ThreadGroup 1-65,text,true,,12488,396,68,68,http://145.108.225.7:8080/client_login.html,29,0,2
+1682091158766,8,-9,200,,ThreadGroup 1-64,,true,,1909,332,68,68,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091158765,9,-18,200,,ThreadGroup 1-19,,true,,1865,423,68,68,http://145.108.225.7:8080/api/v1/verifycode/generate,9,0,0
+1682091158769,8,-9,200,,ThreadGroup 1-65,,true,,1811,332,68,68,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091158716,64,-17,200,OK,ThreadGroup 1-31,text,true,,18375,504,69,69,http://145.108.225.7:8080/index.html,36,0,0
+1682091158741,40,-7,200,OK,ThreadGroup 1-66,text,true,,12488,396,69,69,http://145.108.225.7:8080/client_login.html,33,0,1
+1682091158724,60,-17,200,OK,ThreadGroup 1-24,text,true,,18375,504,69,69,http://145.108.225.7:8080/index.html,35,0,0
+1682091158781,7,-18,200,,ThreadGroup 1-31,,true,,1743,423,69,69,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091158782,7,-9,200,,ThreadGroup 1-66,,true,,1812,332,69,69,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091158755,35,-7,200,OK,ThreadGroup 1-67,text,true,,12488,396,69,69,http://145.108.225.7:8080/client_login.html,27,0,1
+1682091158785,6,-18,200,,ThreadGroup 1-24,,true,,1766,423,69,69,http://145.108.225.7:8080/api/v1/verifycode/generate,6,0,0
+1682091158746,49,-17,200,OK,ThreadGroup 1-28,text,true,,18375,504,70,70,http://145.108.225.7:8080/index.html,31,0,0
+1682091158747,48,-17,200,OK,ThreadGroup 1-13,text,true,,18375,504,70,70,http://145.108.225.7:8080/index.html,31,0,0
+1682091158768,28,-7,200,OK,ThreadGroup 1-68,text,true,,12488,396,70,70,http://145.108.225.7:8080/client_login.html,21,0,1
+1682091158790,6,-9,200,,ThreadGroup 1-67,,true,,1807,332,70,70,http://145.108.225.7:8080/api/v1/verifycode/generate,6,0,0
+1682091158753,44,-17,200,OK,ThreadGroup 1-6,text,true,,18375,504,70,70,http://145.108.225.7:8080/index.html,27,0,0
+1682091158780,18,-7,200,OK,ThreadGroup 1-69,text,true,,12488,396,70,70,http://145.108.225.7:8080/client_login.html,16,0,1
+1682091158795,4,-18,200,,ThreadGroup 1-28,,true,,1816,423,70,70,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158796,4,-18,200,,ThreadGroup 1-13,,true,,1819,423,70,70,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158797,5,-18,200,,ThreadGroup 1-6,,true,,1729,423,70,70,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158796,6,-9,200,,ThreadGroup 1-68,,true,,1834,332,70,70,http://145.108.225.7:8080/api/v1/verifycode/generate,6,0,0
+1682091158798,5,-9,200,,ThreadGroup 1-69,,true,,1847,332,70,70,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158794,9,-7,200,OK,ThreadGroup 1-70,text,true,,12488,396,70,70,http://145.108.225.7:8080/client_login.html,8,0,2
+1682091158803,3,-9,200,,ThreadGroup 1-70,,true,,1855,332,71,71,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158348,462,-13,200,,ThreadGroup 1-33,text,true,,803,630,71,71,http://145.108.225.7:8080/api/v1/users/login,462,0,0
+1682091158806,6,-7,200,OK,ThreadGroup 1-71,text,true,,12488,396,71,71,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158811,4,-17,200,OK,ThreadGroup 1-33,text,true,,18375,504,71,71,http://145.108.225.7:8080/index.html,3,0,0
+1682091158813,3,-9,200,,ThreadGroup 1-71,,true,,1794,332,71,71,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158815,3,-18,200,,ThreadGroup 1-33,,true,,1676,423,72,72,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158819,6,-7,200,OK,ThreadGroup 1-72,text,true,,12488,396,72,72,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158826,4,-9,200,,ThreadGroup 1-72,,true,,1776,332,72,72,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158833,7,-7,200,OK,ThreadGroup 1-73,text,true,,12488,396,73,73,http://145.108.225.7:8080/client_login.html,3,0,1
+1682091158841,4,-9,200,,ThreadGroup 1-73,,true,,1829,332,74,74,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158845,6,-7,200,OK,ThreadGroup 1-74,text,true,,12488,396,74,74,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158852,4,-9,200,,ThreadGroup 1-74,,true,,1796,332,74,74,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158859,7,-7,200,OK,ThreadGroup 1-75,text,true,,12488,396,75,75,http://145.108.225.7:8080/client_login.html,5,0,1
+1682091158866,4,-9,200,,ThreadGroup 1-75,,true,,1855,332,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158283,622,-13,200,,ThreadGroup 1-3,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,512,0,0
+1682091158330,576,-13,200,,ThreadGroup 1-26,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,576,0,0
+1682091158324,582,-13,200,,ThreadGroup 1-25,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,582,0,0
+1682091158313,609,-13,200,,ThreadGroup 1-21,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,608,0,0
+1682091158907,18,-17,200,OK,ThreadGroup 1-26,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,8,0,0
+1682091158907,24,-17,200,OK,ThreadGroup 1-3,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,11,0,0
+1682091158926,6,-18,200,,ThreadGroup 1-26,,true,,1856,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,6,0,0
+1682091158908,24,-17,200,OK,ThreadGroup 1-25,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,12,0,0
+1682091158932,5,-18,200,,ThreadGroup 1-3,,true,,1777,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158933,5,-18,200,,ThreadGroup 1-25,,true,,1758,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158923,17,-17,200,OK,ThreadGroup 1-21,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,12,0,0
+1682091158941,4,-18,200,,ThreadGroup 1-21,,true,,1809,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158459,508,-13,200,,ThreadGroup 1-43,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,507,0,0
+1682091158968,8,-17,200,OK,ThreadGroup 1-43,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,5,0,0
+1682091158976,4,-18,200,,ThreadGroup 1-43,,true,,1691,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158316,690,-13,200,,ThreadGroup 1-22,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,690,0,0
+1682091159007,4,-17,200,OK,ThreadGroup 1-22,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,1,0,0
+1682091159012,3,-18,200,,ThreadGroup 1-22,,true,,1730,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158335,680,-13,200,,ThreadGroup 1-30,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,680,0,0
+1682091159016,7,-17,200,OK,ThreadGroup 1-30,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,2,0,0
+1682091159023,4,-18,200,,ThreadGroup 1-30,,true,,1657,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158313,719,-13,200,,ThreadGroup 1-23,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,719,0,0
+1682091158492,547,-13,200,,ThreadGroup 1-46,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,546,0,0
+1682091159033,7,-17,200,OK,ThreadGroup 1-23,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,4,0,0
+1682091159041,5,-18,200,,ThreadGroup 1-23,,true,,1782,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091159040,9,-17,200,OK,ThreadGroup 1-46,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,6,0,0
+1682091159050,4,-18,200,,ThreadGroup 1-46,,true,,1788,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158327,738,-13,200,,ThreadGroup 1-27,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,737,0,0
+1682091158484,587,-13,200,,ThreadGroup 1-45,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,587,0,0
+1682091159066,6,-17,200,OK,ThreadGroup 1-27,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,3,0,0
+1682091159073,4,-18,200,,ThreadGroup 1-27,,true,,1798,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091159073,9,-17,200,OK,ThreadGroup 1-45,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,5,0,0
+1682091158470,614,-13,200,,ThreadGroup 1-44,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,614,0,0
+1682091158306,780,-13,200,,ThreadGroup 1-18,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,779,0,0
+1682091158296,790,-13,200,,ThreadGroup 1-16,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,790,0,0
+1682091158376,710,-13,200,,ThreadGroup 1-36,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,709,0,0
+1682091159082,5,-18,200,,ThreadGroup 1-45,,true,,1779,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158410,687,-13,200,,ThreadGroup 1-39,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,686,0,0
+1682091159087,23,-17,200,OK,ThreadGroup 1-44,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,13,0,0
+1682091158443,667,-13,200,,ThreadGroup 1-42,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,667,0,0
+1682091159087,24,-17,200,OK,ThreadGroup 1-18,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,15,0,0
+1682091159087,26,-17,200,OK,ThreadGroup 1-16,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,14,0,0
+1682091159088,25,-17,200,OK,ThreadGroup 1-36,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,14,0,0
+1682091159110,8,-18,200,,ThreadGroup 1-44,,true,,1789,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091158434,684,-13,200,,ThreadGroup 1-41,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,683,0,0
+1682091159112,8,-18,200,,ThreadGroup 1-18,,true,,1792,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091159113,7,-18,200,,ThreadGroup 1-36,,true,,1713,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,6,0,0
+1682091159113,8,-18,200,,ThreadGroup 1-16,,true,,1797,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091159099,25,-17,200,OK,ThreadGroup 1-39,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,14,0,0
+1682091158428,699,-13,200,,ThreadGroup 1-40,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,699,0,0
+1682091159125,7,-18,200,,ThreadGroup 1-39,,true,,1777,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091158688,447,-13,200,,ThreadGroup 1-58,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,446,0,0
+1682091159112,23,-17,200,OK,ThreadGroup 1-42,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,16,0,0
+1682091159120,19,-17,200,OK,ThreadGroup 1-41,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,12,0,0
+1682091159136,5,-18,200,,ThreadGroup 1-42,,true,,1803,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091159140,6,-18,200,,ThreadGroup 1-41,,true,,1679,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091159129,18,-17,200,OK,ThreadGroup 1-40,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,12,0,0
+1682091159136,13,-17,200,OK,ThreadGroup 1-58,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,9,0,0
+1682091159148,4,-18,200,,ThreadGroup 1-40,,true,,1784,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158635,518,-13,200,,ThreadGroup 1-54,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,518,0,0
+1682091159150,3,-18,200,,ThreadGroup 1-58,,true,,1796,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,3,0,0
+1682091158367,791,-13,200,,ThreadGroup 1-34,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,791,0,0
+1682091158334,827,-13,200,,ThreadGroup 1-29,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,826,0,0
+1682091159154,8,-17,200,OK,ThreadGroup 1-54,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,4,0,0
+1682091159162,5,-18,200,,ThreadGroup 1-54,,true,,1746,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091159161,11,-17,200,OK,ThreadGroup 1-29,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,7,0,0
+1682091159160,13,-17,200,OK,ThreadGroup 1-34,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,8,0,0
+1682091159172,4,-18,200,,ThreadGroup 1-29,,true,,1661,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,4,0,0
+1682091158339,837,-13,200,,ThreadGroup 1-32,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,837,0,0
+1682091158396,780,-13,200,,ThreadGroup 1-38,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,780,0,0
+1682091159174,5,-18,200,,ThreadGroup 1-34,,true,,1794,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091159178,12,-17,200,OK,ThreadGroup 1-38,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,4,0,0
+1682091159178,12,-17,200,OK,ThreadGroup 1-32,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,7,0,0
+1682091158722,468,-13,200,,ThreadGroup 1-59,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,467,0,0
+1682091159191,5,-18,200,,ThreadGroup 1-38,,true,,1808,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091159191,5,-18,200,,ThreadGroup 1-32,,true,,1739,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,5,0,0
+1682091158519,679,-13,200,,ThreadGroup 1-48,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,674,0,0
+1682091158588,610,-13,200,,ThreadGroup 1-50,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,608,0,0
+1682091158367,837,-13,200,,ThreadGroup 1-35,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,837,0,0
+1682091159192,15,-17,200,OK,ThreadGroup 1-59,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,7,0,0
+1682091158614,598,-13,200,,ThreadGroup 1-51,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,598,0,0
+1682091158742,472,-13,200,,ThreadGroup 1-63,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,471,0,0
+1682091159208,7,-18,200,,ThreadGroup 1-59,,true,,1816,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,7,0,0
+1682091159199,22,-17,200,OK,ThreadGroup 1-48,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,12,0,0
+1682091159200,33,-17,200,OK,ThreadGroup 1-50,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,12,0,0
+1682091158652,582,-13,200,,ThreadGroup 1-55,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,581,0,0
+1682091158802,433,-13,200,,ThreadGroup 1-68,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,433,0,0
+1682091158630,606,-13,200,,ThreadGroup 1-52,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,604,0,0
+1682091158743,493,-13,200,,ThreadGroup 1-61,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,492,0,0
+1682091158510,726,-13,200,,ThreadGroup 1-47,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,725,0,0
+1682091158637,600,-13,200,,ThreadGroup 1-53,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,599,0,0
+1682091158804,435,-13,200,,ThreadGroup 1-69,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,435,0,0
+1682091158806,435,-13,200,,ThreadGroup 1-70,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,434,0,0
+1682091158681,561,-13,200,,ThreadGroup 1-56,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,560,0,0
+1682091159233,14,-18,200,,ThreadGroup 1-50,,true,,1774,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,13,0,0
+1682091158683,566,-13,200,,ThreadGroup 1-57,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,565,0,0
+1682091158871,378,-13,200,,ThreadGroup 1-75,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,376,0,0
+1682091159231,19,-18,200,,ThreadGroup 1-48,,true,,1727,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,17,0,0
+1682091158722,531,-13,200,,ThreadGroup 1-60,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,529,0,0
+1682091158534,725,-13,200,,ThreadGroup 1-49,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,725,0,0
+1682091158387,875,-13,200,,ThreadGroup 1-37,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,873,0,0
+1682091159206,58,-17,200,OK,ThreadGroup 1-35,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,25,0,0
+1682091158754,512,-13,200,,ThreadGroup 1-62,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,511,0,0
+1682091158831,440,-13,200,,ThreadGroup 1-72,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,439,0,0
+1682091158789,488,-13,200,,ThreadGroup 1-66,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,483,0,0
+1682091159213,67,-17,200,OK,ThreadGroup 1-51,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,29,0,0
+1682091158817,464,-13,200,,ThreadGroup 1-71,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,462,0,0
+1682091159265,18,-18,200,,ThreadGroup 1-35,,true,,1756,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,15,0,0
+1682091158778,505,-13,200,,ThreadGroup 1-65,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,503,0,0
+1682091158857,431,-13,200,,ThreadGroup 1-74,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,426,0,0
+1682091158796,495,-13,200,,ThreadGroup 1-67,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,493,0,0
+1682091158775,517,-13,200,,ThreadGroup 1-64,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,514,0,0
+1682091158846,448,-13,200,,ThreadGroup 1-73,text,true,,803,630,75,75,http://145.108.225.7:8080/api/v1/users/login,444,0,0
+1682091159215,80,-17,200,OK,ThreadGroup 1-63,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,42,0,0
+1682091159281,32,-18,200,,ThreadGroup 1-51,,true,,1763,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,29,0,0
+1682091159295,25,-18,200,,ThreadGroup 1-63,,true,,1860,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,25,0,0
+1682091159240,95,-17,200,OK,ThreadGroup 1-69,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,47,0,0
+1682091159237,103,-17,200,OK,ThreadGroup 1-68,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,42,0,0
+1682091159237,108,-17,200,OK,ThreadGroup 1-61,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,57,0,0
+1682091159243,103,-17,200,OK,ThreadGroup 1-56,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,58,0,0
+1682091159238,110,-17,200,OK,ThreadGroup 1-53,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,60,0,0
+1682091159242,113,-17,200,OK,ThreadGroup 1-70,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,55,0,0
+1682091159235,121,-17,200,OK,ThreadGroup 1-55,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,62,0,0
+1682091159237,122,-17,200,OK,ThreadGroup 1-52,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,54,0,0
+1682091159238,125,-17,200,OK,ThreadGroup 1-47,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,65,0,0
+1682091159250,113,-17,200,OK,ThreadGroup 1-57,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,68,0,0
+1682091159336,33,-18,200,,ThreadGroup 1-69,,true,,1717,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,32,0,0
+1682091159346,25,-18,200,,ThreadGroup 1-56,,true,,1775,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,25,0,0
+1682091159355,16,-18,200,,ThreadGroup 1-70,,true,,1745,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,14,0,0
+1682091159250,123,-17,200,OK,ThreadGroup 1-75,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,63,0,0
+1682091159346,28,-18,200,,ThreadGroup 1-61,,true,,1761,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,25,0,0
+1682091159341,36,-18,200,,ThreadGroup 1-68,,true,,1714,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,34,0,0
+1682091159359,25,-18,200,,ThreadGroup 1-52,,true,,1741,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,24,0,0
+1682091159349,36,-18,200,,ThreadGroup 1-53,,true,,1786,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,32,0,0
+1682091159260,128,-17,200,OK,ThreadGroup 1-49,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,76,0,0
+1682091159273,115,-17,200,OK,ThreadGroup 1-72,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,67,0,0
+1682091159364,25,-18,200,,ThreadGroup 1-57,,true,,1719,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,23,0,0
+1682091159255,134,-17,200,OK,ThreadGroup 1-60,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,80,0,0
+1682091159263,127,-17,200,OK,ThreadGroup 1-37,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,79,0,0
+1682091159356,35,-18,200,,ThreadGroup 1-55,,true,,1831,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,34,0,0
+1682091159277,115,-17,200,OK,ThreadGroup 1-66,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,60,0,0
+1682091159267,127,-17,200,OK,ThreadGroup 1-62,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,69,0,0
+1682091159364,30,-18,200,,ThreadGroup 1-47,,true,,1832,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,29,0,0
+1682091159373,30,-18,200,,ThreadGroup 1-75,,true,,1715,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,29,0,0
+1682091159389,17,-18,200,,ThreadGroup 1-72,,true,,1744,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,16,0,0
+1682091159389,17,-18,200,,ThreadGroup 1-49,,true,,1770,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,16,0,0
+1682091159283,124,-17,200,OK,ThreadGroup 1-71,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,76,0,0
+1682091159392,15,-18,200,,ThreadGroup 1-66,,true,,1675,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,13,0,0
+1682091159284,123,-17,200,OK,ThreadGroup 1-65,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,69,0,0
+1682091159395,13,-18,200,,ThreadGroup 1-62,,true,,1707,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091159289,119,-17,200,OK,ThreadGroup 1-74,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,70,0,0
+1682091159390,19,-18,200,,ThreadGroup 1-60,,true,,1744,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,18,0,0
+1682091159390,21,-18,200,,ThreadGroup 1-37,,true,,1743,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,20,0,0
+1682091159292,120,-17,200,OK,ThreadGroup 1-67,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,80,0,0
+1682091159295,118,-17,200,OK,ThreadGroup 1-73,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,77,0,0
+1682091159293,121,-17,200,OK,ThreadGroup 1-64,text,true,,18375,504,75,75,http://145.108.225.7:8080/index.html,79,0,0
+1682091159409,8,-18,200,,ThreadGroup 1-74,,true,,1824,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091159408,10,-18,200,,ThreadGroup 1-65,,true,,1781,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,10,0,0
+1682091159407,12,-18,200,,ThreadGroup 1-71,,true,,1768,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,12,0,0
+1682091159412,9,-18,200,,ThreadGroup 1-67,,true,,1780,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091159413,8,-18,200,,ThreadGroup 1-73,,true,,1752,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,8,0,0
+1682091159415,7,-18,200,,ThreadGroup 1-64,,true,,1727,423,75,75,http://145.108.225.7:8080/api/v1/verifycode/generate,6,0,0
+1682091158648,60012,-25,504,Gateway Time-out,ThreadGroup 1-15,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60012,0,0
+1682091158604,60057,-25,504,Gateway Time-out,ThreadGroup 1-11,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60056,0,0
+1682091158619,60042,-25,504,Gateway Time-out,ThreadGroup 1-5,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60041,0,0
+1682091158597,60063,-25,504,Gateway Time-out,ThreadGroup 1-1,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60063,0,0
+1682091158626,60035,-25,504,Gateway Time-out,ThreadGroup 1-8,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60034,0,0
+1682091158621,60040,-25,504,Gateway Time-out,ThreadGroup 1-10,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60039,0,0
+1682091158663,60008,-25,504,Gateway Time-out,ThreadGroup 1-17,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60008,0,0
+1682091158679,60007,-25,504,Gateway Time-out,ThreadGroup 1-2,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60007,0,0
+1682091158684,60006,-25,504,Gateway Time-out,ThreadGroup 1-4,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60006,0,0
+1682091158691,60007,-25,504,Gateway Time-out,ThreadGroup 1-20,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60006,0,0
+1682091158693,60008,-25,504,Gateway Time-out,ThreadGroup 1-7,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60007,0,0
+1682091218664,51,-26,200,OK,ThreadGroup 1-10,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,16,0,3
+1682091218664,51,-26,200,OK,ThreadGroup 1-8,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,16,0,3
+1682091218664,56,-26,200,OK,ThreadGroup 1-11,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,16,0,3
+1682091218664,57,-26,200,OK,ThreadGroup 1-1,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,18,0,3
+1682091218664,59,-26,200,OK,ThreadGroup 1-5,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,20,0,3
+1682091218664,60,-26,200,OK,ThreadGroup 1-15,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,21,0,3
+1682091218715,12,-28,200,,ThreadGroup 1-10,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,11,0,0
+1682091218715,14,-28,200,,ThreadGroup 1-8,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,13,0,0
+1682091218720,12,-28,200,,ThreadGroup 1-11,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,12,0,0
+1682091218724,10,-28,200,,ThreadGroup 1-15,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,10,0,0
+1682091218722,13,-28,200,,ThreadGroup 1-1,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,12,0,0
+1682091218723,12,-28,200,,ThreadGroup 1-5,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,11,0,0
+1682091218672,63,-26,200,OK,ThreadGroup 1-17,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,22,0,1
+1682091158737,60005,-25,504,Gateway Time-out,ThreadGroup 1-14,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60005,0,0
+1682091218736,6,-28,200,,ThreadGroup 1-17,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,6,0,0
+1682091218687,58,-26,200,OK,ThreadGroup 1-2,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,24,0,2
+1682091218691,56,-26,200,OK,ThreadGroup 1-4,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,28,0,1
+1682091218745,5,-28,200,,ThreadGroup 1-2,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091218699,51,-26,200,OK,ThreadGroup 1-20,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,26,0,1
+1682091218701,50,-26,200,OK,ThreadGroup 1-7,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,28,0,3
+1682091218747,5,-28,200,,ThreadGroup 1-4,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091218750,5,-28,200,,ThreadGroup 1-20,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091158751,60004,-25,504,Gateway Time-out,ThreadGroup 1-12,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091218751,5,-28,200,,ThreadGroup 1-7,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091218742,17,-26,200,OK,ThreadGroup 1-14,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,10,0,2
+1682091218759,4,-28,200,,ThreadGroup 1-14,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,3,0,0
+1682091218755,10,-26,200,OK,ThreadGroup 1-12,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,1
+1682091218765,3,-28,200,,ThreadGroup 1-12,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,3,0,0
+1682091158766,60004,-25,504,Gateway Time-out,ThreadGroup 1-9,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091218770,5,-26,200,OK,ThreadGroup 1-9,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,3,0,1
+1682091158775,60003,-25,504,Gateway Time-out,ThreadGroup 1-19,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091218775,4,-28,200,,ThreadGroup 1-9,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091218778,6,-26,200,OK,ThreadGroup 1-19,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,3,0,1
+1682091218784,3,-28,200,,ThreadGroup 1-19,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,2,0,0
+1682091158789,60003,-25,504,Gateway Time-out,ThreadGroup 1-31,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091158792,60003,-25,504,Gateway Time-out,ThreadGroup 1-24,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091218792,7,-26,200,OK,ThreadGroup 1-31,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,3,0,1
+1682091158799,60003,-25,504,Gateway Time-out,ThreadGroup 1-28,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091158800,60003,-25,504,Gateway Time-out,ThreadGroup 1-13,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091218796,7,-26,200,OK,ThreadGroup 1-24,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,4,0,0
+1682091218800,4,-28,200,,ThreadGroup 1-31,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091158802,60002,-25,504,Gateway Time-out,ThreadGroup 1-6,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60002,0,0
+1682091218804,4,-28,200,,ThreadGroup 1-24,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091218803,11,-26,200,OK,ThreadGroup 1-13,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,1
+1682091218802,13,-26,200,OK,ThreadGroup 1-28,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,1
+1682091218805,11,-26,200,OK,ThreadGroup 1-6,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,0
+1682091218816,2,-28,200,,ThreadGroup 1-28,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,2,0,0
+1682091218815,3,-28,200,,ThreadGroup 1-13,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,3,0,0
+1682091218816,3,-28,200,,ThreadGroup 1-6,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,3,0,0
+1682091158818,60002,-25,504,Gateway Time-out,ThreadGroup 1-33,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60002,0,0
+1682091218820,5,-26,200,OK,ThreadGroup 1-33,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,2,0,1
+1682091218825,4,-28,200,,ThreadGroup 1-33,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091158933,60002,-25,504,Gateway Time-out,ThreadGroup 1-26,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60002,0,0
+1682091158938,60003,-25,504,Gateway Time-out,ThreadGroup 1-3,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091158939,60004,-25,504,Gateway Time-out,ThreadGroup 1-25,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091158946,60002,-25,504,Gateway Time-out,ThreadGroup 1-21,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60002,0,0
+1682091218935,23,-26,200,OK,ThreadGroup 1-26,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,9,0,3
+1682091218942,22,-26,200,OK,ThreadGroup 1-3,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,10,0,2
+1682091218958,7,-28,200,,ThreadGroup 1-26,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,7,0,0
+1682091218943,24,-26,200,OK,ThreadGroup 1-25,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,11,0,2
+1682091218965,5,-28,200,,ThreadGroup 1-3,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091218949,22,-26,200,OK,ThreadGroup 1-21,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,12,0,2
+1682091218967,5,-28,200,,ThreadGroup 1-25,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091218972,2,-28,200,,ThreadGroup 1-21,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,2,0,0
+1682091158980,60003,-25,504,Gateway Time-out,ThreadGroup 1-43,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091218983,11,-26,200,OK,ThreadGroup 1-43,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,1
+1682091218994,4,-28,200,,ThreadGroup 1-43,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091159016,60003,-25,504,Gateway Time-out,ThreadGroup 1-22,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091219019,12,-26,200,OK,ThreadGroup 1-22,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,2
+1682091159028,60003,-25,504,Gateway Time-out,ThreadGroup 1-30,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091219032,6,-28,200,,ThreadGroup 1-22,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,6,0,0
+1682091219032,12,-26,200,OK,ThreadGroup 1-30,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,6,0,2
+1682091219045,3,-28,200,,ThreadGroup 1-30,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,3,0,0
+1682091159047,60003,-25,504,Gateway Time-out,ThreadGroup 1-23,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091159054,60003,-25,504,Gateway Time-out,ThreadGroup 1-46,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091219050,16,-26,200,OK,ThreadGroup 1-23,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,6,0,2
+1682091219067,5,-28,200,,ThreadGroup 1-23,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091219057,18,-26,200,OK,ThreadGroup 1-46,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,10,0,2
+1682091219075,4,-28,200,,ThreadGroup 1-46,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091159078,60003,-25,504,Gateway Time-out,ThreadGroup 1-27,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091219081,12,-26,200,OK,ThreadGroup 1-27,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,5,0,2
+1682091159088,60006,-25,504,Gateway Time-out,ThreadGroup 1-45,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60006,0,0
+1682091219094,5,-28,200,,ThreadGroup 1-27,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091219094,12,-26,200,OK,ThreadGroup 1-45,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,6,0,1
+1682091219107,4,-28,200,,ThreadGroup 1-45,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,3,0,0
+1682091159119,60003,-25,504,Gateway Time-out,ThreadGroup 1-44,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60003,0,0
+1682091159121,60004,-25,504,Gateway Time-out,ThreadGroup 1-36,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091159121,60004,-25,504,Gateway Time-out,ThreadGroup 1-18,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091159122,60006,-25,504,Gateway Time-out,ThreadGroup 1-16,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60006,0,0
+1682091159133,60007,-25,504,Gateway Time-out,ThreadGroup 1-39,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60007,0,0
+1682091159142,60005,-25,504,Gateway Time-out,ThreadGroup 1-42,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60005,0,0
+1682091159146,60004,-25,504,Gateway Time-out,ThreadGroup 1-41,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091219123,32,-26,200,OK,ThreadGroup 1-44,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,9,0,1
+1682091159152,60005,-25,504,Gateway Time-out,ThreadGroup 1-40,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091159154,60004,-25,504,Gateway Time-out,ThreadGroup 1-58,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091219156,11,-28,200,,ThreadGroup 1-44,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,10,0,0
+1682091219125,43,-26,200,OK,ThreadGroup 1-36,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,12,0,2
+1682091219125,48,-26,200,OK,ThreadGroup 1-18,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,12,0,2
+1682091159168,60005,-25,504,Gateway Time-out,ThreadGroup 1-54,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60004,0,0
+1682091219169,8,-28,200,,ThreadGroup 1-36,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,7,0,0
+1682091219128,51,-26,200,OK,ThreadGroup 1-16,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,15,0,2
+1682091159177,60005,-25,504,Gateway Time-out,ThreadGroup 1-29,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60005,0,0
+1682091219173,11,-28,200,,ThreadGroup 1-18,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,10,0,0
+1682091159180,60006,-25,504,Gateway Time-out,ThreadGroup 1-34,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60005,0,0
+1682091219179,13,-28,200,,ThreadGroup 1-16,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,13,0,0
+1682091159197,60007,-25,504,Gateway Time-out,ThreadGroup 1-38,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60006,0,0
+1682091159197,60007,-25,504,Gateway Time-out,ThreadGroup 1-32,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60007,0,0
+1682091219140,73,-26,200,OK,ThreadGroup 1-39,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,26,0,2
+1682091219147,68,-26,200,OK,ThreadGroup 1-42,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,26,0,2
+1682091159216,60008,-25,504,Gateway Time-out,ThreadGroup 1-59,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60007,0,0
+1682091219157,68,-26,200,OK,ThreadGroup 1-40,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,31,0,3
+1682091219214,13,-28,200,,ThreadGroup 1-39,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,12,0,0
+1682091219216,12,-28,200,,ThreadGroup 1-42,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,11,0,0
+1682091219150,78,-26,200,OK,ThreadGroup 1-41,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,31,0,2
+1682091219225,11,-28,200,,ThreadGroup 1-40,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,10,0,0
+1682091219228,12,-28,200,,ThreadGroup 1-41,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,11,0,0
+1682091219160,81,-26,200,OK,ThreadGroup 1-58,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,30,0,4
+1682091219173,71,-26,200,OK,ThreadGroup 1-54,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,26,0,2
+1682091219241,7,-28,200,,ThreadGroup 1-58,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,7,0,0
+1682091219182,70,-26,200,OK,ThreadGroup 1-29,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,31,0,3
+1682091219245,8,-28,200,,ThreadGroup 1-54,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,7,0,0
+1682091219186,70,-26,200,OK,ThreadGroup 1-34,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,29,0,2
+1682091159248,60009,-25,504,Gateway Time-out,ThreadGroup 1-50,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159251,60008,-25,504,Gateway Time-out,ThreadGroup 1-48,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60008,0,0
+1682091219252,8,-28,200,,ThreadGroup 1-29,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,8,0,0
+1682091219204,58,-26,200,OK,ThreadGroup 1-38,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,28,0,2
+1682091219204,60,-26,200,OK,ThreadGroup 1-32,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,36,0,3
+1682091219257,7,-28,200,,ThreadGroup 1-34,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,6,0,0
+1682091219262,6,-28,200,,ThreadGroup 1-38,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,6,0,0
+1682091219264,6,-28,200,,ThreadGroup 1-32,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,6,0,0
+1682091219224,48,-26,200,OK,ThreadGroup 1-59,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,27,0,3
+1682091219273,4,-28,200,,ThreadGroup 1-59,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,4,0,0
+1682091219258,27,-26,200,OK,ThreadGroup 1-50,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,15,0,2
+1682091219260,26,-26,200,OK,ThreadGroup 1-48,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,13,0,2
+1682091219286,5,-28,200,,ThreadGroup 1-48,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091219286,6,-28,200,,ThreadGroup 1-50,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,6,0,0
+1682091159284,60014,-25,504,Gateway Time-out,ThreadGroup 1-35,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60014,0,0
+1682091219298,12,-26,200,OK,ThreadGroup 1-35,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,6,0,2
+1682091219310,5,-28,200,,ThreadGroup 1-35,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091159314,60016,-25,504,Gateway Time-out,ThreadGroup 1-51,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60016,0,0
+1682091159321,60014,-25,504,Gateway Time-out,ThreadGroup 1-63,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60014,0,0
+1682091219331,16,-26,200,OK,ThreadGroup 1-51,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,6,0,2
+1682091219336,15,-26,200,OK,ThreadGroup 1-63,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,7,0,1
+1682091219347,6,-28,200,,ThreadGroup 1-51,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091219351,5,-28,200,,ThreadGroup 1-63,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,5,0,0
+1682091159372,60008,-25,504,Gateway Time-out,ThreadGroup 1-56,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60008,0,0
+1682091159370,60012,-25,504,Gateway Time-out,ThreadGroup 1-69,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60012,0,0
+1682091159378,60009,-25,504,Gateway Time-out,ThreadGroup 1-68,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159372,60018,-25,504,Gateway Time-out,ThreadGroup 1-70,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60018,0,0
+1682091159374,60017,-25,504,Gateway Time-out,ThreadGroup 1-61,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60017,0,0
+1682091159385,60014,-25,504,Gateway Time-out,ThreadGroup 1-53,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60013,0,0
+1682091159384,60015,-25,504,Gateway Time-out,ThreadGroup 1-52,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60014,0,0
+1682091159390,60014,-25,504,Gateway Time-out,ThreadGroup 1-57,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60014,0,0
+1682091159395,60009,-25,504,Gateway Time-out,ThreadGroup 1-47,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159392,60013,-25,504,Gateway Time-out,ThreadGroup 1-55,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60012,0,0
+1682091159403,60011,-25,504,Gateway Time-out,ThreadGroup 1-75,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60011,0,0
+1682091159407,60010,-25,504,Gateway Time-out,ThreadGroup 1-66,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60010,0,0
+1682091159406,60012,-25,504,Gateway Time-out,ThreadGroup 1-72,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60011,0,0
+1682091159409,60011,-25,504,Gateway Time-out,ThreadGroup 1-62,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159407,60013,-25,504,Gateway Time-out,ThreadGroup 1-49,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60012,0,0
+1682091219380,40,-26,200,OK,ThreadGroup 1-56,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,7,0,1
+1682091159410,60011,-25,504,Gateway Time-out,ThreadGroup 1-60,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60010,0,0
+1682091159411,60010,-25,504,Gateway Time-out,ThreadGroup 1-37,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60010,0,0
+1682091159419,60010,-25,504,Gateway Time-out,ThreadGroup 1-65,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159420,60010,-25,504,Gateway Time-out,ThreadGroup 1-71,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159421,60009,-25,504,Gateway Time-out,ThreadGroup 1-67,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159418,60015,-25,504,Gateway Time-out,ThreadGroup 1-74,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60014,0,0
+1682091159422,60013,-25,504,Gateway Time-out,ThreadGroup 1-64,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60009,0,0
+1682091159422,60016,-25,504,Gateway Time-out,ThreadGroup 1-73,text,false,,357,650,75,75,http://145.108.225.7:8080/api/v1/travelservice/trips/left,60014,0,0
+1682091219421,35,-28,200,,ThreadGroup 1-56,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,35,0,0
+1682091219382,90,-26,200,OK,ThreadGroup 1-69,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,11,0,2
+1682091219473,44,-28,200,,ThreadGroup 1-69,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,39,0,0
+1682091219388,135,-26,200,OK,ThreadGroup 1-68,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,15,0,1
+1682091219392,154,-26,200,OK,ThreadGroup 1-61,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,28,0,2
+1682091219524,22,-28,200,,ThreadGroup 1-68,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,21,0,0
+1682091219390,163,-26,200,OK,ThreadGroup 1-70,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,17,0,2
+1682091219399,178,-26,200,OK,ThreadGroup 1-53,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,44,0,2
+1682091219554,24,-28,200,,ThreadGroup 1-70,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,21,0,0
+1682091219546,33,-28,200,,ThreadGroup 1-61,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,32,0,0
+1682091219405,175,-26,200,OK,ThreadGroup 1-57,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,50,0,2
+1682091219405,179,-26,200,OK,ThreadGroup 1-47,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,53,0,2
+1682091219399,188,-26,200,OK,ThreadGroup 1-52,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,47,0,3
+1682091219414,185,-26,200,OK,ThreadGroup 1-75,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,67,0,4
+1682091219420,182,-26,200,OK,ThreadGroup 1-49,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,76,0,2
+1682091219584,19,-28,200,,ThreadGroup 1-47,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,17,0,0
+1682091219580,23,-28,200,,ThreadGroup 1-57,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,22,0,0
+1682091219405,198,-26,200,OK,ThreadGroup 1-55,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,60,0,2
+1682091219420,184,-26,200,OK,ThreadGroup 1-62,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,85,0,3
+1682091219578,27,-28,200,,ThreadGroup 1-53,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,25,0,0
+1682091219588,20,-28,200,,ThreadGroup 1-52,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,19,0,0
+1682091219430,180,-26,200,OK,ThreadGroup 1-71,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,74,0,4
+1682091219599,12,-28,200,,ThreadGroup 1-75,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,12,0,0
+1682091219418,193,-26,200,OK,ThreadGroup 1-72,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,73,0,2
+1682091219602,16,-28,200,,ThreadGroup 1-49,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,15,0,0
+1682091219422,200,-26,200,OK,ThreadGroup 1-60,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,88,0,1
+1682091219604,18,-28,200,,ThreadGroup 1-62,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,17,0,0
+1682091219603,19,-28,200,,ThreadGroup 1-55,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,17,0,0
+1682091219435,188,-26,200,OK,ThreadGroup 1-64,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,87,0,5
+1682091219434,190,-26,200,OK,ThreadGroup 1-74,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,86,0,4
+1682091219422,203,-26,200,OK,ThreadGroup 1-37,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,83,0,5
+1682091219612,13,-28,200,,ThreadGroup 1-72,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,13,0,0
+1682091219431,196,-26,200,OK,ThreadGroup 1-67,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,79,0,3
+1682091219429,198,-26,200,OK,ThreadGroup 1-65,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,89,0,4
+1682091219611,18,-28,200,,ThreadGroup 1-71,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,17,0,0
+1682091219418,211,-26,200,OK,ThreadGroup 1-66,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,75,0,2
+1682091219438,192,-26,200,OK,ThreadGroup 1-73,text,true,,37710,592,75,75,http://145.108.225.7:8080/client_ticket_book.html?tripId=D1345&from=Shang+Hai&to=Su+Zhou&seatType=2&seat_price=50.0&date=2023-04-19,91,0,5
+1682091219622,8,-28,200,,ThreadGroup 1-60,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,8,0,0
+1682091219623,13,-28,200,,ThreadGroup 1-64,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,13,0,0
+1682091219630,8,-28,200,,ThreadGroup 1-66,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,7,0,0
+1682091219628,11,-28,200,,ThreadGroup 1-65,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,11,0,0
+1682091219625,14,-28,200,,ThreadGroup 1-37,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,14,0,0
+1682091219624,15,-28,200,,ThreadGroup 1-74,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,15,0,0
+1682091219630,9,-28,200,,ThreadGroup 1-73,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,9,0,0
+1682091219627,14,-28,200,,ThreadGroup 1-67,text,true,,532,864,75,75,http://145.108.225.7:8080/api/v1/assuranceservice/assurances/types,14,0,0
+1682091218728,60065,-29,504,Gateway Time-out,ThreadGroup 1-10,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60065,0,0
+1682091218735,60060,-29,504,Gateway Time-out,ThreadGroup 1-1,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60059,0,0
+1682091218735,60060,-29,504,Gateway Time-out,ThreadGroup 1-15,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60060,0,0
+1682091218733,60062,-29,504,Gateway Time-out,ThreadGroup 1-11,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60062,0,0
+1682091218743,60053,-29,504,Gateway Time-out,ThreadGroup 1-17,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60052,0,0
+1682091218730,60066,-29,504,Gateway Time-out,ThreadGroup 1-8,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60065,0,0
+1682091218735,60061,-29,504,Gateway Time-out,ThreadGroup 1-5,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60060,0,0
+1682091218763,60033,-29,504,Gateway Time-out,ThreadGroup 1-14,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60033,0,0
+1682091218755,60041,-29,504,Gateway Time-out,ThreadGroup 1-20,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60041,0,0
+1682091218779,60017,-29,504,Gateway Time-out,ThreadGroup 1-9,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60017,0,0
+1682091218756,60041,-29,504,Gateway Time-out,ThreadGroup 1-7,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60040,0,0
+1682091218753,60044,-29,504,Gateway Time-out,ThreadGroup 1-4,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60043,0,0
+1682091218750,60047,-29,504,Gateway Time-out,ThreadGroup 1-2,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60047,0,0
+1682091218768,60031,-29,504,Gateway Time-out,ThreadGroup 1-12,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60030,0,0
+1682091218787,60014,-29,504,Gateway Time-out,ThreadGroup 1-19,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60013,0,0
+1682091218804,60003,-29,504,Gateway Time-out,ThreadGroup 1-31,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091278795,13,-30,200,,ThreadGroup 1-1,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/54b980f0-fb47-4e42-9353-1eb7dc164929,13,0,3
+1682091278796,12,-30,200,,ThreadGroup 1-11,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/1ab60196-7142-44f9-b978-7b7c264fc45e,12,0,2
+1682091218808,60002,-29,504,Gateway Time-out,ThreadGroup 1-24,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60002,0,0
+1682091278797,14,-30,200,,ThreadGroup 1-9,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/46a362fd-4c0d-4e22-8cf4-dddba83292c6,13,0,2
+1682091278796,15,-30,200,,ThreadGroup 1-5,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a43a6e82-01c8-4030-816d-944cd4fc4a90,14,0,4
+1682091278796,15,-30,200,,ThreadGroup 1-15,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/14ab1809-3012-44b9-b824-9c48535ebabf,12,0,3
+1682091278797,15,-30,200,,ThreadGroup 1-20,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e1080053-1c88-4c4e-8f86-026b78ad5206,15,0,2
+1682091278807,11,-30,200,,ThreadGroup 1-31,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/5b9cdf6a-a643-470d-931a-47bf650e3b3f,10,0,2
+1682091278797,23,-30,200,,ThreadGroup 1-4,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/2d20f330-0524-4cf6-b421-cdb918fddc50,22,0,3
+1682091278799,19,-30,200,,ThreadGroup 1-12,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/20dec2ec-78a0-41de-ac04-26741fa012cb,18,0,3
+1682091278811,9,-30,200,,ThreadGroup 1-24,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/09440f7d-eb75-4f33-a1d8-40038e9a75bd,8,0,2
+1682091278796,22,-30,200,,ThreadGroup 1-17,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/455c52da-aee6-43fb-a1ce-e574510d0aac,22,0,3
+1682091278797,21,-30,200,,ThreadGroup 1-7,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/0e52de35-e18c-4a9d-9797-485b2e578be3,17,0,2
+1682091278796,22,-30,200,,ThreadGroup 1-8,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/9ecfe432-7006-47e3-9b0f-65931127026f,18,0,4
+1682091278801,17,-30,200,,ThreadGroup 1-19,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/95ef88dd-8620-482d-8629-293740da05c5,13,0,2
+1682091278798,20,-30,200,,ThreadGroup 1-2,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/644418b8-66b6-4372-97e2-2be04bd7130f,19,0,2
+1682091278794,24,-30,200,,ThreadGroup 1-10,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/93a75b19-6d8c-4bef-8eec-7c344b5f30b1,19,0,4
+1682091278797,21,-30,200,,ThreadGroup 1-14,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e96c5f65-8346-4812-a04f-964eb79e1adf,16,0,2
+1682091218819,60008,-29,504,Gateway Time-out,ThreadGroup 1-13,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091218819,60009,-29,504,Gateway Time-out,ThreadGroup 1-28,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091218819,60010,-29,504,Gateway Time-out,ThreadGroup 1-6,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60009,0,0
+1682091278809,23,-40,201,,ThreadGroup 1-11,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,23,0,0
+1682091218829,60005,-29,504,Gateway Time-out,ThreadGroup 1-33,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60005,0,0
+1682091278809,25,-40,201,,ThreadGroup 1-1,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,24,0,0
+1682091278821,13,-40,201,,ThreadGroup 1-19,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,13,0,0
+1682091278811,24,-40,201,,ThreadGroup 1-15,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,23,0,0
+1682091278814,21,-40,201,,ThreadGroup 1-20,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,21,0,0
+1682091278829,9,-30,200,,ThreadGroup 1-28,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cd135d1a-308f-4edd-934e-ba07b838b85b,8,0,1
+1682091278828,11,-30,200,,ThreadGroup 1-13,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/d4c433ac-5c7d-4863-9821-b2440be524ff,11,0,3
+1682091278829,11,-30,200,,ThreadGroup 1-6,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/4152a825-ed92-417f-b881-8c41a5144a71,10,0,4
+1682091278834,6,-41,200,,ThreadGroup 1-11,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/1ab60196-7142-44f9-b978-7b7c264fc45e,6,0,0
+1682091278835,8,-41,200,,ThreadGroup 1-1,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/54b980f0-fb47-4e42-9353-1eb7dc164929,8,0,0
+1682091278835,9,-30,200,,ThreadGroup 1-33,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/b19ba6f4-0d76-428c-82c8-dfe4d534d4c1,8,0,2
+1682091278836,8,-41,200,,ThreadGroup 1-20,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e1080053-1c88-4c4e-8f86-026b78ad5206,8,0,0
+1682091278836,13,-41,200,,ThreadGroup 1-15,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/14ab1809-3012-44b9-b824-9c48535ebabf,12,0,0
+1682091278835,18,-41,200,,ThreadGroup 1-19,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/95ef88dd-8620-482d-8629-293740da05c5,12,0,0
+1682091278821,32,-40,201,,ThreadGroup 1-24,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,29,0,0
+1682091278821,32,-40,201,,ThreadGroup 1-10,text,true,,776,1044,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,31,0,0
+1682091278821,32,-40,201,,ThreadGroup 1-2,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,31,0,0
+1682091278840,14,-40,201,,ThreadGroup 1-6,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,13,0,0
+1682091278821,33,-40,201,,ThreadGroup 1-17,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,31,0,0
+1682091278821,33,-40,201,,ThreadGroup 1-8,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,31,0,0
+1682091278838,17,-40,201,,ThreadGroup 1-28,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,16,0,0
+1682091278821,34,-40,201,,ThreadGroup 1-14,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,33,0,0
+1682091278811,44,-40,201,,ThreadGroup 1-5,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,42,0,0
+1682091278839,16,-40,201,,ThreadGroup 1-13,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,15,0,0
+1682091278821,35,-40,201,,ThreadGroup 1-31,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,34,0,0
+1682091278821,35,-40,201,,ThreadGroup 1-4,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,34,0,0
+1682091278821,36,-40,201,,ThreadGroup 1-7,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,34,0,0
+1682091278821,37,-40,201,,ThreadGroup 1-12,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,35,0,0
+1682091278811,47,-40,201,,ThreadGroup 1-9,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,45,0,0
+1682091278844,21,-40,201,,ThreadGroup 1-33,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,20,0,0
+1682091278855,12,-41,200,,ThreadGroup 1-6,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/4152a825-ed92-417f-b881-8c41a5144a71,12,0,0
+1682091278857,11,-41,200,,ThreadGroup 1-31,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/5b9cdf6a-a643-470d-931a-47bf650e3b3f,10,0,0
+1682091278856,12,-41,200,,ThreadGroup 1-13,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/d4c433ac-5c7d-4863-9821-b2440be524ff,12,0,0
+1682091278854,14,-41,200,,ThreadGroup 1-24,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/09440f7d-eb75-4f33-a1d8-40038e9a75bd,14,0,0
+1682091278856,12,-41,200,,ThreadGroup 1-14,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e96c5f65-8346-4812-a04f-964eb79e1adf,12,0,0
+1682091278855,17,-41,200,,ThreadGroup 1-17,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/455c52da-aee6-43fb-a1ce-e574510d0aac,16,0,0
+1682091278855,17,-41,200,,ThreadGroup 1-2,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/644418b8-66b6-4372-97e2-2be04bd7130f,16,0,0
+1682091278854,20,-41,200,,ThreadGroup 1-10,text,true,,652,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/93a75b19-6d8c-4bef-8eec-7c344b5f30b1,19,0,0
+1682091278865,9,-41,200,,ThreadGroup 1-33,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/b19ba6f4-0d76-428c-82c8-dfe4d534d4c1,8,0,0
+1682091278859,16,-41,200,,ThreadGroup 1-12,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/20dec2ec-78a0-41de-ac04-26741fa012cb,15,0,0
+1682091278855,21,-41,200,,ThreadGroup 1-8,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/9ecfe432-7006-47e3-9b0f-65931127026f,21,0,0
+1682091278858,19,-41,200,,ThreadGroup 1-7,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/0e52de35-e18c-4a9d-9797-485b2e578be3,17,0,0
+1682091278856,21,-41,200,,ThreadGroup 1-5,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a43a6e82-01c8-4030-816d-944cd4fc4a90,20,0,0
+1682091278856,21,-41,200,,ThreadGroup 1-28,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cd135d1a-308f-4edd-934e-ba07b838b85b,20,0,0
+1682091278857,20,-41,200,,ThreadGroup 1-4,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/2d20f330-0524-4cf6-b421-cdb918fddc50,19,0,0
+1682091278859,19,-41,200,,ThreadGroup 1-9,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/46a362fd-4c0d-4e22-8cf4-dddba83292c6,18,0,0
+1682091218966,60004,-29,504,Gateway Time-out,ThreadGroup 1-26,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091218971,60002,-29,504,Gateway Time-out,ThreadGroup 1-3,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60002,0,0
+1682091218973,60001,-29,504,Gateway Time-out,ThreadGroup 1-25,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60001,0,0
+1682091218975,60001,-29,504,Gateway Time-out,ThreadGroup 1-21,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60001,0,0
+1682091278970,7,-30,200,,ThreadGroup 1-26,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/2a392cf2-5fd2-4dc7-95f7-5fb107e99c10,7,0,2
+1682091278974,6,-30,200,,ThreadGroup 1-3,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/3fb47881-6ae4-4b5b-8395-044b2f26a147,5,0,1
+1682091278974,6,-30,200,,ThreadGroup 1-25,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8b38f307-32a3-4654-92e5-8641199a4ea5,6,0,2
+1682091278977,6,-30,200,,ThreadGroup 1-21,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e218affd-af64-436e-bfa6-c4cf99be2081,5,0,1
+1682091278977,6,-40,201,,ThreadGroup 1-26,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091278980,6,-40,201,,ThreadGroup 1-3,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091278981,5,-40,201,,ThreadGroup 1-25,text,true,,770,1046,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091278983,4,-40,201,,ThreadGroup 1-21,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091278984,4,-41,200,,ThreadGroup 1-26,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/2a392cf2-5fd2-4dc7-95f7-5fb107e99c10,3,0,0
+1682091278986,4,-41,200,,ThreadGroup 1-3,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/3fb47881-6ae4-4b5b-8395-044b2f26a147,4,0,0
+1682091278987,4,-41,200,,ThreadGroup 1-25,text,true,,646,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8b38f307-32a3-4654-92e5-8641199a4ea5,3,0,0
+1682091278988,3,-41,200,,ThreadGroup 1-21,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e218affd-af64-436e-bfa6-c4cf99be2081,3,0,0
+1682091218998,60003,-29,504,Gateway Time-out,ThreadGroup 1-43,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279001,5,-30,200,,ThreadGroup 1-43,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/c3e917bc-8ee2-4c66-80e5-a6e14f2e4c0d,5,0,1
+1682091279007,4,-40,201,,ThreadGroup 1-43,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,3,0,0
+1682091279011,4,-41,200,,ThreadGroup 1-43,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/c3e917bc-8ee2-4c66-80e5-a6e14f2e4c0d,4,0,0
+1682091219038,60003,-29,504,Gateway Time-out,ThreadGroup 1-22,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279041,8,-30,200,,ThreadGroup 1-22,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/93a2a706-22ed-46a3-a759-11b9bf1f95d3,8,0,2
+1682091219049,60002,-29,504,Gateway Time-out,ThreadGroup 1-30,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60002,0,0
+1682091279049,6,-40,201,,ThreadGroup 1-22,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091279051,5,-30,200,,ThreadGroup 1-30,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/16b1b76e-4b6f-4a7a-b65d-d205d2c4a3c0,4,0,1
+1682091279056,3,-41,200,,ThreadGroup 1-22,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/93a2a706-22ed-46a3-a759-11b9bf1f95d3,3,0,0
+1682091279056,5,-40,201,,ThreadGroup 1-30,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279062,3,-41,200,,ThreadGroup 1-30,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/16b1b76e-4b6f-4a7a-b65d-d205d2c4a3c0,3,0,0
+1682091219072,60002,-29,504,Gateway Time-out,ThreadGroup 1-23,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60002,0,0
+1682091279075,4,-30,200,,ThreadGroup 1-23,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e1d21853-bf5d-4748-b261-b558e7cb0820,4,0,1
+1682091219079,60003,-29,504,Gateway Time-out,ThreadGroup 1-46,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279080,4,-40,201,,ThreadGroup 1-23,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279082,5,-30,200,,ThreadGroup 1-46,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/ec7c35d4-998e-4af1-ad8d-db3339fdfaa8,5,0,2
+1682091279085,4,-41,200,,ThreadGroup 1-23,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e1d21853-bf5d-4748-b261-b558e7cb0820,4,0,0
+1682091279088,4,-40,201,,ThreadGroup 1-46,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279093,4,-41,200,,ThreadGroup 1-46,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/ec7c35d4-998e-4af1-ad8d-db3339fdfaa8,4,0,0
+1682091219100,60003,-29,504,Gateway Time-out,ThreadGroup 1-27,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279103,6,-30,200,,ThreadGroup 1-27,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f68fdfee-e572-4c38-a17b-c73123c12e4a,6,0,1
+1682091219111,60003,-29,504,Gateway Time-out,ThreadGroup 1-45,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279110,5,-40,201,,ThreadGroup 1-27,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279115,6,-30,200,,ThreadGroup 1-45,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/ebdc47b3-b1ba-4ef7-baea-40fa1938fe0e,6,0,1
+1682091279116,5,-41,200,,ThreadGroup 1-27,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f68fdfee-e572-4c38-a17b-c73123c12e4a,5,0,0
+1682091279121,5,-40,201,,ThreadGroup 1-45,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279127,4,-41,200,,ThreadGroup 1-45,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/ebdc47b3-b1ba-4ef7-baea-40fa1938fe0e,4,0,0
+1682091219168,60004,-29,504,Gateway Time-out,ThreadGroup 1-44,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091279173,4,-30,200,,ThreadGroup 1-44,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/3afc273d-4a5c-488e-ae8f-09fefacdbd20,4,0,1
+1682091279177,4,-40,201,,ThreadGroup 1-44,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091219177,60006,-29,504,Gateway Time-out,ThreadGroup 1-36,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60006,0,0
+1682091279182,2,-41,200,,ThreadGroup 1-44,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/3afc273d-4a5c-488e-ae8f-09fefacdbd20,2,0,0
+1682091279183,5,-30,200,,ThreadGroup 1-36,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a84e6c8f-e621-4d07-ab59-c161724b3e3d,5,0,1
+1682091219184,60006,-29,504,Gateway Time-out,ThreadGroup 1-18,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60006,0,0
+1682091279188,4,-40,201,,ThreadGroup 1-36,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279190,5,-30,200,,ThreadGroup 1-18,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/c645e699-6526-4c0d-b678-74e0aa44da0d,5,0,1
+1682091219193,60004,-29,504,Gateway Time-out,ThreadGroup 1-16,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091279193,4,-41,200,,ThreadGroup 1-36,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a84e6c8f-e621-4d07-ab59-c161724b3e3d,4,0,0
+1682091279195,5,-40,201,,ThreadGroup 1-18,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279198,5,-30,200,,ThreadGroup 1-16,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/d5d55ceb-7da2-42cc-b246-07267e29c971,4,0,1
+1682091279200,4,-41,200,,ThreadGroup 1-18,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/c645e699-6526-4c0d-b678-74e0aa44da0d,4,0,0
+1682091279203,5,-40,201,,ThreadGroup 1-16,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279208,4,-41,200,,ThreadGroup 1-16,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/d5d55ceb-7da2-42cc-b246-07267e29c971,4,0,0
+1682091219228,60005,-29,504,Gateway Time-out,ThreadGroup 1-39,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60005,0,0
+1682091219228,60008,-29,504,Gateway Time-out,ThreadGroup 1-42,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091279233,7,-30,200,,ThreadGroup 1-39,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cfcbc4cf-3b47-4d1f-b3ce-eb57b0be6bf8,7,0,1
+1682091219236,60006,-29,504,Gateway Time-out,ThreadGroup 1-40,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60006,0,0
+1682091279237,5,-30,200,,ThreadGroup 1-42,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f3f001d7-d973-44f3-8776-d6e852f230de,5,0,1
+1682091219241,60004,-29,504,Gateway Time-out,ThreadGroup 1-41,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091279240,5,-40,201,,ThreadGroup 1-39,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279243,5,-40,201,,ThreadGroup 1-42,text,true,,765,1049,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279243,6,-30,200,,ThreadGroup 1-40,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/ab4ba7a7-c44c-4322-9756-a9815a95de07,6,0,1
+1682091279246,5,-41,200,,ThreadGroup 1-39,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cfcbc4cf-3b47-4d1f-b3ce-eb57b0be6bf8,5,0,0
+1682091279246,5,-30,200,,ThreadGroup 1-41,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8086b23b-fec4-49c4-82da-89d0b5a2c913,5,0,1
+1682091219249,60004,-29,504,Gateway Time-out,ThreadGroup 1-58,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279249,4,-41,200,,ThreadGroup 1-42,text,true,,641,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f3f001d7-d973-44f3-8776-d6e852f230de,4,0,0
+1682091279249,6,-40,201,,ThreadGroup 1-40,text,true,,776,1044,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091219253,60004,-29,504,Gateway Time-out,ThreadGroup 1-54,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279252,5,-40,201,,ThreadGroup 1-41,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279253,5,-30,200,,ThreadGroup 1-58,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f3786df5-263b-4105-8a47-a910c5251f63,5,0,1
+1682091279256,4,-41,200,,ThreadGroup 1-40,text,true,,652,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/ab4ba7a7-c44c-4322-9756-a9815a95de07,4,0,0
+1682091219260,60004,-29,504,Gateway Time-out,ThreadGroup 1-29,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279257,9,-30,200,,ThreadGroup 1-54,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8742526e-75d3-4497-b1dc-5127e4ee4fd6,6,0,1
+1682091279258,8,-41,200,,ThreadGroup 1-41,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8086b23b-fec4-49c4-82da-89d0b5a2c913,6,0,0
+1682091279258,8,-40,201,,ThreadGroup 1-58,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091219264,60004,-29,504,Gateway Time-out,ThreadGroup 1-34,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091279264,5,-30,200,,ThreadGroup 1-29,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cd3c45cb-aca9-456d-baf7-6c35eb5a1e6a,5,0,1
+1682091279266,5,-41,200,,ThreadGroup 1-58,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f3786df5-263b-4105-8a47-a910c5251f63,5,0,0
+1682091279266,6,-40,201,,ThreadGroup 1-54,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091219269,60004,-29,504,Gateway Time-out,ThreadGroup 1-38,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091219271,60003,-29,504,Gateway Time-out,ThreadGroup 1-32,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279269,5,-30,200,,ThreadGroup 1-34,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/68c47c4f-0a1a-437d-96cb-0df758baa679,5,0,1
+1682091279273,4,-41,200,,ThreadGroup 1-54,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8742526e-75d3-4497-b1dc-5127e4ee4fd6,4,0,0
+1682091279274,5,-30,200,,ThreadGroup 1-38,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/7c2dc30b-22cc-4ccd-8f0b-f3204bcad818,5,0,1
+1682091279274,6,-30,200,,ThreadGroup 1-32,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a7f765d1-827f-440a-b6bb-dbc55705e560,6,0,1
+1682091279270,9,-40,201,,ThreadGroup 1-29,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,9,0,0
+1682091279275,5,-40,201,,ThreadGroup 1-34,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091219278,60004,-29,504,Gateway Time-out,ThreadGroup 1-59,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091279280,4,-40,201,,ThreadGroup 1-38,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279281,4,-41,200,,ThreadGroup 1-34,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/68c47c4f-0a1a-437d-96cb-0df758baa679,4,0,0
+1682091279280,6,-41,200,,ThreadGroup 1-29,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cd3c45cb-aca9-456d-baf7-6c35eb5a1e6a,5,0,0
+1682091279280,6,-40,201,,ThreadGroup 1-32,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091279282,6,-30,200,,ThreadGroup 1-59,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/464e317f-caaf-41fd-89cc-8b29ea507a57,5,0,1
+1682091279285,4,-41,200,,ThreadGroup 1-38,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/7c2dc30b-22cc-4ccd-8f0b-f3204bcad818,3,0,0
+1682091279287,4,-41,200,,ThreadGroup 1-32,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a7f765d1-827f-440a-b6bb-dbc55705e560,4,0,0
+1682091279288,4,-40,201,,ThreadGroup 1-59,text,true,,763,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091219292,60001,-29,504,Gateway Time-out,ThreadGroup 1-48,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60001,0,0
+1682091219292,60003,-29,504,Gateway Time-out,ThreadGroup 1-50,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091279293,4,-41,200,,ThreadGroup 1-59,text,true,,639,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/464e317f-caaf-41fd-89cc-8b29ea507a57,4,0,0
+1682091279294,5,-30,200,,ThreadGroup 1-48,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/92ba1a17-39d4-4efe-b89e-e799ad7893fb,5,0,1
+1682091279295,5,-30,200,,ThreadGroup 1-50,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/eb786a15-2dee-44f5-bfa4-ca967d852fad,4,0,1
+1682091279299,4,-40,201,,ThreadGroup 1-48,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279300,4,-40,201,,ThreadGroup 1-50,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,4,0,0
+1682091279304,4,-41,200,,ThreadGroup 1-48,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/92ba1a17-39d4-4efe-b89e-e799ad7893fb,4,0,0
+1682091279305,4,-41,200,,ThreadGroup 1-50,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/eb786a15-2dee-44f5-bfa4-ca967d852fad,3,0,0
+1682091219316,60001,-29,504,Gateway Time-out,ThreadGroup 1-35,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60001,0,0
+1682091279317,5,-30,200,,ThreadGroup 1-35,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a9b49c13-a480-4676-84f0-4ae3efd7a805,5,0,1
+1682091279323,5,-40,201,,ThreadGroup 1-35,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279328,5,-41,200,,ThreadGroup 1-35,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a9b49c13-a480-4676-84f0-4ae3efd7a805,5,0,0
+1682091219353,60003,-29,504,Gateway Time-out,ThreadGroup 1-51,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60003,0,0
+1682091219356,60002,-29,504,Gateway Time-out,ThreadGroup 1-63,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60002,0,0
+1682091279356,6,-30,200,,ThreadGroup 1-51,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e99a9372-bedf-495d-8e2c-9d2659e625da,6,0,1
+1682091279359,5,-30,200,,ThreadGroup 1-63,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/9cf6d4be-c229-441f-bcba-56ba86a86db1,5,0,1
+1682091279362,5,-40,201,,ThreadGroup 1-51,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279364,5,-40,201,,ThreadGroup 1-63,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279368,3,-41,200,,ThreadGroup 1-51,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e99a9372-bedf-495d-8e2c-9d2659e625da,3,0,0
+1682091279370,3,-41,200,,ThreadGroup 1-63,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/9cf6d4be-c229-441f-bcba-56ba86a86db1,3,0,0
+1682091219456,60012,-29,504,Gateway Time-out,ThreadGroup 1-56,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60012,0,0
+1682091279469,7,-30,200,,ThreadGroup 1-56,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/2cdecd86-b8e7-4e7c-acc6-197bfb22155c,7,0,1
+1682091279477,5,-40,201,,ThreadGroup 1-56,text,true,,776,1044,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279483,4,-41,200,,ThreadGroup 1-56,text,true,,652,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/2cdecd86-b8e7-4e7c-acc6-197bfb22155c,4,0,0
+1682091219517,60015,-29,504,Gateway Time-out,ThreadGroup 1-69,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60015,0,0
+1682091279532,5,-30,200,,ThreadGroup 1-69,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/5d9be0dd-fc48-4f1f-ad44-aaa0a18b533b,5,0,1
+1682091279538,5,-40,201,,ThreadGroup 1-69,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091279543,5,-41,200,,ThreadGroup 1-69,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/5d9be0dd-fc48-4f1f-ad44-aaa0a18b533b,4,0,0
+1682091219547,60010,-29,504,Gateway Time-out,ThreadGroup 1-68,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60010,0,0
+1682091279558,5,-30,200,,ThreadGroup 1-68,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cf9a4a1b-39db-4428-a8b7-363efa169415,5,0,1
+1682091279564,6,-40,201,,ThreadGroup 1-68,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091279570,5,-41,200,,ThreadGroup 1-68,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/cf9a4a1b-39db-4428-a8b7-363efa169415,4,0,0
+1682091219578,60010,-29,504,Gateway Time-out,ThreadGroup 1-70,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60010,0,0
+1682091219580,60014,-29,504,Gateway Time-out,ThreadGroup 1-61,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60013,0,0
+1682091279589,7,-30,200,,ThreadGroup 1-70,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/1d1aa930-98f4-4ad3-9282-f63a2b12dd8c,7,0,1
+1682091279594,4,-30,200,,ThreadGroup 1-61,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/bdb35e20-c79b-4de8-adc5-694435fa3a6c,4,0,1
+1682091279598,6,-40,201,,ThreadGroup 1-61,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091279596,8,-40,201,,ThreadGroup 1-70,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,8,0,0
+1682091279605,3,-41,200,,ThreadGroup 1-61,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/bdb35e20-c79b-4de8-adc5-694435fa3a6c,3,0,0
+1682091279605,4,-41,200,,ThreadGroup 1-70,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/1d1aa930-98f4-4ad3-9282-f63a2b12dd8c,3,0,0
+1682091219603,60008,-29,504,Gateway Time-out,ThreadGroup 1-47,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091219603,60011,-29,504,Gateway Time-out,ThreadGroup 1-57,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60011,0,0
+1682091279612,4,-30,200,,ThreadGroup 1-47,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/b28a5e93-425b-4ce3-a086-52226114a15d,4,0,1
+1682091219605,60013,-29,504,Gateway Time-out,ThreadGroup 1-53,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60013,0,0
+1682091279615,4,-30,200,,ThreadGroup 1-57,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/0fd8e33c-4030-45f0-a1a0-6f9be8cbd61f,4,0,0
+1682091219611,60008,-29,504,Gateway Time-out,ThreadGroup 1-75,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091219609,60013,-29,504,Gateway Time-out,ThreadGroup 1-52,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60013,0,0
+1682091279616,6,-40,201,,ThreadGroup 1-47,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,5,0,0
+1682091219618,60006,-29,504,Gateway Time-out,ThreadGroup 1-49,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60006,0,0
+1682091279619,5,-30,200,,ThreadGroup 1-53,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/c470903a-f017-43b0-872f-74d5bea58e57,5,0,1
+1682091279619,6,-40,201,,ThreadGroup 1-57,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091279620,6,-30,200,,ThreadGroup 1-75,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/d74daeb3-49e2-4943-9236-ac01a0e44c2f,6,0,1
+1682091279622,6,-41,200,,ThreadGroup 1-47,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/b28a5e93-425b-4ce3-a086-52226114a15d,5,0,0
+1682091279622,6,-30,200,,ThreadGroup 1-52,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f808a9db-693b-4350-a74c-c83a6097a08f,6,0,1
+1682091219622,60008,-29,504,Gateway Time-out,ThreadGroup 1-62,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091219623,60008,-29,504,Gateway Time-out,ThreadGroup 1-55,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091219626,60006,-29,504,Gateway Time-out,ThreadGroup 1-72,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60005,0,0
+1682091279625,7,-30,200,,ThreadGroup 1-49,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/52b1338e-2c7c-4da2-9b2d-adacd91005d4,7,0,1
+1682091279625,7,-40,201,,ThreadGroup 1-53,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,6,0,0
+1682091279626,9,-41,200,,ThreadGroup 1-57,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/0fd8e33c-4030-45f0-a1a0-6f9be8cbd61f,8,0,0
+1682091219631,60005,-29,504,Gateway Time-out,ThreadGroup 1-60,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60004,0,0
+1682091219629,60007,-29,504,Gateway Time-out,ThreadGroup 1-71,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60007,0,0
+1682091279627,8,-40,201,,ThreadGroup 1-75,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,8,0,0
+1682091279628,8,-40,201,,ThreadGroup 1-52,text,true,,765,1049,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,8,0,0
+1682091279630,9,-30,200,,ThreadGroup 1-62,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8de92d01-758b-41eb-b499-8358abf7331c,8,0,2
+1682091279631,10,-30,200,,ThreadGroup 1-55,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/7c7963f5-a8a4-4c44-aadd-ea0c980b50e3,10,0,2
+1682091219636,60005,-29,504,Gateway Time-out,ThreadGroup 1-64,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60005,0,0
+1682091279633,8,-41,200,,ThreadGroup 1-53,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/c470903a-f017-43b0-872f-74d5bea58e57,8,0,0
+1682091279632,11,-30,200,,ThreadGroup 1-72,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/4a6b4b89-cba1-42ab-8b7b-dbb225594280,10,0,2
+1682091279632,12,-40,201,,ThreadGroup 1-49,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,11,0,0
+1682091219640,60005,-29,504,Gateway Time-out,ThreadGroup 1-73,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60005,0,0
+1682091219638,60009,-29,504,Gateway Time-out,ThreadGroup 1-66,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091219640,60008,-29,504,Gateway Time-out,ThreadGroup 1-37,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60007,0,0
+1682091219639,60009,-29,504,Gateway Time-out,ThreadGroup 1-65,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60007,0,0
+1682091219640,60008,-29,504,Gateway Time-out,ThreadGroup 1-74,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60007,0,0
+1682091279636,12,-41,200,,ThreadGroup 1-75,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/d74daeb3-49e2-4943-9236-ac01a0e44c2f,12,0,0
+1682091219641,60008,-29,504,Gateway Time-out,ThreadGroup 1-67,text,false,,357,887,75,75,http://145.108.225.7:8080/api/v1/foodservice/foods/2023-04-19/Shang%20Hai/Su%20Zhou/D1345,60008,0,0
+1682091279636,14,-30,200,,ThreadGroup 1-60,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/b1860f80-ad1a-45a3-bf45-8a5782c5a703,14,0,1
+1682091279637,14,-41,200,,ThreadGroup 1-52,text,true,,641,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/f808a9db-693b-4350-a74c-c83a6097a08f,12,0,0
+1682091279636,15,-30,200,,ThreadGroup 1-71,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/745b439c-54c2-4a1b-a251-a0c1dd37ce86,15,0,2
+1682091279642,13,-30,200,,ThreadGroup 1-64,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a7493c77-559e-4e86-868c-bc05f9ee4bb2,13,0,2
+1682091279639,17,-40,201,,ThreadGroup 1-62,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,16,0,0
+1682091279644,13,-40,201,,ThreadGroup 1-72,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,12,0,0
+1682091279645,12,-41,200,,ThreadGroup 1-49,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/52b1338e-2c7c-4da2-9b2d-adacd91005d4,12,0,0
+1682091279641,16,-40,201,,ThreadGroup 1-55,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,16,0,0
+1682091279648,13,-30,200,,ThreadGroup 1-37,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e3e2a865-775d-4411-8d9a-67bef34e4c29,12,0,2
+1682091279649,14,-30,200,,ThreadGroup 1-67,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e5fb029e-8047-4e4a-9fcf-f17752b4938d,13,0,2
+1682091279647,16,-30,200,,ThreadGroup 1-66,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/709fcfe9-acd1-40b2-a787-07874d6855f3,15,0,2
+1682091279649,14,-30,200,,ThreadGroup 1-74,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/0834250b-bdf1-4223-abcd-5c8fad5d9165,13,0,2
+1682091279648,15,-30,200,,ThreadGroup 1-65,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/7dafbfc5-f261-4c91-94da-e897b07f455c,15,0,3
+1682091279646,18,-30,200,,ThreadGroup 1-73,text,true,,461,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/db070a7d-9aea-420d-b497-974998248e15,17,0,1
+1682091279656,8,-41,200,,ThreadGroup 1-62,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/8de92d01-758b-41eb-b499-8358abf7331c,8,0,0
+1682091279651,14,-40,201,,ThreadGroup 1-60,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,14,0,0
+1682091279652,14,-40,201,,ThreadGroup 1-71,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,14,0,0
+1682091279657,10,-41,200,,ThreadGroup 1-72,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/4a6b4b89-cba1-42ab-8b7b-dbb225594280,9,0,0
+1682091279658,11,-41,200,,ThreadGroup 1-55,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/7c7963f5-a8a4-4c44-aadd-ea0c980b50e3,10,0,0
+1682091279656,13,-40,201,,ThreadGroup 1-64,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,11,0,0
+1682091279664,8,-40,201,,ThreadGroup 1-73,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,8,0,0
+1682091279663,10,-40,201,,ThreadGroup 1-66,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,9,0,0
+1682091279661,12,-40,201,,ThreadGroup 1-37,text,true,,771,1047,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,12,0,0
+1682091279663,11,-40,201,,ThreadGroup 1-74,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,10,0,0
+1682091279663,12,-40,201,,ThreadGroup 1-67,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,11,0,0
+1682091279664,11,-40,201,,ThreadGroup 1-65,text,true,,777,1045,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts,11,0,0
+1682091279670,7,-41,200,,ThreadGroup 1-64,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/a7493c77-559e-4e86-868c-bc05f9ee4bb2,6,0,0
+1682091279666,11,-41,200,,ThreadGroup 1-60,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/b1860f80-ad1a-45a3-bf45-8a5782c5a703,10,0,0
+1682091279667,11,-41,200,,ThreadGroup 1-71,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/745b439c-54c2-4a1b-a251-a0c1dd37ce86,10,0,0
+1682091279673,7,-41,200,,ThreadGroup 1-73,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/db070a7d-9aea-420d-b497-974998248e15,7,0,0
+1682091279674,7,-41,200,,ThreadGroup 1-37,text,true,,647,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e3e2a865-775d-4411-8d9a-67bef34e4c29,7,0,0
+1682091279675,7,-41,200,,ThreadGroup 1-67,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/e5fb029e-8047-4e4a-9fcf-f17752b4938d,7,0,0
+1682091279674,9,-41,200,,ThreadGroup 1-66,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/709fcfe9-acd1-40b2-a787-07874d6855f3,9,0,0
+1682091279675,9,-41,200,,ThreadGroup 1-74,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/0834250b-bdf1-4223-abcd-5c8fad5d9165,9,0,0
+1682091279676,8,-41,200,,ThreadGroup 1-65,text,true,,653,899,75,75,http://145.108.225.7:8080/api/v1/contactservice/contacts/account/7dafbfc5-f261-4c91-94da-e897b07f455c,8,0,0
+1682091278854,60060,-45,504,Gateway Time-out,ThreadGroup 1-19,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60060,0,0
+1682091278844,60070,-45,504,Gateway Time-out,ThreadGroup 1-20,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60069,0,0
+1682091278868,60047,-45,504,Gateway Time-out,ThreadGroup 1-24,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60045,0,0
+1682091158180,180723,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-20,,false,,76438,9462,75,75,null,180638,11,8
+1682091158169,180735,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-19,,false,,76528,9460,75,75,null,180657,10,7
+1682091158227,180678,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-24,,false,,76438,9462,75,75,null,180630,10,6
+1682091278843,60072,-45,504,Gateway Time-out,ThreadGroup 1-1,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60071,0,0
+1682091157974,180774,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-1,,false,,76442,9460,75,75,null,180669,167,47
+1682091278878,60038,-45,504,Gateway Time-out,ThreadGroup 1-4,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60038,0,0
+1682091278850,60066,-45,504,Gateway Time-out,ThreadGroup 1-15,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60066,0,0
+1682091157998,180845,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-4,,false,,76430,9460,75,75,null,180737,73,42
+1682091158122,180780,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-15,,false,,76513,9462,75,75,null,180669,15,10
+1682091278878,60039,-45,504,Gateway Time-out,ThreadGroup 1-9,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60039,0,0
+1682091158054,180848,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-9,,false,,76581,9462,75,75,null,180770,15,41
+1682091278874,60044,-45,504,Gateway Time-out,ThreadGroup 1-10,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60043,0,0
+1682091158065,180836,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-10,,false,,76423,9459,75,75,null,180701,17,40
+1682091278868,60050,-45,504,Gateway Time-out,ThreadGroup 1-31,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60049,0,0
+1682091278878,60040,-45,504,Gateway Time-out,ThreadGroup 1-28,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60039,0,0
+1682091158304,180604,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-31,,false,,76532,9460,75,75,null,180564,10,4
+1682091278874,60044,-45,504,Gateway Time-out,ThreadGroup 1-33,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60044,0,0
+1682091158269,180641,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-28,,false,,76497,9460,75,75,null,180601,8,4
+1682091158327,180586,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-33,,false,,76421,9460,75,75,null,180577,5,4
+1682091278878,60040,-45,504,Gateway Time-out,ThreadGroup 1-5,text,false,,357,1339,75,75,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60040,0,0
+1682091158009,180776,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-5,,false,,76367,9460,75,75,null,180650,133,49
+1682091278868,60050,-45,504,Gateway Time-out,ThreadGroup 1-6,text,false,,357,1339,73,73,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60050,0,0
+1682091158021,180849,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-6,,false,,76455,9460,73,73,null,180788,49,42
+1682091278877,60042,-45,504,Gateway Time-out,ThreadGroup 1-7,text,false,,357,1339,69,69,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60042,0,0
+1682091158033,180850,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-7,,false,,76600,9460,69,69,null,180741,37,43
+1682091278869,60051,-45,504,Gateway Time-out,ThreadGroup 1-14,text,false,,357,1339,66,66,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60050,0,0
+1682091278872,60048,-45,504,Gateway Time-out,ThreadGroup 1-17,text,false,,357,1339,65,65,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60046,0,0
+1682091158112,180797,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-14,,false,,76421,9462,66,66,null,180705,11,7
+1682091158145,180762,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-17,,false,,76590,9460,65,65,null,180659,13,8
+1682091278872,60048,-45,504,Gateway Time-out,ThreadGroup 1-2,text,false,,357,1339,64,64,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60048,0,0
+1682091157977,180845,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-2,,false,,76400,9460,64,64,null,180733,98,42
+1682091278876,60044,-45,504,Gateway Time-out,ThreadGroup 1-8,text,false,,357,1339,63,63,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60044,0,0
+1682091158043,180780,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-8,,false,,76584,9460,63,63,null,180650,97,49
+1682091278988,60003,-45,504,Gateway Time-out,ThreadGroup 1-26,text,false,,357,1339,57,57,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158247,180736,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-26,,false,,76578,9460,57,57,null,180701,8,9
+1682091278991,60002,-45,504,Gateway Time-out,ThreadGroup 1-3,text,false,,357,1339,56,56,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091157988,180921,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-3,,false,,76408,9462,56,56,null,180754,85,41
+1682091278991,60003,-45,504,Gateway Time-out,ThreadGroup 1-25,text,false,,357,1339,56,56,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158236,180749,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-25,,false,,76356,9461,56,56,null,180674,9,7
+1682091278991,60003,-45,504,Gateway Time-out,ThreadGroup 1-21,text,false,,357,1339,56,56,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158192,180791,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-21,,false,,76436,9460,56,56,null,180760,11,8
+1682091279059,60003,-45,504,Gateway Time-out,ThreadGroup 1-22,text,false,,357,1339,53,53,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158204,180850,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-22,,false,,76310,9462,53,53,null,180825,8,7
+1682091279065,60003,-45,504,Gateway Time-out,ThreadGroup 1-30,text,false,,357,1339,52,52,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158292,180766,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-30,,false,,76309,9460,52,52,null,180749,10,4
+1682091279097,60003,-45,504,Gateway Time-out,ThreadGroup 1-46,text,false,,357,1339,51,51,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158481,180612,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-46,,false,,76555,9462,51,51,null,180598,7,5
+1682091279122,60003,-45,504,Gateway Time-out,ThreadGroup 1-27,text,false,,357,1339,50,50,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158258,180855,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-27,,false,,76509,9462,50,50,null,180835,12,5
+1682091279131,60002,-45,504,Gateway Time-out,ThreadGroup 1-45,text,false,,357,1339,49,49,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158467,180656,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-45,,false,,76525,9460,49,49,null,180642,10,3
+1682091279198,60002,-45,504,Gateway Time-out,ThreadGroup 1-36,text,false,,357,1339,48,48,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158362,180829,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-36,,false,,76469,9462,48,48,null,180783,9,4
+1682091279204,60003,-45,504,Gateway Time-out,ThreadGroup 1-18,text,false,,357,1339,47,47,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158157,181043,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-18,,false,,76473,9460,47,47,null,180967,7,7
+1682091279212,60003,-45,504,Gateway Time-out,ThreadGroup 1-16,text,false,,357,1339,46,46,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158134,181074,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-16,,false,,76582,9462,46,46,null,180993,7,6
+1682091279251,60004,-45,504,Gateway Time-out,ThreadGroup 1-39,text,false,,357,1339,45,45,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60004,0,0
+1682091158398,180847,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-39,,false,,76507,9460,45,45,null,180786,10,5
+1682091279254,60002,-45,504,Gateway Time-out,ThreadGroup 1-42,text,false,,357,1339,44,44,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158432,180812,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-42,,false,,76433,9464,44,44,null,180761,12,4
+1682091279261,60001,-45,504,Gateway Time-out,ThreadGroup 1-40,text,false,,357,1339,43,43,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60001,0,0
+1682091158410,180841,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-40,,false,,76428,9459,43,43,null,180793,11,5
+1682091279266,60004,-45,504,Gateway Time-out,ThreadGroup 1-41,text,false,,357,1339,42,42,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60004,0,0
+1682091158421,180839,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-41,,false,,76396,9460,42,42,null,180779,10,4
+1682091279277,60004,-45,504,Gateway Time-out,ThreadGroup 1-54,text,false,,357,1339,41,41,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60004,0,0
+1682091158584,180689,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-54,,false,,76475,9462,41,41,null,180625,8,4
+1682091279285,60004,-45,504,Gateway Time-out,ThreadGroup 1-34,text,false,,357,1339,40,40,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60004,0,0
+1682091279286,60003,-45,504,Gateway Time-out,ThreadGroup 1-29,text,false,,357,1339,40,40,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158338,180940,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-34,,false,,76464,9460,40,40,null,180888,11,11
+1682091158280,181004,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-29,,false,,76339,9460,40,40,null,180950,5,6
+1682091279289,60003,-45,504,Gateway Time-out,ThreadGroup 1-38,text,false,,357,1339,38,38,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158386,180895,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-38,,false,,76544,9460,38,38,null,180854,11,4
+1682091279291,60002,-45,504,Gateway Time-out,ThreadGroup 1-32,text,false,,357,1339,37,37,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158315,180970,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-32,,false,,76485,9460,37,37,null,180938,8,5
+1682091279309,60003,-45,504,Gateway Time-out,ThreadGroup 1-50,text,false,,357,1339,36,36,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158531,180771,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-50,,false,,76487,9460,36,36,null,180714,10,4
+1682091279333,60002,-45,504,Gateway Time-out,ThreadGroup 1-35,text,false,,357,1339,35,35,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158351,180976,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-35,,false,,76511,9460,35,35,null,180931,8,4
+1682091279372,60002,-45,504,Gateway Time-out,ThreadGroup 1-51,text,false,,357,1339,34,34,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158545,180819,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-51,,false,,76521,9460,34,34,null,180723,10,5
+1682091279374,60002,-45,504,Gateway Time-out,ThreadGroup 1-63,text,false,,357,1339,33,33,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158701,180668,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-63,,false,,76557,9460,33,33,null,180608,7,3
+1682091279488,60002,-45,504,Gateway Time-out,ThreadGroup 1-56,text,false,,357,1339,32,32,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158609,180871,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-56,,false,,76473,9459,32,32,null,180776,10,3
+1682091279548,60003,-45,504,Gateway Time-out,ThreadGroup 1-69,text,false,,357,1339,31,31,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158779,180765,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-69,,false,,76422,9462,31,31,null,180629,7,4
+1682091279609,60003,-45,504,Gateway Time-out,ThreadGroup 1-61,text,false,,357,1339,30,30,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091279609,60003,-45,504,Gateway Time-out,ThreadGroup 1-70,text,false,,357,1339,30,30,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158675,180929,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-61,,false,,76456,9460,30,30,null,180729,8,4
+1682091158792,180813,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-70,,false,,76470,9460,30,30,null,180601,7,5
+1682091279628,60003,-45,504,Gateway Time-out,ThreadGroup 1-47,text,false,,357,1339,28,28,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158493,181127,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-47,,false,,76543,9462,28,28,null,180930,11,4
+1682091279635,60006,-45,504,Gateway Time-out,ThreadGroup 1-57,text,false,,357,1339,27,27,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60006,0,0
+1682091158623,181010,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-57,,false,,76377,9462,27,27,null,180821,8,3
+1682091279642,60010,-45,504,Gateway Time-out,ThreadGroup 1-53,text,false,,357,1339,26,26,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60010,0,0
+1682091158571,181071,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-53,,false,,76526,9460,26,26,null,180864,10,4
+1682091279649,60008,-45,504,Gateway Time-out,ThreadGroup 1-75,text,false,,357,1339,25,25,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60008,0,0
+1682091158858,180792,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-75,,false,,76428,9462,25,25,null,180609,7,6
+1682091279652,60007,-45,504,Gateway Time-out,ThreadGroup 1-52,text,false,,357,1339,24,24,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60007,0,0
+1682091158559,181091,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-52,,false,,76493,9464,24,24,null,180858,9,6
+1682091279665,60006,-45,504,Gateway Time-out,ThreadGroup 1-62,text,false,,357,1339,23,23,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60006,0,0
+1682091158689,180976,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-62,,false,,76353,9460,23,23,null,180798,6,6
+1682091279669,60005,-45,504,Gateway Time-out,ThreadGroup 1-55,text,false,,357,1339,22,22,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60005,0,0
+1682091158597,181071,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-55,,false,,76540,9460,22,22,null,180857,6,5
+1682091279677,60004,-45,504,Gateway Time-out,ThreadGroup 1-64,text,false,,357,1339,21,21,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60004,0,0
+1682091158714,180960,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-64,,false,,76506,9460,21,21,null,180791,7,8
+1682091279677,60005,-45,504,Gateway Time-out,ThreadGroup 1-60,text,false,,357,1339,20,20,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60005,0,0
+1682091158662,181010,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-60,,false,,76445,9460,20,20,null,180826,11,3
+1682091279680,60004,-45,504,Gateway Time-out,ThreadGroup 1-73,text,false,,357,1339,19,19,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158831,180844,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-73,,false,,76451,9460,19,19,null,180690,9,7
+1682091279682,60003,-45,504,Gateway Time-out,ThreadGroup 1-37,text,false,,357,1339,18,18,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60003,0,0
+1682091158374,181303,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-37,,false,,76402,9462,18,18,null,181128,8,8
+1682091279683,60002,-45,504,Gateway Time-out,ThreadGroup 1-67,text,false,,357,1339,18,18,http://145.108.225.7:8080/api/v1/preserveservice/preserve,60002,0,0
+1682091158753,180927,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-67,,false,,76457,9460,18,18,null,180757,5,6
+1682091278841,61013,-45,504,Gateway Time-out,ThreadGroup 1-11,text,false,,357,1339,16,16,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61013,0,0
+1682091158077,181742,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-11,,false,,76562,9460,16,16,null,181630,36,28
+1682091278868,61018,-45,504,Gateway Time-out,ThreadGroup 1-13,text,false,,357,1339,15,15,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61018,0,0
+1682091278875,61011,-45,504,Gateway Time-out,ThreadGroup 1-12,text,false,,357,1339,15,15,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61011,0,0
+1682091158100,181778,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-13,,false,,76461,9460,15,15,null,181712,8,7
+1682091158088,181786,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-12,,false,,76475,9460,15,15,null,181702,12,14
+1682091279015,61031,-45,504,Gateway Time-out,ThreadGroup 1-43,text,false,,357,1339,13,13,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61031,0,0
+1682091158443,181598,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-43,,false,,76451,9460,13,13,null,181584,5,3
+1682091279089,61021,-45,504,Gateway Time-out,ThreadGroup 1-23,text,false,,357,1339,12,12,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61021,0,0
+1682091158215,181886,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-23,,false,,76446,9462,12,12,null,181858,9,6
+1682091279185,61020,-45,504,Gateway Time-out,ThreadGroup 1-44,text,false,,357,1339,11,11,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61020,0,0
+1682091158455,181737,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-44,,false,,76550,9460,11,11,null,181701,13,4
+1682091279298,61003,-45,504,Gateway Time-out,ThreadGroup 1-59,text,false,,357,1339,10,10,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61003,0,0
+1682091158649,181641,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-59,,false,,76493,9462,10,10,null,181562,11,5
+1682091279272,61029,-45,504,Gateway Time-out,ThreadGroup 1-58,text,false,,357,1339,10,10,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61029,0,0
+1682091158636,181656,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-58,,false,,76438,9462,10,10,null,181584,10,6
+1682091279308,61025,-45,504,Gateway Time-out,ThreadGroup 1-48,text,false,,357,1339,8,8,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61025,0,0
+1682091158506,181808,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-48,,false,,76492,9460,8,8,null,181776,20,4
+1682091279575,61015,-45,504,Gateway Time-out,ThreadGroup 1-68,text,false,,357,1339,7,7,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61014,0,0
+1682091158766,181813,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-68,,false,,76418,9460,7,7,null,181620,11,3
+1682091279667,61019,-45,504,Gateway Time-out,ThreadGroup 1-72,text,false,,357,1339,6,6,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61019,0,0
+1682091158818,181859,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-72,,false,,76390,9460,6,6,null,181682,9,5
+1682091279657,61029,-45,504,Gateway Time-out,ThreadGroup 1-49,text,false,,357,1339,6,6,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61029,0,0
+1682091279678,61008,-45,504,Gateway Time-out,ThreadGroup 1-71,text,false,,357,1339,6,6,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61008,0,0
+1682091158519,182159,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-49,,false,,76437,9460,6,6,null,181995,9,4
+1682091158805,181872,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-71,,false,,76420,9462,6,6,null,181712,10,7
+1682091279684,61034,-45,504,Gateway Time-out,ThreadGroup 1-65,text,false,,357,1339,3,3,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61033,0,0
+1682091158727,181983,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-65,,false,,76462,9460,3,3,null,181802,8,9
+1682091279684,61034,-45,504,Gateway Time-out,ThreadGroup 1-74,text,false,,357,1339,3,3,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61034,0,0
+1682091279683,61035,-45,504,Gateway Time-out,ThreadGroup 1-66,text,false,,357,1339,3,3,http://145.108.225.7:8080/api/v1/preserveservice/preserve,61035,0,0
+1682091158843,181864,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-74,,false,,76490,9460,3,3,null,181701,11,7
+1682091158740,181973,BuyTicket,,"Number of samples in transaction : 13, number of failing samples : 3",ThreadGroup 1-66,,false,,76357,9460,3,3,null,181764,5,5
